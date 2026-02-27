@@ -104,14 +104,6 @@ struct GamePickerView: View {
     @State private var focused: GameId? = nil
     @State private var layout: [GameId: CGPoint] = [:]
 
-    // ✅ ぬるっと感：指のドラッグ量で全体がちょい動く（watchっぽい）
-    @State private var pan: CGSize = .zero
-    @GestureState private var isPanning: Bool = false
-
-    private var selectedGame: GameId {
-        GameId(rawValue: selectedGameRaw) ?? .emerald
-    }
-
     // バブルサイズ（小さくしたいとのことなので）
     private let bubbleSize: CGFloat = 78
     private let gap: CGFloat = 18
@@ -135,6 +127,7 @@ struct GamePickerView: View {
                                 focused = nil
                             }
                         }
+                        .zIndex(1) // ← これ追加
                 }
             }
             .toolbar {
@@ -243,31 +236,6 @@ struct GamePickerView: View {
         .opacity(focused == nil || focused == game ? 1.0 : 0.35)
         .allowsHitTesting(focused == nil || focused == game)
         .zIndex(focused == game ? 999 : Double(100 - index))
-    }
-
-    private var panGesture: some Gesture {
-        DragGesture(minimumDistance: 0)
-            .updating($isPanning) { _, state, _ in
-                state = true
-            }
-            .onChanged { value in
-                // フォーカス中は動かさない（見やすさ優先）
-                guard focused == nil else { return }
-                pan = CGSize(
-                    width: clamp(value.translation.width, -22, 22),
-                    height: clamp(value.translation.height, -22, 22)
-                )
-            }
-            .onEnded { _ in
-                // ふわっと中心に戻る
-                withAnimation(.spring(response: 0.5, dampingFraction: 0.85)) {
-                    pan = .zero
-                }
-            }
-    }
-
-    private func clamp(_ v: CGFloat, _ minV: CGFloat, _ maxV: CGFloat) -> CGFloat {
-        min(max(v, minV), maxV)
     }
 }
 
