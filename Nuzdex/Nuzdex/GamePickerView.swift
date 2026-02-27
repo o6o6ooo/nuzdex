@@ -103,9 +103,6 @@ struct GamePickerView: View {
     // どれが「フォーカス（拡大）」されてるか
     @State private var focused: GameId? = nil
     @State private var layout: [GameId: CGPoint] = [:]
-    @State private var centerGame: GameId = .emerald
-    @State private var wobbleSeed: [GameId: Double] = [:]
-    private let wobbleAmplitude: CGFloat = 10
 
     // ✅ ぬるっと感：指のドラッグ量で全体がちょい動く（watchっぽい）
     @State private var pan: CGSize = .zero
@@ -122,21 +119,16 @@ struct GamePickerView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                // 背景（真っ白でもOK。薄いグラデにしたいなら後で）
-                Color(.systemBackground)
-                    .ignoresSafeArea()
+                Color(.systemBackground).ignoresSafeArea()
 
-                // バブル配置（中央寄せ）
+                // バブル
                 bubbleCluster
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .contentShape(Rectangle())
-                    .gesture(panGesture)
-                    .animation(.spring(response: 0.35, dampingFraction: 0.9), value: pan)
-                    .animation(.spring(response: 0.28, dampingFraction: 0.85), value: focused)
 
-                // フォーカス中は背景タップで閉じる
+                // フォーカス時、Openボタン以外をタップで閉じるための透明レイヤーをバブルの上に
                 if focused != nil {
-                    Color.black.opacity(0.001) // タップ受け用（見えない）
+                    Color.clear
+                        .contentShape(Rectangle())
                         .ignoresSafeArea()
                         .onTapGesture {
                             withAnimation(.spring(response: 0.25, dampingFraction: 0.9)) {
@@ -163,88 +155,71 @@ struct GamePickerView: View {
         let items = Array(GameId.allCases)
         let indexed = Array(items.enumerated())
 
-        return TimelineView(.animation) { timeline in
-            let t = timeline.date.timeIntervalSinceReferenceDate
-
+        return GeometryReader { geo in
             ZStack {
                 ForEach(indexed, id: \.1.id) { index, game in
-                    bubbleView(index: index, game: game, t: t)
+                    bubbleView(index: index, game: game, size: geo.size)
                 }
             }
-            .padding(24)
-            .offset(y: -20)
+            .frame(maxWidth: .infinity, maxHeight: .infinity) // ✅ ヒットテスト領域を画面いっぱいに
         }
     }
     
     private func generateLayout() {
-        var rng = SystemRandomNumberGenerator()
         let items = Array(GameId.allCases)
-
-        let minDist: CGFloat = 86   // バブル直径(80) + 余白(6) くらい
-        let bounds: CGFloat = 165   // クラスターの広がり
-        let maxTriesPerItem = 400
-
+        let horizontalSpacing = bubbleSize + gap
+        let verticalSpacing = bubbleSize * 0.86 + gap // 0.86 ≒ sqrt(3)/2 for hex packing
+        
+        let count = items.count
+        // Calculate number of columns needed (ceil of sqrt)
+        let columns = Int(ceil(sqrt(Double(count))))
+        // Calculate number of rows needed
+        _ = Int(ceil(Double(count) / Double(columns)))
+        
+        var positions: [CGPoint] = []
+        
+        for idx in 0..<count {
+            let row = idx / columns
+            let col = idx % columns
+            
+            // x offset
+            let xOffset = CGFloat(col) * horizontalSpacing + (row % 2 == 1 ? horizontalSpacing / 2 : 0)
+            // y offset
+            let yOffset = CGFloat(row) * verticalSpacing
+            
+            positions.append(CGPoint(x: xOffset, y: yOffset))
+        }
+        
+        // Center the cluster around (0,0)
+        // Calculate bounding box
+        let xs = positions.map { $0.x }
+        let ys = positions.map { $0.y }
+        
+        let minX = xs.min() ?? 0
+        let maxX = xs.max() ?? 0
+        let minY = ys.min() ?? 0
+        let maxY = ys.max() ?? 0
+        
+        let centerX = (minX + maxX) / 2
+        let centerY = (minY + maxY) / 2
+        
         var newLayout: [GameId: CGPoint] = [:]
-        var newSeed: [GameId: Double] = [:]
-
-        func ok(_ p: CGPoint) -> Bool {
-            for (_, q) in newLayout {
-                let dx = p.x - q.x, dy = p.y - q.y
-                if (dx*dx + dy*dy) < (minDist*minDist) { return false }
-            }
-            return true
+        
+        for (index, game) in items.enumerated() {
+            let pos = positions[index]
+            newLayout[game] = CGPoint(x: pos.x - centerX, y: pos.y - centerY)
         }
-
-        for game in items {
-            var placed: CGPoint? = nil
-
-            for _ in 0..<maxTriesPerItem {
-                let x = CGFloat.random(in: -bounds...bounds, using: &rng)
-                let y = CGFloat.random(in: -bounds...bounds, using: &rng)
-                let p = CGPoint(x: x, y: y)
-
-                if ok(p) {
-                    placed = p
-                    break
-                }
-            }
-
-            // どうしても置けない時は少し妥協（最後の保険）
-            newLayout[game] = placed ?? CGPoint(
-                x: CGFloat.random(in: -bounds...bounds, using: &rng),
-                y: CGFloat.random(in: -bounds...bounds, using: &rng)
-            )
-
-            newSeed[game] = Double.random(in: 0...1000, using: &rng)
-        }
-
+        
         withAnimation(.spring(response: 0.6, dampingFraction: 0.9)) {
             layout = newLayout
-            wobbleSeed = newSeed
         }
     }
     
     @ViewBuilder
-    private func bubbleView(index: Int, game: GameId, t: TimeInterval) -> some View {
+    private func bubbleView(index: Int, game: GameId, size: CGSize) -> some View {
         let base = layout[game] ?? .zero
-        let seed = wobbleSeed[game] ?? 0
-
-        // フォーカス中は揺れ止める（読みやすい）
-        let wobbleOn = (focused == nil)
-
-        // それぞれ違う周期でゆらゆら
-        let s = seed
-        let wx = wobbleOn ? (
-          CGFloat(sin(t * 0.73 + s)) +
-          0.6 * CGFloat(sin(t * 1.11 + s * 1.7)) +
-          0.35 * CGFloat(sin(t * 1.73 + s * 0.4))
-        ) * (wobbleAmplitude / 1.95) : 0
-
-        let wy = wobbleOn ? (
-          CGFloat(cos(t * 0.61 + s * 1.3)) +
-          0.55 * CGFloat(cos(t * 1.27 + s)) +
-          0.3 * CGFloat(cos(t * 1.91 + s * 2.1))
-        ) * (wobbleAmplitude / 1.85) : 0
+        let centerX = size.width / 2
+        let centerY = size.height / 2
 
         Bubble(
             shortTitle: game.shortCode,
@@ -263,22 +238,11 @@ struct GamePickerView: View {
                 dismiss()
             }
         )
-        .offset(
-            x: base.x + wx + parallax(for: index).width,
-            y: base.y + wy + parallax(for: index).height
-        )
+        // ✅ ここがポイント：画面中央 + base で“本当の座標”に置く
+        .position(x: centerX + base.x, y: centerY + base.y)
         .opacity(focused == nil || focused == game ? 1.0 : 0.35)
         .allowsHitTesting(focused == nil || focused == game)
         .zIndex(focused == game ? 999 : Double(100 - index))
-    }
-
-    // ✅ ぬるっと感：ドラッグ量を index ごとに弱めて反映（パララックス）
-    private func parallax(for index: Int) -> CGSize {
-        let strength = max(0.18, 0.55 - Double(index) * 0.06) // 奥行き差
-        return CGSize(
-            width: pan.width * strength,
-            height: pan.height * strength
-        )
     }
 
     private var panGesture: some Gesture {
@@ -376,3 +340,4 @@ struct GamePickerView_Previews: PreviewProvider {
         GamePickerView()
     }
 }
+
