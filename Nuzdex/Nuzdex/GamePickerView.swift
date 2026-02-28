@@ -26,20 +26,20 @@ extension Color {
 
 enum GameId: String, CaseIterable, Identifiable {
     case ruby = "Ruby"
-        case sapphire = "Sapphire"
-        case emerald = "Emerald"
-        case fireRed = "Fire Red"
-        case leafGreen = "Leaf Green"
-        case diamond = "Diamond"
-        case pearl = "Pearl"
-        case platinum = "Platinum"
-        case heartGold = "Heart Gold"
-        case soulSilver = "Soul Silver"
-        case black = "Black"
-        case white = "White"
-        case black2 = "Black 2"
-        case white2 = "White 2"
-        case renegadePlatinum = "Renegade Platinum"
+    case sapphire = "Sapphire"
+    case emerald = "Emerald"
+    case fireRed = "Fire Red"
+    case leafGreen = "Leaf Green"
+    case diamond = "Diamond"
+    case pearl = "Pearl"
+    case platinum = "Platinum"
+    case heartGold = "Heart Gold"
+    case soulSilver = "Soul Silver"
+    case black = "Black"
+    case white = "White"
+    case black2 = "Black 2"
+    case white2 = "White 2"
+    case renegadePlatinum = "Renegade Platinum"
 
     var id: String { rawValue }
 
@@ -63,7 +63,6 @@ enum GameId: String, CaseIterable, Identifiable {
         }
     }
 
-    // ✅ あなたの色をここで hex 指定（後で増やせる）
     var bubbleHex: String {
         switch self {
         case .ruby: return "#DD2728"
@@ -88,7 +87,7 @@ enum GameId: String, CaseIterable, Identifiable {
         switch self {
         case .white, .white2, .renegadePlatinum:
             return Color(hex: "#2A3140")
-            default:
+        default:
             return .white
         }
     }
@@ -100,24 +99,19 @@ struct GamePickerView: View {
     @Environment(\.dismiss) private var dismiss
     @AppStorage("selectedGame") private var selectedGameRaw = GameId.emerald.rawValue
 
-    // どれが「フォーカス（拡大）」されてるか
     @State private var focused: GameId? = nil
     @State private var layout: [GameId: CGPoint] = [:]
 
-    // バブルサイズ（小さくしたいとのことなので）
     private let bubbleSize: CGFloat = 78
-    private let gap: CGFloat = 18
 
     var body: some View {
         NavigationStack {
             ZStack {
                 Color(.systemBackground).ignoresSafeArea()
 
-                // バブル
                 bubbleCluster
                     .contentShape(Rectangle())
 
-                // フォーカス時、Openボタン以外をタップで閉じるための透明レイヤーをバブルの上に
                 if focused != nil {
                     Color.clear
                         .contentShape(Rectangle())
@@ -127,7 +121,7 @@ struct GamePickerView: View {
                                 focused = nil
                             }
                         }
-                        .zIndex(1) // ← これ追加
+                        .zIndex(1)
                 }
             }
             .toolbar {
@@ -142,8 +136,6 @@ struct GamePickerView: View {
         }
     }
 
-    // MARK: - Bubble Cluster
-
     private var bubbleCluster: some View {
         let items = Array(GameId.allCases)
         let indexed = Array(items.enumerated())
@@ -154,60 +146,54 @@ struct GamePickerView: View {
                     bubbleView(index: index, game: game, size: geo.size)
                 }
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity) // ✅ ヒットテスト領域を画面いっぱいに
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
-    
+
     private func generateLayout() {
         let items = Array(GameId.allCases)
+
+        // ✅ gapはここだけで使うのでローカル化
+        let gap: CGFloat = 18
+
         let horizontalSpacing = bubbleSize + gap
         let verticalSpacing = bubbleSize * 0.86 + gap // 0.86 ≒ sqrt(3)/2 for hex packing
-        
+
         let count = items.count
-        // Calculate number of columns needed (ceil of sqrt)
         let columns = Int(ceil(sqrt(Double(count))))
-        // Calculate number of rows needed
-        _ = Int(ceil(Double(count) / Double(columns)))
-        
+
         var positions: [CGPoint] = []
-        
+        positions.reserveCapacity(count)
+
         for idx in 0..<count {
             let row = idx / columns
             let col = idx % columns
-            
-            // x offset
-            let xOffset = CGFloat(col) * horizontalSpacing + (row % 2 == 1 ? horizontalSpacing / 2 : 0)
-            // y offset
+
+            let xOffset = CGFloat(col) * horizontalSpacing + (row.isMultiple(of: 2) ? 0 : horizontalSpacing / 2)
             let yOffset = CGFloat(row) * verticalSpacing
-            
+
             positions.append(CGPoint(x: xOffset, y: yOffset))
         }
-        
-        // Center the cluster around (0,0)
-        // Calculate bounding box
-        let xs = positions.map { $0.x }
-        let ys = positions.map { $0.y }
-        
-        let minX = xs.min() ?? 0
-        let maxX = xs.max() ?? 0
-        let minY = ys.min() ?? 0
-        let maxY = ys.max() ?? 0
-        
-        let centerX = (minX + maxX) / 2
-        let centerY = (minY + maxY) / 2
-        
+
+        let xs = positions.map(\.x)
+        let ys = positions.map(\.y)
+
+        let centerX = ((xs.min() ?? 0) + (xs.max() ?? 0)) / 2
+        let centerY = ((ys.min() ?? 0) + (ys.max() ?? 0)) / 2
+
         var newLayout: [GameId: CGPoint] = [:]
-        
+        newLayout.reserveCapacity(count)
+
         for (index, game) in items.enumerated() {
             let pos = positions[index]
             newLayout[game] = CGPoint(x: pos.x - centerX, y: pos.y - centerY)
         }
-        
+
         withAnimation(.spring(response: 0.6, dampingFraction: 0.9)) {
             layout = newLayout
         }
     }
-    
+
     @ViewBuilder
     private func bubbleView(index: Int, game: GameId, size: CGSize) -> some View {
         let base = layout[game] ?? .zero
@@ -231,7 +217,6 @@ struct GamePickerView: View {
                 dismiss()
             }
         )
-        // ✅ ここがポイント：画面中央 + base で“本当の座標”に置く
         .position(x: centerX + base.x, y: centerY + base.y)
         .opacity(focused == nil || focused == game ? 1.0 : 0.35)
         .allowsHitTesting(focused == nil || focused == game)
@@ -260,7 +245,6 @@ struct Bubble: View {
 
                 VStack(spacing: 10) {
                     if isFocused {
-                        // ✅ フルネーム（2行まで）
                         Text(fullTitle)
                             .font(.caption2)
                             .fontWeight(.semibold)
@@ -270,7 +254,6 @@ struct Bubble: View {
                             .minimumScaleFactor(0.7)
                             .padding(.horizontal, 12)
 
-                        // ✅ Open ピル（はみ出さないサイズに）
                         Button(action: onOpen) {
                             Text("Open")
                                 .font(.caption2)
@@ -278,9 +261,7 @@ struct Bubble: View {
                                 .foregroundStyle(.primary)
                                 .padding(.horizontal, 6)
                                 .padding(.vertical, 3)
-                                .background(
-                                    Capsule().fill(.ultraThinMaterial)
-                                )
+                                .background(Capsule().fill(.ultraThinMaterial))
                         }
                         .buttonStyle(.plain)
                         .transition(.opacity.combined(with: .scale))
@@ -293,7 +274,6 @@ struct Bubble: View {
                 }
             }
             .frame(width: size, height: size)
-            // ✅ フォーカス時はかなり大きく（Openが収まる）
             .scaleEffect(isFocused ? 1.3 : 1.0)
             .animation(.spring(response: 0.28, dampingFraction: 0.85), value: isFocused)
         }
@@ -308,4 +288,3 @@ struct GamePickerView_Previews: PreviewProvider {
         GamePickerView()
     }
 }
-
