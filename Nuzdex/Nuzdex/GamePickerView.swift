@@ -24,7 +24,7 @@ extension Color {
 
 // MARK: - Models
 
-enum GameId: String, CaseIterable, Identifiable {
+enum GameId: String, CaseIterable, Identifiable, Decodable {
 	case ruby = "Ruby"
 	case sapphire = "Sapphire"
 	case emerald = "Emerald"
