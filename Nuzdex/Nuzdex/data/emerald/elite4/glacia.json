@@ -1,0 +1,176 @@
+{
+  "game": "Emerald",
+  "category": "eliteFour",
+  "trainerId": "glacia-e4-3",
+  "trainerName": "Glacia",
+  "battleLabel": "Elite 4 - 3",
+  "primaryType": "ice",
+  "levelCap": 53,
+  "party": [
+    {
+      "baseStats": 410,
+      "name": "Sealeo",
+      "level": 50,
+      "types": ["ice", "water"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Encore",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Hail",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Ice Ball",
+          "category": "special",
+          "type": "ice",
+          "power": 45
+        }
+      ]
+    },
+    {
+      "baseStats": 480,
+      "name": "Glalie",
+      "level": 50,
+      "types": ["ice"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Icy Wind",
+          "category": "special",
+          "type": "ice",
+          "power": 83
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 135
+        }
+      ]
+    },
+    {
+      "baseStats": 410,
+      "name": "Sealeo",
+      "level": 52,
+      "types": ["ice", "water"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Hail",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 165
+        }
+      ]
+    },
+    {
+      "baseStats": 480,
+      "name": "Glalie",
+      "level": 52,
+      "types": ["ice"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Explosion",
+          "category": "physical",
+          "type": "normal",
+          "power": 250
+        },
+        {
+          "name": "Hail",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 135
+        }
+      ]
+    },
+    {
+      "baseStats": 530,
+      "name": "Walrein",
+      "level": 53,
+      "types": ["ice", "water"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 135
+        },
+        {
+          "name": "Sheer Cold",
+          "category": "special",
+          "type": "ice",
+          "power": null
+        }
+      ]
+    }
+  ]
+}
