@@ -20,18 +20,30 @@ struct ContentView: View {
                 BattlesView(game: selectedGame)
                     .tabItem { Label("Battles", systemImage: "flame") }
             }
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
+            .safeAreaInset(edge: .top) {
+                HStack {
                     Button {
-                        showingGamePicker = true } label: {
-                        Image(systemName: "arrow.triangle.2.circlepath")
+                        showingGamePicker = true
+                    } label: {
+                        ZStack {
+                            Circle()
+                                .fill(Color(hex: selectedGame.bubbleHex))
+
+                            Text(selectedGame.shortCode)
+                                .font(.caption2)
+                                .fontWeight(.bold)
+                                .foregroundStyle(selectedGame.textColor)
+                        }
+                        .frame(width: 36, height: 36)
                     }
+                    .buttonStyle(.plain)
+                    .frame(width: 44, height: 44)
+
+                    Spacer()
                 }
-                ToolbarItem(placement: .topBarLeading) {
-                    Text(selectedGame.shortCode)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
+                .padding(.horizontal, 16)
+                .padding(.vertical, 6)
+                .background(.clear)
             }
             .sheet(isPresented: $showingGamePicker) {
                 GamePickerView(selectedGameRaw: $selectedGameRaw)
