@@ -97,7 +97,7 @@ enum GameId: String, CaseIterable, Identifiable {
 
 struct GamePickerView: View {
     @Environment(\.dismiss) private var dismiss
-    @AppStorage("selectedGame") private var selectedGameRaw = GameId.emerald.rawValue
+    @Binding var selectedGameRaw: String
 
     @State private var focused: GameId? = nil
     @State private var layout: [GameId: CGPoint] = [:]
@@ -111,6 +111,7 @@ struct GamePickerView: View {
 
                 bubbleCluster
                     .contentShape(Rectangle())
+                    .zIndex(2)
 
                 if focused != nil {
                     Color.clear
@@ -237,54 +238,59 @@ struct Bubble: View {
     let onOpen: () -> Void
 
     var body: some View {
-        Button(action: onTap) {
-            ZStack {
-                Circle()
-                    .fill(fill)
-                    .shadow(color: .black.opacity(0.15), radius: 12, x: 0, y: 12)
+        ZStack {
+            Circle()
+                .fill(fill)
+                .shadow(color: .black.opacity(0.15), radius: 12, x: 0, y: 12)
 
-                VStack(spacing: 10) {
-                    if isFocused {
-                        Text(fullTitle)
+            VStack(spacing: 10) {
+                if isFocused {
+                    Text(fullTitle)
+                        .font(.caption2)
+                        .fontWeight(.semibold)
+                        .foregroundStyle(text)
+                        .multilineTextAlignment(.center)
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.7)
+                        .padding(.horizontal, 12)
+
+                    Button(action: onOpen) {
+                        Text("Open")
                             .font(.caption2)
                             .fontWeight(.semibold)
-                            .foregroundStyle(text)
-                            .multilineTextAlignment(.center)
-                            .lineLimit(2)
-                            .minimumScaleFactor(0.7)
-                            .padding(.horizontal, 12)
-
-                        Button(action: onOpen) {
-                            Text("Open")
-                                .font(.caption2)
-                                .fontWeight(.semibold)
-                                .foregroundStyle(.primary)
-                                .padding(.horizontal, 6)
-                                .padding(.vertical, 3)
-                                .background(Capsule().fill(.ultraThinMaterial))
-                        }
-                        .buttonStyle(.plain)
-                        .transition(.opacity.combined(with: .scale))
-                    } else {
-                        Text(shortTitle)
-                            .font(.title3)
-                            .fontWeight(.bold)
-                            .foregroundStyle(text)
+                            .foregroundStyle(.primary)
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 3)
+                            .background(Capsule().fill(.ultraThinMaterial))
                     }
+                    .buttonStyle(.plain)
+                    .transition(.opacity.combined(with: .scale))
+                } else {
+                    Text(shortTitle)
+                        .font(.title3)
+                        .fontWeight(.bold)
+                        .foregroundStyle(text)
                 }
             }
-            .frame(width: size, height: size)
-            .scaleEffect(isFocused ? 1.3 : 1.0)
-            .animation(.spring(response: 0.28, dampingFraction: 0.85), value: isFocused)
         }
-        .buttonStyle(.plain)
+        .frame(width: size, height: size)
+        .scaleEffect(isFocused ? 1.3 : 1.0)
+        .animation(.spring(response: 0.28, dampingFraction: 0.85), value: isFocused)
+        .contentShape(Circle())
+        .onTapGesture {
+            if !isFocused {
+                onTap()
+            }
+        }
     }
 }
 
 // MARK: - Preview
 
 struct GamePickerView_Previews: PreviewProvider {
+    @State static var selectedGameRaw = GameId.emerald.rawValue
+
     static var previews: some View {
-        GamePickerView()
+        GamePickerView(selectedGameRaw: $selectedGameRaw)
     }
 }

@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct BossesView: View {
+    let game: GameId
     var body: some View {
-        Text("Bosses")
-            .navigationTitle("Bosses")
+        Text("Bosses for \(game.rawValue)")
     }
 }

@@ -1,38 +1,40 @@
-//
-//  ContentView.swift
-//  Nuzdex
-//
-//  Created by Sakura Wallace on 27/02/2026.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     @State private var showingGamePicker = false
+    @AppStorage("selectedGame") private var selectedGameRaw = GameId.emerald.rawValue
+    
+    private var selectedGame: GameId {
+            GameId(rawValue: selectedGameRaw) ?? .emerald
+    }
 
     var body: some View {
         NavigationStack {
             TabView {
-                RoutesView()
+                RoutesView(game: selectedGame)
                     .tabItem { Label("Routes", systemImage: "map") }
 
-                BossesView()
+                BossesView(game: selectedGame)
                     .tabItem { Label("Bosses", systemImage: "person.3") }
 
-                BattlesView()
+                BattlesView(game: selectedGame)
                     .tabItem { Label("Battles", systemImage: "flame") }
             }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
-                        showingGamePicker = true
-                    } label: {
+                        showingGamePicker = true } label: {
                         Image(systemName: "arrow.triangle.2.circlepath")
                     }
                 }
+                ToolbarItem(placement: .topBarLeading) {
+                    Text(selectedGame.shortCode)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
             }
             .sheet(isPresented: $showingGamePicker) {
-                GamePickerView()
+                GamePickerView(selectedGameRaw: $selectedGameRaw)
             }
         }
     }
