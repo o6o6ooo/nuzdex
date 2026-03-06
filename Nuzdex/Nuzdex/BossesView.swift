@@ -87,49 +87,65 @@ private struct BossBattleCard: View {
 private struct PokemonCard: View {
 	let pokemon: PartyPokemon
 
-	private let columns = [GridItem(.flexible(), spacing: 10), GridItem(.flexible())]
+	private let levelColumnWidth: CGFloat = 52
+	private let movesLeadingInset: CGFloat = 12
+	private let imageSlotWidth: CGFloat = 44
+	private let movesColumnGap: CGFloat = 34
 
 	var body: some View {
+		let leftMoves = Array(pokemon.moves.prefix(2))
+		let rightMoves = Array(pokemon.moves.dropFirst(2).prefix(2))
+
 		VStack(alignment: .leading, spacing: 10) {
 			HStack(alignment: .firstTextBaseline, spacing: 12) {
 				Text("\(pokemon.level)")
 					.font(.system(size: 24, weight: .heavy))
 					.monospacedDigit()
+					.frame(width: levelColumnWidth, alignment: .trailing)
 
 				Text(pokemon.name)
 					.font(.title3)
 					.fontWeight(.bold)
 
-				Spacer()
+				Spacer(minLength: 8)
+				ForEach(pokemon.types, id: \.rawValue) { type in
+					TypeBadge(type: type, size: 30)
+				}
+			}
 
-				HStack(spacing: 8) {
-					ForEach(pokemon.types, id: \.rawValue) { type in
-						TypeBadge(type: type, size: 36)
+			HStack(alignment: .top, spacing: 0) {
+				Color.clear
+					.frame(width: movesLeadingInset)
+
+				HStack(alignment: .top, spacing: 10) {
+					HStack(alignment: .top, spacing: movesColumnGap) {
+						VStack(alignment: .leading, spacing: 14) {
+							ForEach(leftMoves) { move in
+								MoveCell(move: move)
+							}
+						}
+
+						VStack(alignment: .leading, spacing: 14) {
+							ForEach(rightMoves) { move in
+								MoveCell(move: move)
+							}
+						}
+					}
+
+					Color.clear
+							.frame(maxWidth: imageSlotWidth)
 					}
 				}
-			}
 
-			LazyVGrid(columns: columns, spacing: 12) {
-				ForEach(pokemon.moves) { move in
-					MoveCell(move: move)
-				}
-			}
-
-			HStack {
-				Spacer()
-				Text("Base \(pokemon.baseStats)")
-					.font(.headline)
-			}
-
+			Text("Base \(pokemon.baseStats)")
+				.font(.headline)
 			if let heldItem = pokemon.heldItem {
-				HStack {
-					Spacer()
-					Label(heldItem, systemImage: "shippingbox")
-						.font(.subheadline)
-						.foregroundStyle(.secondary)
-				}
+				Label(heldItem, systemImage: "shippingbox")
+					.font(.subheadline)
+					.foregroundStyle(.secondary)
 			}
 		}
+		.frame(maxWidth: .infinity, alignment: .leading)
 		.padding(12)
 		.background(
 			RoundedRectangle(cornerRadius: 12)
@@ -142,11 +158,11 @@ private struct MoveCell: View {
 	let move: MoveInfo
 
 	var body: some View {
-		VStack(alignment: .leading, spacing: 6) {
+		VStack(alignment: .leading, spacing: 7) {
 			Text(move.name)
 				.font(.headline)
 				.lineLimit(1)
-				.minimumScaleFactor(0.8)
+				.minimumScaleFactor(0.85)
 
 			HStack(spacing: 6) {
 				Image(systemName: move.category.symbol)
@@ -159,9 +175,13 @@ private struct MoveCell: View {
 				if let power = move.power {
 					Text("\(power)")
 						.font(.headline)
+						.monospacedDigit()
+						.lineLimit(1)
+						.fixedSize(horizontal: true, vertical: false)
 				}
 			}
 		}
+		.frame(maxWidth: .infinity, alignment: .leading)
 	}
 }
 
