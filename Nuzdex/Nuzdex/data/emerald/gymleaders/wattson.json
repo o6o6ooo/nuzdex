@@ -1,0 +1,143 @@
+{
+  "game": "Emerald",
+  "category": "gymLeader",
+  "trainerId": "wattson-gym3",
+  "trainerName": "Wattson",
+  "battleLabel": "3rd Gym Leader - Mauville City",
+  "primaryType": "electric",
+  "levelCap": 24,
+  "party": [
+    {
+      "baseStats": 330,
+      "name": "Voltorb",
+      "level": 20,
+      "types": ["electric"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        },
+        {
+          "name": "Spark",
+          "category": "special",
+          "type": "electric",
+          "power": 98
+        },
+        {
+          "name": "Self-Destruct",
+          "category": "physical",
+          "type": "normal",
+          "power": 200
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 295,
+      "name": "Electrike",
+      "level": 20,
+      "types": ["electric"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Howl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 465,
+      "name": "Magneton",
+      "level": 22,
+      "types": ["electric"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Super Sonic",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": 20
+        }
+      ]
+    },
+    {
+      "baseStats": 475,
+      "name": "Manectric",
+      "level": 24,
+      "types": ["electric"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Howl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

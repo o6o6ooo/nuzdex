@@ -1,0 +1,110 @@
+{
+  "game": "Emerald",
+  "category": "gymLeader",
+  "trainerId": "roxanne-gym1",
+  "trainerName": "Roxanne",
+  "battleLabel": "1st Gym Leader - Rustboro City",
+  "primaryType": "rock",
+  "levelCap": 15,
+  "party": [
+    {
+      "baseStats": 300,
+      "name": "Geodude",
+      "level": 12,
+      "types": ["rock", "ground"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Defense Curl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rock Throw",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 300,
+      "name": "Geodude",
+      "level": 12,
+      "types": ["rock", "ground"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Defense Curl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rock Throw",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 375,
+      "name": "Nosepass",
+      "level": 15,
+      "types": ["rock"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Block",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Harden",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

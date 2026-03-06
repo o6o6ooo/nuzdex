@@ -1,0 +1,110 @@
+{
+  "game": "Emerald",
+  "category": "gymLeader",
+  "trainerId": "brawly-gym2",
+  "trainerName": "Brawly",
+  "battleLabel": "2nd Gym Leader - Dewford Town",
+  "primaryType": "fighting",
+  "levelCap": 19,
+  "party": [
+    {
+      "baseStats": 305,
+      "name": "Machop",
+      "level": 16,
+      "types": ["fighting"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Karate Chop",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Low Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        },
+        {
+          "name": "Seismic Toss",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Bulk Up",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 280,
+      "name": "Meditite",
+      "level": 16,
+      "types": ["fighting", "psychic"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Focus Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 225
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Bulk Up",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 237,
+      "name": "Makuhita",
+      "level": 19,
+      "types": ["fighting"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Arm Thrust",
+          "category": "physical",
+          "type": "fighting",
+          "power": 23
+        },
+        {
+          "name": "Vital Throw",
+          "category": "physical",
+          "type": "fighting",
+          "power": 105
+        },
+        {
+          "name": "Reversal",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Bulk Up",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    }
+  ]
+}
