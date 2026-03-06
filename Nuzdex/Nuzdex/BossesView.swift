@@ -52,7 +52,7 @@ private struct BossBattleCard: View {
 						.padding(.top, 6)
 
 					Text("\(battle.levelCap)")
-						.font(.system(size: 34, weight: .bold))
+						.font(.system(size: 34, weight: .bold, design: .rounded))
 						.monospacedDigit()
 
 					VStack(alignment: .leading, spacing: 0) {
@@ -97,7 +97,7 @@ private struct PokemonCard: View {
 		VStack(alignment: .leading, spacing: 10) {
 			HStack(alignment: .firstTextBaseline, spacing: 12) {
 				Text("\(pokemon.level)")
-					.font(.system(size: 24, weight: .heavy))
+					.font(.system(size: 24, weight: .heavy, design: .rounded))
 					.monospacedDigit()
 
 				Text(pokemon.name)

@@ -49,7 +49,7 @@ enum MoveCategory: String, Decodable {
 	var symbol: String {
 		switch self {
 		case .status: return "circle.lefthalf.filled"
-		case .physical: return "figure.strengthtraining.traditional"
+		case .physical: return "burst.fill"
 		case .special: return "scope"
 		}
 	}
