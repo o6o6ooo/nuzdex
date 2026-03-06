@@ -101,6 +101,7 @@ struct GamePickerView: View {
 	
 	@State private var focused: GameId? = nil
 	@State private var layout: [GameId: CGPoint] = [:]
+	@State private var showingCreditsDetails = false
 	
 	private let bubbleSize: CGFloat = 78
 	
@@ -134,7 +135,33 @@ struct GamePickerView: View {
 				focused = nil
 				generateLayout()
 			}
+			.safeAreaInset(edge: .bottom) {
+				creditFooter
+			}
+			.sheet(isPresented: $showingCreditsDetails) {
+				CreditsDetailsView()
+			}
 		}
+	}
+
+	private var creditFooter: some View {
+		VStack(spacing: 4) {
+			Text("Unofficial fan project. All rights belong to respective owners.")
+				.font(.caption2)
+				.foregroundStyle(Color.secondary)
+				.multilineTextAlignment(.center)
+			Button("Details") {
+				showingCreditsDetails = true
+			}
+			.font(.caption)
+			.buttonStyle(.plain)
+			.foregroundStyle(Color.secondary)
+		}
+		.padding(.horizontal, 16)
+		.padding(.top, 8)
+		.padding(.bottom, 6)
+		.frame(maxWidth: .infinity)
+		.background(Color(.systemBackground))
 	}
 	
 	private var bubbleCluster: some View {
@@ -280,6 +307,39 @@ struct Bubble: View {
 		.onTapGesture {
 			if !isFocused {
 				onTap()
+			}
+		}
+	}
+}
+
+private struct CreditsDetailsView: View {
+	@Environment(\.dismiss) private var dismiss
+
+	var body: some View {
+		NavigationStack {
+			ScrollView {
+				VStack(alignment: .leading, spacing: 18) {
+					Text("Nuzdex is an unofficial fan project and is not affiliated with Nintendo, Game Freak, Creatures, The Pokemon Company, or PokemonDB.")
+					Text("Pokemon names, characters, game titles, and related marks are trademarks or registered trademarks of their respective owners.")
+					Text("Some reference images and data are sourced from publicly available resources, including PokemonDB.")
+					Text("This app is non-commercial and shared only with friends and family for personal use.")
+					Text("App UI and original app code © 2026 Sakura Wallace.")
+					Text("If any rights holder requests removal or correction, content will be updated or removed promptly.")
+					Link("Contact: github.com/o6o6ooo", destination: URL(string: "https://github.com/o6o6ooo")!)
+				}
+				.font(.footnote)
+				.lineSpacing(6)
+				.foregroundStyle(.primary)
+				.frame(maxWidth: .infinity, alignment: .leading)
+				.padding(.horizontal, 24)
+				.padding(.vertical, 24)
+			}
+			.navigationTitle("Credits & Rights")
+			.navigationBarTitleDisplayMode(.inline)
+			.toolbar {
+				ToolbarItem(placement: .topBarTrailing) {
+					Button("Done") { dismiss() }
+				}
 			}
 		}
 	}
