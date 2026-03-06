@@ -87,8 +87,6 @@ private struct BossBattleCard: View {
 private struct PokemonCard: View {
 	let pokemon: PartyPokemon
 
-	private let levelColumnWidth: CGFloat = 52
-	private let movesLeadingInset: CGFloat = 12
 	private let imageSlotWidth: CGFloat = 44
 	private let movesColumnGap: CGFloat = 34
 
@@ -101,7 +99,6 @@ private struct PokemonCard: View {
 				Text("\(pokemon.level)")
 					.font(.system(size: 24, weight: .heavy))
 					.monospacedDigit()
-					.frame(width: levelColumnWidth, alignment: .trailing)
 
 				Text(pokemon.name)
 					.font(.title3)
@@ -117,29 +114,24 @@ private struct PokemonCard: View {
 				}
 			}
 
-			HStack(alignment: .top, spacing: 0) {
-				Color.clear
-					.frame(width: movesLeadingInset)
-
-				HStack(alignment: .top, spacing: 10) {
-					HStack(alignment: .top, spacing: movesColumnGap) {
-						VStack(alignment: .leading, spacing: 14) {
-							ForEach(leftMoves) { move in
-								MoveCell(move: move)
-							}
-						}
-
-						VStack(alignment: .leading, spacing: 14) {
-							ForEach(rightMoves) { move in
-								MoveCell(move: move)
-							}
+			HStack(alignment: .top, spacing: 10) {
+				HStack(alignment: .top, spacing: movesColumnGap) {
+					VStack(alignment: .leading, spacing: 14) {
+						ForEach(leftMoves) { move in
+							MoveCell(move: move)
 						}
 					}
 
-					Color.clear
-							.frame(maxWidth: imageSlotWidth)
+					VStack(alignment: .leading, spacing: 14) {
+						ForEach(rightMoves) { move in
+							MoveCell(move: move)
+						}
 					}
 				}
+
+				Color.clear
+					.frame(width: imageSlotWidth)
+			}
 
 			if let heldItem = pokemon.heldItem {
 				Label(heldItem, systemImage: "shippingbox")
