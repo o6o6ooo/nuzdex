@@ -30,7 +30,7 @@
           "name": "Sand Attack",
           "category": "status",
           "type": "ground",
-          "power": "null"
+          "power": null
         },
         {
           "name": "Crunch",
@@ -76,7 +76,7 @@
     {
       "baseStats": 475,
       "name": "Cacturne",
-      "level": "46",
+      "level": 46,
       "types": ["grass", "dark"],
       "heldItem": null,
       "moves": [
