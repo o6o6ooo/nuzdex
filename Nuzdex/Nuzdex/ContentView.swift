@@ -18,7 +18,7 @@ struct ContentView: View {
 					.tabItem { Label("Bosses", systemImage: "person.3") }
 				
 				BattlesView(game: selectedGame)
-					.tabItem { Label("Battles", systemImage: "flame") }
+					.tabItem { Label("Battles", systemImage: "person.line.dotted.person.fill") }
 			}
 			.safeAreaInset(edge: .top) {
 				HStack {
