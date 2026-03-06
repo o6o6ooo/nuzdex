@@ -34,39 +34,53 @@ struct BossesView: View {
 
 private struct BossBattleCard: View {
 	let battle: BossBattle
+	@State private var isExpanded = true
 
 	var body: some View {
 		VStack(alignment: .leading, spacing: 14) {
-			HStack(alignment: .top, spacing: 10) {
-				Text("\(battle.levelCap)")
-					.font(.system(size: 34, weight: .heavy))
-					.monospacedDigit()
-
-				VStack(alignment: .leading, spacing: 0) {
-					Text(battle.trainerName)
-						.font(.title2)
-						.fontWeight(.bold)
-					Text(battle.battleLabel)
-						.font(.subheadline)
-						.foregroundStyle(.secondary)
+			Button {
+				withAnimation(.easeInOut(duration: 0.2)) {
+					isExpanded.toggle()
 				}
+			} label: {
+					HStack(alignment: .top, spacing: 10) {
+						Image(systemName: "chevron.right")
+							.font(.subheadline.weight(.semibold))
+							.foregroundStyle(.primary)
+						.rotationEffect(.degrees(isExpanded ? 90 : 0))
+						.frame(width: 18, height: 18)
+						.padding(.top, 6)
 
-				Spacer()
+					Text("\(battle.levelCap)")
+						.font(.system(size: 34, weight: .heavy))
+						.monospacedDigit()
 
-				if let primaryType = battle.primaryType {
-					TypeBadge(type: primaryType, size: 42)
+					VStack(alignment: .leading, spacing: 0) {
+						Text(battle.trainerName)
+							.font(.title2)
+							.fontWeight(.bold)
+						Text(battle.battleLabel)
+							.font(.subheadline)
+							.foregroundStyle(.secondary)
+					}
+
+					Spacer()
+
+					if let primaryType = battle.primaryType {
+						TypeBadge(type: primaryType, size: 42)
+					}
 				}
 			}
+			.buttonStyle(.plain)
 
-			ForEach(battle.party) { pokemon in
-				PokemonCard(pokemon: pokemon)
+			if isExpanded {
+				ForEach(battle.party) { pokemon in
+					PokemonCard(pokemon: pokemon)
+				}
 			}
 		}
-		.padding(12)
-		.background(
-			RoundedRectangle(cornerRadius: 14)
-				.stroke(Color.gray.opacity(0.22), lineWidth: 1)
-		)
+		.padding(.horizontal, 2)
+		.padding(.vertical, 8)
 	}
 }
 
