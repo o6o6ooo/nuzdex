@@ -60,7 +60,7 @@ private struct BossBattleCard: View {
 							.font(.title2)
 							.fontWeight(.bold)
 						Text(battle.battleLabel)
-							.font(.subheadline)
+							.font(.system(size: 13, weight: .regular))
 							.foregroundStyle(.secondary)
 					}
 
@@ -134,7 +134,7 @@ private struct PokemonCard: View {
 			}
 
 			if let heldItem = pokemon.heldItem {
-				Label(heldItem, systemImage: "shippingbox")
+				Label(heldItem, systemImage: "carrot")
 					.font(.subheadline)
 					.foregroundStyle(.secondary)
 			}

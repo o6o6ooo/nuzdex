@@ -1,4 +1,7 @@
 import SwiftUI
+#if canImport(UIKit)
+import UIKit
+#endif
 
 struct BossBattle: Identifiable, Decodable {
 	let game: GameId
@@ -50,7 +53,12 @@ enum MoveCategory: String, Decodable {
 		switch self {
 		case .status: return "circle.lefthalf.filled"
 		case .physical: return "burst.fill"
-		case .special: return "scope"
+		case .special:
+#if canImport(UIKit)
+			return UIImage(systemName: "target") != nil ? "target" : "smallcircle.filled.circle"
+#else
+			return "smallcircle.filled.circle"
+#endif
 		}
 	}
 
@@ -132,16 +140,26 @@ enum PokeType: String, Decodable {
 
 enum BossDataStore {
 	static func battles(for game: GameId) -> [BossBattle] {
-		let battles = loadAllJSONBattles().filter { battle in
+		let battles = loadAllJSONBattles(for: game).filter { battle in
 			battle.game == game && (battle.category == .gymLeader || battle.category == .eliteFour)
 		}
 		return battles.sorted(by: battleSort)
 	}
 
-	private static func loadAllJSONBattles() -> [BossBattle] {
+	private static func loadAllJSONBattles(for game: GameId) -> [BossBattle] {
 		let rootURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
-		let emeraldElite4URLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/elite4") ?? []
-		let urls = Array(Set(rootURLs + emeraldElite4URLs)).sorted { $0.lastPathComponent < $1.lastPathComponent }
+		let extraURLs: [URL]
+		switch game {
+		case .emerald:
+			let gymURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/gymleaders") ?? []
+			let eliteURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/elite4") ?? []
+			extraURLs = gymURLs + eliteURLs
+		default:
+			extraURLs = []
+		}
+
+		let urls = Array(Set(rootURLs + extraURLs))
+			.sorted { $0.lastPathComponent < $1.lastPathComponent }
 		return urls.compactMap(decode)
 	}
 
@@ -156,16 +174,18 @@ enum BossDataStore {
 	}
 
 	private static func battleSort(lhs: BossBattle, rhs: BossBattle) -> Bool {
-		let l = battleOrder(from: lhs.battleLabel)
-		let r = battleOrder(from: rhs.battleLabel)
-		if l != r { return l < r }
+		let lCategory = categoryOrder(lhs.category)
+		let rCategory = categoryOrder(rhs.category)
+		if lCategory != rCategory { return lCategory < rCategory }
+		if lhs.levelCap != rhs.levelCap { return lhs.levelCap < rhs.levelCap }
 		return lhs.trainerName < rhs.trainerName
 	}
 
-	private static func battleOrder(from label: String) -> Int {
-		if let value = Int(label.components(separatedBy: "-").last?.trimmingCharacters(in: .whitespaces) ?? "") {
-			return value
+	private static func categoryOrder(_ category: BattleCategory) -> Int {
+		switch category {
+		case .gymLeader: return 0
+		case .eliteFour: return 1
+		default: return 2
 		}
-		return Int.max
 	}
 }
