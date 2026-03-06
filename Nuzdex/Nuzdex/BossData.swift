@@ -132,35 +132,17 @@ enum PokeType: String, Decodable {
 
 enum BossDataStore {
 	static func battles(for game: GameId) -> [BossBattle] {
-		let filePaths: [String]
-		switch game {
-		case .emerald:
-			filePaths = ["data/emerald/elite4/glacia"]
-		default:
-			filePaths = []
+		let battles = loadAllJSONBattles().filter { battle in
+			battle.game == game && (battle.category == .gymLeader || battle.category == .eliteFour)
 		}
-
-		return filePaths.compactMap(load)
+		return battles.sorted(by: battleSort)
 	}
 
-	private static func load(path: String) -> BossBattle? {
-		let parts = path.split(separator: "/")
-		guard let fileName = parts.last else { return nil }
-		let subdir = parts.dropLast().joined(separator: "/")
-
-		if let url = Bundle.main.url(
-			forResource: String(fileName),
-			withExtension: "json",
-			subdirectory: subdir.isEmpty ? nil : String(subdir)
-		) {
-			return decode(url: url)
-		}
-
-		if let url = Bundle.main.url(forResource: String(fileName), withExtension: "json") {
-			return decode(url: url)
-		}
-
-		return nil
+	private static func loadAllJSONBattles() -> [BossBattle] {
+		let rootURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
+		let emeraldElite4URLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/elite4") ?? []
+		let urls = Array(Set(rootURLs + emeraldElite4URLs)).sorted { $0.lastPathComponent < $1.lastPathComponent }
+		return urls.compactMap(decode)
 	}
 
 	private static func decode(url: URL) -> BossBattle? {
@@ -171,5 +153,19 @@ enum BossDataStore {
 			print("Failed to load \(url.lastPathComponent): \(error)")
 			return nil
 		}
+	}
+
+	private static func battleSort(lhs: BossBattle, rhs: BossBattle) -> Bool {
+		let l = battleOrder(from: lhs.battleLabel)
+		let r = battleOrder(from: rhs.battleLabel)
+		if l != r { return l < r }
+		return lhs.trainerName < rhs.trainerName
+	}
+
+	private static func battleOrder(from label: String) -> Int {
+		if let value = Int(label.components(separatedBy: "-").last?.trimmingCharacters(in: .whitespaces) ?? "") {
+			return value
+		}
+		return Int.max
 	}
 }
