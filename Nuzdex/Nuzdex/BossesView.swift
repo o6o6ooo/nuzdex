@@ -34,7 +34,7 @@ struct BossesView: View {
 
 private struct BossBattleCard: View {
 	let battle: BossBattle
-	@State private var isExpanded = true
+	@State private var isExpanded = false
 
 	var body: some View {
 		VStack(alignment: .leading, spacing: 14) {
@@ -154,7 +154,7 @@ private struct MoveCell: View {
 	var body: some View {
 		VStack(alignment: .leading, spacing: 7) {
 			Text(move.name)
-				.font(.system(size: 14, weight: .regular))
+				.font(.system(size: 14, weight: .medium))
 				.lineLimit(1)
 
 			HStack(spacing: 6) {
