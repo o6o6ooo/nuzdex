@@ -1,0 +1,143 @@
+{
+  "game": "Emerald",
+  "category": "gymLeader",
+  "trainerId": "tateandliza-gym7",
+  "trainerName": "Tate and Liza",
+  "battleLabel": "7th Gym Leader - Mossdeep Town",
+  "primaryType": "psychic",
+  "levelCap": 42,
+  "party": [
+    {
+      "baseStats": 500,
+      "name": "Claydol",
+      "level": 41,
+      "types": ["ground", "psychic"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 150
+        },
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 135
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 470,
+      "name": "Xatu",
+      "level": 41,
+      "types": ["psychic", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 135
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 460,
+      "name": "Lunatone",
+      "level": 42,
+      "types": ["rock", "psychic"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 135
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 460,
+      "name": "Solrock",
+      "level": 42,
+      "types": ["rock", "psychic"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 135
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

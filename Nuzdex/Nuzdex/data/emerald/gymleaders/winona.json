@@ -1,0 +1,176 @@
+{
+  "game": "Emerald",
+  "category": "gymLeader",
+  "trainerId": "winona-gym6",
+  "trainerName": "Winona",
+  "battleLabel": "3rd Gym Leader - Fortree City",
+  "primaryType": "flying",
+  "levelCap": 33,
+  "party": [
+    {
+      "baseStats": 310,
+      "name": "Swablu",
+      "level": 29,
+      "types": ["normal", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Perish Song",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mirror Move",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        },
+        {
+          "name": "Safeguard",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 460,
+      "name": "Tropius",
+      "level": 29,
+      "types": ["grass", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 90
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 180
+        },
+        {
+          "name": "Synthesis",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 440,
+      "name": "Pelipper",
+      "level": 30,
+      "types": ["water", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 465,
+      "name": "Skarmory",
+      "level": 31,
+      "types": ["steel", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Fury Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Steel Wing",
+          "category": "physical",
+          "type": "steel",
+          "power": 105
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Altaria",
+      "level": 33,
+      "types": ["dragon", "flying"],
+      "heldItem": "Oran Berry",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Dragon Breath",
+          "category": "special",
+          "type": "dragon",
+          "power": 90
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

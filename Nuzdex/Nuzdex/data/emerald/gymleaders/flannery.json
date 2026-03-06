@@ -1,0 +1,143 @@
+{
+  "game": "Emerald",
+  "category": "gymLeader",
+  "trainerId": "flannery-gym4",
+  "trainerName": "Flannery",
+  "battleLabel": "4th Gym Leader - Lavaridge Town",
+  "primaryType": "fire",
+  "levelCap": 29,
+  "party": [
+    {
+      "baseStats": 305,
+      "name": "Numel",
+      "level": 24,
+      "types": ["fire", "ground"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 195
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Magnitude",
+          "category": "physical",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 250,
+      "name": "Slugma",
+      "level": 24,
+      "types": ["fire"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 195
+        },
+        {
+          "name": "Smog",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 460,
+      "name": "Camerupt",
+      "level": 26,
+      "types": ["fire"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 195
+        },
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 470,
+      "name": "Torkoal",
+      "level": 29,
+      "types": ["fire"],
+      "heldItem": "White Herb",
+      "moves": [
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 195
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

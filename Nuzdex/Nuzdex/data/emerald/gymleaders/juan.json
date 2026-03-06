@@ -1,0 +1,176 @@
+{
+  "game": "Emerald",
+  "category": "gymLeader",
+  "trainerId": "juan-gym8",
+  "trainerName": "Juan",
+  "battleLabel": "8th Gym Leader - Sootopolis City",
+  "primaryType": "water",
+  "levelCap": 46,
+  "party": [
+    {
+      "baseStats": 330,
+      "name": "Luvdisc",
+      "level": 41,
+      "types": ["water"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sweet Kiss",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Flail",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 468,
+      "name": "Whiscash",
+      "level": 41,
+      "types": ["water", "ground"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rain Dance",
+          "category": "status",
+          "type": "water",
+          "power": null
+        },
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 150
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 410,
+      "name": "Sealeo",
+      "level": 41,
+      "types": ["water", "ice"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Encore",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Aurora Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 98
+        },
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 468,
+      "name": "Crawdaunt",
+      "level": 43,
+      "types": ["water", "dark"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Crabhammer",
+          "category": "physical",
+          "type": "water",
+          "power": 150
+        },
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 468,
+      "name": "Kingdra",
+      "level": 46,
+      "types": ["water", "dragon"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 98
+        },
+        {
+          "name": "Rest",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    }
+  ]
+}
