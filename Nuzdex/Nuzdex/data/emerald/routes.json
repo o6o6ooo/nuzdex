@@ -1,0 +1,10 @@
+[
+  {
+    "routeName": "Route 102",
+    "pokemon": ["Mudkip", "Treeko", "Torchic"]
+  },
+  {
+    "routeName": "Route 103",
+    "pokemon": ["Sealeo", "Glalie", "Walrein"]
+  }
+]
