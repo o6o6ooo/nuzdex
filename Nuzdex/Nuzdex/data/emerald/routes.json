@@ -1,430 +1,220 @@
 [
   {
     "routeName": "Route 101",
-    "pokemon": [
-      "Poochyena",
-      "Wumple",
-      "Zigzagoon"
-    ]
+    "pokemon": ["Poochyena", "Wumple", "Zigzagoon"]
   },
   {
     "routeName": "Route 102",
-    "pokemon": [
-      "Lotad",
-      "Poochyena",
-      "Ralts",
-      "Seedot",
-      "Wumple",
-      "Zigzagoon"
-    ]
+    "pokemon": ["Lotad", "Poochyena", "Ralts", "Seedot", "Wumple", "Zigzagoon"]
   },
   {
     "routeName": "Route 103",
     "pokemon": [
-      "Magikarp",
-      "Pelipper",
+      { "name": "Magikarp", "notes": "Old Rod" },
+      { "name": "Pelipper", "notes": "Surf" },
+      { "name": "Sharpedo", "notes": "Super Rod" },
+      { "name": "Tentacool", "notes": "Old Rod" },
+      { "name": "Wingull", "notes": "Surf" },
       "Poochyena",
-      "Sharpedo",
-      "Tentacool",
       "Wailmer",
-      "Wingull",
       "Zigzagoon"
     ]
   },
   {
     "routeName": "Route 104",
-    "pokemon": [
-      "Marill",
-      "Poochyena",
-      "Taillow",
-      "Wingull",
-      "Wumple"
-    ]
+    "pokemon": ["Marill", "Poochyena", "Taillow", "Wingull", "Wumple"]
   },
   {
     "routeName": "Route 105",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 106",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 107",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 108",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 109",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 110",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 111",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 111 Desert",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 112",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 113",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 114",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 115",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 116",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 117",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 117",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 118",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 119",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 120",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 121",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 122",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 123",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 124",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 125",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 126",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 127",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 128",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 129",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 130",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 131",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Route 132",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Abandoned Ship",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Cave of Origin",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Dewford Town",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Fallarbor Town",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Fiery Path",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Fortree City",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Granite Cave",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Jagged Pass",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Lavaridge Town",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Lilycove City",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Littleroot Town",
-    "pokemon": [
-      "Mudkip",
-      "Torchic",
-      "Treeko"
-    ]
+    "pokemon": ["Mudkip", "Torchic", "Treeko"]
   },
   {
     "routeName": "Maubille City",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Meteor Falls",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Mossdeep City",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Mount Chimmney",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Mt. Pyre",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "New Mauville",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Petalburg City",
-    "pokemon": [
-      "Corphish",
-      "Goldeen",
-      "Magikarp",
-      "Marill"
-    ]
+    "pokemon": ["Corphish", "Goldeen", "Magikarp", "Marill"]
   },
   {
     "routeName": "Petalburg Wood",
@@ -440,90 +230,46 @@
   },
   {
     "routeName": "Rustboro City",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Rusturf Tunnel",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Safari Zone",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Seafloor Cavern",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Shoal Cave",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Sky Pillar",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Sky Pillar",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Slateport City",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Slateport City",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Verdanturf Town",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   },
   {
     "routeName": "Victory Road",
-    "pokemon": [
-      "Glalie",
-      "Sealeo",
-      "Walrein"
-    ]
+    "pokemon": ["Glalie", "Sealeo", "Walrein"]
   }
 ]

@@ -6,7 +6,9 @@ import UIKit
 struct RoutesView: View {
 	let game: GameId
 	@State private var routes: [RouteEntry] = []
-	@State private var selectedNote: RoutePokemonNote?
+	@State private var visibleNoteText: String?
+	@State private var visibleNoteTargetId: String?
+	@State private var noteDisplayToken = 0
 	private let topContentInset: CGFloat = 56
 
 	private let spriteColumns = [
@@ -30,13 +32,19 @@ struct RoutesView: View {
 								.font(.system(size: 18, weight: .semibold))
 
 							LazyVGrid(columns: spriteColumns, alignment: .leading, spacing: 8) {
-								ForEach(Array(route.pokemon.enumerated()), id: \.offset) { _, pokemon in
+								ForEach(route.pokemon.indices, id: \.self) { index in
+									let pokemon = route.pokemon[index]
+									let targetId = "\(route.id.uuidString)-\(index)"
 									Button {
-										showNoteIfAvailable(for: pokemon)
+										showNoteIfAvailable(for: pokemon, targetId: targetId)
 									} label: {
 										RouteSprite(name: pokemon.name, size: 56)
 									}
 									.buttonStyle(.plain)
+									.anchorPreference(
+										key: RouteNoteAnchorKey.self,
+										value: .bounds
+									) { [targetId: $0] }
 								}
 							}
 						}
@@ -47,33 +55,75 @@ struct RoutesView: View {
 				.padding(.bottom, 24)
 			}
 		}
+		.overlayPreferenceValue(RouteNoteAnchorKey.self) { anchors in
+			GeometryReader { proxy in
+				if let targetId = visibleNoteTargetId,
+				   let visibleNoteText,
+				   let anchor = anchors[targetId] {
+					let frame = proxy[anchor]
+					RouteInlineNote(text: visibleNoteText)
+						.position(x: frame.midX, y: frame.minY - 8)
+				}
+			}
+		}
 		.onAppear(perform: load)
 		.onChange(of: game.rawValue) { _, _ in load() }
-		.alert(item: $selectedNote) { note in
-			Alert(
-				title: Text(note.name),
-				message: Text(note.notes),
-				dismissButton: .default(Text("OK"))
-			)
-		}
 	}
 
 	private func load() {
 		routes = RouteDataStore.routes(for: game)
 	}
 
-	private func showNoteIfAvailable(for pokemon: RoutePokemon) {
+	private func showNoteIfAvailable(for pokemon: RoutePokemon, targetId: String) {
 		let trimmed = pokemon.notes?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
 		guard !trimmed.isEmpty else { return }
-		selectedNote = RoutePokemonNote(name: pokemon.name, notes: trimmed)
+		noteDisplayToken += 1
+		let token = noteDisplayToken
+		visibleNoteText = trimmed
+		visibleNoteTargetId = targetId
+		DispatchQueue.main.asyncAfter(deadline: .now() + 2.4) {
+			guard token == noteDisplayToken else { return }
+			visibleNoteText = nil
+			visibleNoteTargetId = nil
+		}
+	}
+}
+
+private struct RouteInlineNote: View {
+	let text: String
+
+	var body: some View {
+		Text(text)
+			.font(.footnote)
+			.foregroundStyle(.primary)
+			.lineLimit(2)
+			.multilineTextAlignment(.center)
+			.padding(.horizontal, 3)
+			.padding(.vertical, 2)
+			.fixedSize(horizontal: true, vertical: true)
+			.background(
+				RoundedRectangle(cornerRadius: 4, style: .continuous)
+					.fill(Color(.systemBackground))
+					.overlay(
+						RoundedRectangle(cornerRadius: 4, style: .continuous)
+							.stroke(Color.primary.opacity(0.18), lineWidth: 1)
+					)
+			)
+	}
+}
+
+private struct RouteNoteAnchorKey: PreferenceKey {
+	static var defaultValue: [String: Anchor<CGRect>] = [:]
+
+	static func reduce(value: inout [String: Anchor<CGRect>], nextValue: () -> [String: Anchor<CGRect>]) {
+		value.merge(nextValue(), uniquingKeysWith: { _, new in new })
 	}
 }
 
 private struct RouteEntry: Identifiable, Decodable {
+	let id = UUID()
 	let routeName: String
 	let pokemon: [RoutePokemon]
-
-	var id: String { routeName }
 
 	enum CodingKeys: String, CodingKey {
 		case routeName
@@ -84,13 +134,28 @@ private struct RouteEntry: Identifiable, Decodable {
 	init(from decoder: Decoder) throws {
 		let container = try decoder.container(keyedBy: CodingKeys.self)
 		routeName = try container.decode(String.self, forKey: .routeName)
-		let decoded =
-			(try? container.decodeIfPresent([RoutePokemon].self, forKey: .pokemon)) ??
-			(try? container.decodeIfPresent([RoutePokemon].self, forKey: .pokemonNames)) ??
-			(try? container.decodeIfPresent([String].self, forKey: .pokemon))?.map { RoutePokemon(name: $0, notes: nil) } ??
-			(try? container.decodeIfPresent([String].self, forKey: .pokemonNames))?.map { RoutePokemon(name: $0, notes: nil) } ??
-			[]
+		let decoded = Self.decodePokemon(from: container)
 		pokemon = decoded.sorted(by: Self.pokemonSort)
+	}
+
+	private static func decodePokemon(from container: KeyedDecodingContainer<CodingKeys>) -> [RoutePokemon] {
+		if let pokemon = try? container.decodeIfPresent([RoutePokemon].self, forKey: .pokemon) {
+			return pokemon ?? []
+		}
+
+		if let pokemonNames = try? container.decodeIfPresent([RoutePokemon].self, forKey: .pokemonNames) {
+			return pokemonNames ?? []
+		}
+
+		if let names = try? container.decodeIfPresent([String].self, forKey: .pokemon) {
+			return (names ?? []).map { RoutePokemon(name: $0, notes: nil) }
+		}
+
+		if let names = try? container.decodeIfPresent([String].self, forKey: .pokemonNames) {
+			return (names ?? []).map { RoutePokemon(name: $0, notes: nil) }
+		}
+
+		return []
 	}
 
 	private static func pokemonSort(lhs: RoutePokemon, rhs: RoutePokemon) -> Bool {
@@ -120,15 +185,10 @@ private struct RoutePokemon: Decodable, Hashable {
 		}
 
 		let container = try decoder.container(keyedBy: CodingKeys.self)
-		name = try container.decode(String.self, forKey: .name)
-		notes = try container.decodeIfPresent(String.self, forKey: .notes)
+		let name = try container.decode(String.self, forKey: .name)
+		let notes = try container.decodeIfPresent(String.self, forKey: .notes)
+		self.init(name: name, notes: notes)
 	}
-}
-
-private struct RoutePokemonNote: Identifiable {
-	let id = UUID()
-	let name: String
-	let notes: String
 }
 
 private enum RouteDataStore {
