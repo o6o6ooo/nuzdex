@@ -1,4 +1,7 @@
 import SwiftUI
+#if canImport(UIKit)
+import UIKit
+#endif
 
 struct BattlesView: View {
 	let game: GameId
@@ -139,7 +142,7 @@ private struct BattleEntryCard: View {
 private struct BattlePokemonCard: View {
 	let pokemon: PartyPokemon
 
-	private let imageSlotWidth: CGFloat = 44
+	private let imageSlotWidth: CGFloat = 92
 	private let movesColumnGap: CGFloat = 34
 
 	var body: some View {
@@ -181,8 +184,7 @@ private struct BattlePokemonCard: View {
 					}
 				}
 
-				Color.clear
-					.frame(width: imageSlotWidth)
+				BattlePokemonSprite(name: pokemon.name, width: imageSlotWidth)
 			}
 
 			if let heldItem = pokemon.heldItem {
@@ -199,6 +201,49 @@ private struct BattlePokemonCard: View {
 		)
 	}
 }
+
+private struct BattlePokemonSprite: View {
+	let name: String
+	let width: CGFloat
+
+	var body: some View {
+#if canImport(UIKit)
+		Group {
+			if let image = BattleSpriteStore.uiImage(for: name) {
+				Image(uiImage: image)
+					.resizable()
+					.interpolation(.none)
+					.scaledToFit()
+			} else {
+				Color.clear
+			}
+		}
+		.frame(width: width, height: width, alignment: .bottomTrailing)
+#else
+		Color.clear
+			.frame(width: width, height: width, alignment: .bottomTrailing)
+#endif
+	}
+}
+
+#if canImport(UIKit)
+private enum BattleSpriteStore {
+	static func uiImage(for pokemonName: String) -> UIImage? {
+		let resource = normalizedResourceName(from: pokemonName)
+		let url =
+			Bundle.main.url(forResource: resource, withExtension: "png", subdirectory: "data/sprites") ??
+			Bundle.main.url(forResource: resource, withExtension: "png")
+		guard let url else { return nil }
+		return UIImage(contentsOfFile: url.path)
+	}
+
+	private static func normalizedResourceName(from name: String) -> String {
+		let lowered = name.lowercased()
+		let kept = lowered.unicodeScalars.filter { CharacterSet.alphanumerics.contains($0) }
+		return String(String.UnicodeScalarView(kept))
+	}
+}
+#endif
 
 private struct BattleMoveCell: View {
 	let move: MoveInfo
