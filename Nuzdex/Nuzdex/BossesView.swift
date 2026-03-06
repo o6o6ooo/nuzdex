@@ -3,22 +3,24 @@ import SwiftUI
 struct BossesView: View {
 	let game: GameId
 	@State private var battles: [BossBattle] = []
+	private let topContentInset: CGFloat = 56
 
 	var body: some View {
 		ScrollView {
 			if battles.isEmpty {
 				ContentUnavailableView(
 					"No Boss Data Yet",
-					systemImage: "tray",
-					description: Text("Add JSON files under data for \(game.rawValue).")
-				)
-				.padding(.top, 40)
+						systemImage: "tray",
+						description: Text("Add JSON files under data for \(game.rawValue).")
+					)
+					.padding(.top, topContentInset + 24)
 			} else {
 				LazyVStack(spacing: 16) {
 					ForEach(battles) { battle in
 						BossBattleCard(battle: battle)
 					}
 				}
+				.padding(.top, topContentInset)
 				.padding(.horizontal, 14)
 				.padding(.bottom, 20)
 			}
