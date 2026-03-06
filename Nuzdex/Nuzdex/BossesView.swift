@@ -107,6 +107,10 @@ private struct PokemonCard: View {
 					.font(.title3)
 					.fontWeight(.bold)
 
+				Text("\(pokemon.baseStats)")
+					.font(.system(size: 17, weight: .regular))
+					.monospacedDigit()
+
 				Spacer(minLength: 8)
 				ForEach(pokemon.types, id: \.rawValue) { type in
 					TypeBadge(type: type, size: 30)
@@ -137,8 +141,6 @@ private struct PokemonCard: View {
 					}
 				}
 
-			Text("Base \(pokemon.baseStats)")
-				.font(.headline)
 			if let heldItem = pokemon.heldItem {
 				Label(heldItem, systemImage: "shippingbox")
 					.font(.subheadline)
@@ -160,9 +162,8 @@ private struct MoveCell: View {
 	var body: some View {
 		VStack(alignment: .leading, spacing: 7) {
 			Text(move.name)
-				.font(.headline)
+				.font(.system(size: 14, weight: .regular))
 				.lineLimit(1)
-				.minimumScaleFactor(0.85)
 
 			HStack(spacing: 6) {
 				Image(systemName: move.category.symbol)
@@ -174,7 +175,7 @@ private struct MoveCell: View {
 
 				if let power = move.power {
 					Text("\(power)")
-						.font(.headline)
+						.font(.system(size: 12, weight: .regular))
 						.monospacedDigit()
 						.lineLimit(1)
 						.fixedSize(horizontal: true, vertical: false)
