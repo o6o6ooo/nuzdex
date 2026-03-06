@@ -11,9 +11,57 @@ struct BossBattle: Identifiable, Decodable {
 	let battleLabel: String
 	let primaryType: PokeType?
 	let levelCap: Int
+	let starterBranch: String?
 	let party: [PartyPokemon]
 
 	var id: String { "\(game.rawValue)-\(trainerId)" }
+}
+
+enum BattleDataStore {
+	static func battles(for game: GameId, starterBranch: String) -> [BossBattle] {
+		let battles = loadAllJSONBattles(for: game).filter { battle in
+			battle.game == game && (battle.category == .rival || battle.category == .evilTeam || battle.category == .other)
+		}
+
+		let filtered = battles.filter { battle in
+			guard let branch = battle.starterBranch else { return true }
+			return branch == starterBranch
+		}
+
+		return filtered.sorted(by: battleSort)
+	}
+
+	private static func loadAllJSONBattles(for game: GameId) -> [BossBattle] {
+		let rootURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
+		let extraURLs: [URL]
+		switch game {
+		case .emerald:
+			let battleURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/battles") ?? []
+			extraURLs = battleURLs
+		default:
+			extraURLs = []
+		}
+
+		let urls = Array(Set(rootURLs + extraURLs))
+			.sorted { $0.lastPathComponent < $1.lastPathComponent }
+		return urls.compactMap(decode)
+	}
+
+	private static func decode(url: URL) -> BossBattle? {
+		do {
+			let data = try Data(contentsOf: url)
+			return try JSONDecoder().decode(BossBattle.self, from: data)
+		} catch {
+			print("Failed to load \(url.lastPathComponent): \(error)")
+			return nil
+		}
+	}
+
+	private static func battleSort(lhs: BossBattle, rhs: BossBattle) -> Bool {
+		if lhs.levelCap != rhs.levelCap { return lhs.levelCap < rhs.levelCap }
+		if lhs.battleLabel != rhs.battleLabel { return lhs.battleLabel < rhs.battleLabel }
+		return lhs.trainerName < rhs.trainerName
+	}
 }
 
 enum BattleCategory: String, Decodable {
