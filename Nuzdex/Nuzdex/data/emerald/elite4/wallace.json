@@ -1,0 +1,209 @@
+{
+  "game": "Emerald",
+  "category": "eliteFour",
+  "trainerId": "wallace-champion",
+  "trainerName": "Wallace",
+  "battleLabel": "Champion",
+  "primaryType": "water",
+  "levelCap": 58,
+  "party": [
+    {
+      "baseStats": 500,
+      "name": "Wailord",
+      "level": 57,
+      "types": ["water"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rain Dance",
+          "category": "status",
+          "type": "water",
+          "power": null
+        },
+        {
+          "name": "Water Spout",
+          "category": "special",
+          "type": "water",
+          "power": 225
+        },
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Tentacruel",
+      "level": 55,
+      "types": ["water", "poison"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 165
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 135
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 480,
+      "name": "Ludicolo",
+      "level": 56,
+      "types": ["water", "grass"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 113
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 468,
+      "name": "Whiscash",
+      "level": 56,
+      "types": ["water", "ground"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 150
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "physical",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    },
+    {
+      "baseStats": 540,
+      "name": "Gyarados",
+      "level": 56,
+      "types": ["water", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "physical",
+          "type": "normal",
+          "power": 150
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        }
+      ]
+    },
+    {
+      "baseStats": 540,
+      "name": "Milotic",
+      "level": 58,
+      "types": ["water"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

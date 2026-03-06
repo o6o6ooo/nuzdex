@@ -1,0 +1,176 @@
+{
+  "game": "Emerald",
+  "category": "eliteFour",
+  "trainerId": "sidney-e4-1",
+  "trainerName": "Sidney",
+  "battleLabel": "Elite 4 - 1",
+  "primaryType": "dark",
+  "levelCap": 46,
+  "party": [
+    {
+      "baseStats": 420,
+      "name": "Mightyena",
+      "level": 46,
+      "types": ["dark"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": "null"
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "baseStats": 480,
+      "name": "Shiftry",
+      "level": 48,
+      "types": ["grass", "dark"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Extrasensory",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 475,
+      "name": "Cacturne",
+      "level": "46",
+      "types": ["grass", "dark"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Feint Attack",
+          "category": "special",
+          "type": "dark",
+          "power": 90
+        },
+        {
+          "name": "Needle Arm",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Cotton Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 468,
+      "name": "Crawdaunt",
+      "level": 48,
+      "types": ["water", "dark"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        },
+        {
+          "name": "Sword Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Strength",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 465,
+      "name": "Absol",
+      "level": 49,
+      "types": ["dark"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    }
+  ]
+}
