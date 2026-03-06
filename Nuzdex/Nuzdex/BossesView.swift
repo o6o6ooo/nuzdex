@@ -163,7 +163,7 @@ private struct MoveCell: View {
 					.frame(width: 22, height: 22)
 					.background(Circle().fill(move.category.tint))
 
-				TypeBadge(type: move.type, size: 24)
+				TypeBadge(type: move.type, size: 22)
 
 				if let power = move.power {
 					Text("\(power)")
