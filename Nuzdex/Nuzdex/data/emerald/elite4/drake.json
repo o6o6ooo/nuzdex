@@ -1,0 +1,176 @@
+{
+  "game": "Emerald",
+  "category": "eliteFour",
+  "trainerId": "drake-e4-4",
+  "trainerName": "Drake",
+  "battleLabel": "Elite 4 - 4",
+  "primaryType": "dragon",
+  "levelCap": 55,
+  "party": [
+    {
+      "baseStats": 420,
+      "name": "Shelgon",
+      "level": 52,
+      "types": ["dragon"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Dragon Claw",
+          "category": "special",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Altaria",
+      "level": 54,
+      "types": ["dragon", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Dragon Breath",
+          "category": "special",
+          "type": "dragon",
+          "power": 90
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 540,
+      "name": "Kingdra",
+      "level": 53,
+      "types": ["water", "dragon"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "SmokeScreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        }
+      ]
+    },
+    {
+      "baseStats": 520,
+      "name": "Flygon",
+      "level": 53,
+      "types": ["ground", "dragon"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Crunch",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Dragon Breath",
+          "category": "special",
+          "type": "dragon",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 150
+        }
+      ]
+    },
+    {
+      "baseStats": 600,
+      "name": "Salamence",
+      "level": 55,
+      "types": ["dragon", "flying"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Dragon Claw",
+          "category": "special",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Crunch",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

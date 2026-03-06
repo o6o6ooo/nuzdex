@@ -1,0 +1,176 @@
+{
+  "game": "Emerald",
+  "category": "eliteFour",
+  "trainerId": "phoebe-e4-2",
+  "trainerName": "Phoebe",
+  "battleLabel": "Elite 4 - 2",
+  "primaryType": "ghost",
+  "levelCap": 51,
+  "party": [
+    {
+      "baseStats": 455,
+      "name": "Dusclops",
+      "level": 48,
+      "types": ["ghost"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shadow Punch",
+          "category": "physical",
+          "type": "ghost",
+          "power": 90
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 455,
+      "name": "Banette",
+      "level": 49,
+      "types": ["ghost"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "physical",
+          "type": "ghost",
+          "power": 120
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Grudge",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Feint Attack",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 380,
+      "name": "Sableye",
+      "level": 50,
+      "types": ["dark", "ghost"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "physical",
+          "type": "ghost",
+          "power": 120
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Night Shade",
+          "category": "physical",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Feint Attack",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 455,
+      "name": "Banette",
+      "level": 49,
+      "types": ["ghost"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "physical",
+          "type": "ghost",
+          "power": 120
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 455,
+      "name": "Dusclops",
+      "level": 51,
+      "types": ["ghost"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "physical",
+          "type": "ghost",
+          "power": 120
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}
