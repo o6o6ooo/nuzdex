@@ -15,7 +15,7 @@ struct ContentView: View {
 					.tabItem { Label("Routes", systemImage: "mappin.and.ellipse") }
 				
 				BossesView(game: selectedGame)
-					.tabItem { Label("Bosses", systemImage: "person.3") }
+					.tabItem { Label("Bosses", systemImage: "star.hexagon.fill") }
 				
 				BattlesView(game: selectedGame)
 					.tabItem { Label("Battles", systemImage: "person.line.dotted.person.fill") }
