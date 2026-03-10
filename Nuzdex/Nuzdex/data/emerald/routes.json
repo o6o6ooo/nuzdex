@@ -1,223 +1,585 @@
 [
   {
     "routeName": "Route 101",
-    "pokemon": ["Poochyena", "Wumple", "Zigzagoon"]
+    "pokemon": [
+      "Poochyena",
+      "Wurmple",
+      "Zigzagoon"
+    ]
   },
   {
     "routeName": "Route 102",
-    "pokemon": ["Lotad", "Poochyena", "Ralts", "Seedot", "Wumple", "Zigzagoon"]
+    "pokemon": [
+      "Corphish",
+      "Goldeen",
+      "Lotad",
+      "Magikarp",
+      "Marill",
+      "Poochyena",
+      "Ralts",
+      "Seedot",
+      "Wurmple",
+      "Zigzagoon"
+    ]
   },
   {
     "routeName": "Route 103",
     "pokemon": [
-      { "name": "Magikarp", "notes": "Old Rod" },
-      { "name": "Pelipper", "notes": "Surf" },
-      { "name": "Sharpedo", "notes": "Super Rod" },
-      { "name": "Tentacool", "notes": "Old Rod" },
-      { "name": "Wingull", "notes": "Surf" },
+      "Magikarp",
+      "Pelipper",
       "Poochyena",
+      "Sharpedo",
+      "Tentacool",
       "Wailmer",
+      "Wingull",
       "Zigzagoon"
     ]
   },
   {
     "routeName": "Route 104",
-    "pokemon": ["Marill", "Poochyena", "Taillow", "Wingull", "Wumple"]
+    "pokemon": [
+      "Magikarp",
+      "Marill",
+      "Pelipper",
+      "Poochyena",
+      "Taillow",
+      "Wingull",
+      "Wurmple"
+    ]
   },
   {
     "routeName": "Route 105",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 106",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 107",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 108",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 109",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 110",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Electrike",
+      "Gulpin",
+      "Magikarp",
+      "Minun",
+      "Oddish",
+      "Pelipper",
+      "Plusle",
+      "Poochyena",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 111",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
-  },
-  {
-    "routeName": "Route 111 Desert",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Baltoy",
+      "Barboach",
+      "Cacnea",
+      "Geodude",
+      "Goldeen",
+      "Magikarp",
+      "Marill",
+      "Sandshrew",
+      "Trapinch"
+    ]
   },
   {
     "routeName": "Route 112",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Marill",
+      "Numel"
+    ]
   },
   {
     "routeName": "Route 113",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Skarmory",
+      "Slugma",
+      "Spinda"
+    ]
   },
   {
     "routeName": "Route 114",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Barboach",
+      "Geodude",
+      "Goldeen",
+      "Lombre",
+      "Lotad",
+      "Magikarp",
+      "Marill",
+      "Nuzleaf",
+      "Seviper",
+      "Swablu"
+    ]
   },
   {
     "routeName": "Route 115",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Jigglypuff",
+      "Magikarp",
+      "Pelipper",
+      "Swablu",
+      "Swellow",
+      "Taillow",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 116",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Abra",
+      "Nincada",
+      "Poochyena",
+      "Skitty",
+      "Taillow",
+      "Whismur"
+    ]
   },
   {
     "routeName": "Route 117",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
-  },
-  {
-    "routeName": "Route 117",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Corphish",
+      "Goldeen",
+      "Illumise",
+      "Magikarp",
+      "Marill",
+      "Oddish",
+      "Poochyena",
+      "Seedot",
+      "Volbeat"
+    ]
   },
   {
     "routeName": "Route 118",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Carvanha",
+      "Electrike",
+      "Goldeen",
+      "Kecleon",
+      "Linoone",
+      "Magikarp",
+      "Manectric",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wingull",
+      "Zigzagoon"
+    ]
   },
   {
     "routeName": "Route 119",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Carvanha",
+      "Castform",
+      "Feebas",
+      "Goldeen",
+      "Kecleon",
+      "Linoone",
+      "Magikarp",
+      "Oddish",
+      "Pelipper",
+      "Tentacool",
+      "Tropius",
+      "Wingull",
+      "Zigzagoon"
+    ]
   },
   {
     "routeName": "Route 120",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Absol",
+      "Barboach",
+      "Goldeen",
+      "Kecleon",
+      "Magikarp",
+      "Marill",
+      "Mightyena",
+      "Oddish",
+      "Poochyena",
+      "Seedot"
+    ]
   },
   {
     "routeName": "Route 121",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Gloom",
+      "Kecleon",
+      "Magikarp",
+      "Mightyena",
+      "Oddish",
+      "Pelipper",
+      "Poochyena",
+      "Shuppet",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 122",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 123",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Gloom",
+      "Kecleon",
+      "Magikarp",
+      "Mightyena",
+      "Oddish",
+      "Pelipper",
+      "Poochyena",
+      "Shuppet",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 124",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Chinchou",
+      "Clamperl",
+      "Magikarp",
+      "Pelipper",
+      "Relicanth",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 125",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 126",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Chinchou",
+      "Clamperl",
+      "Magikarp",
+      "Pelipper",
+      "Relicanth",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 127",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 128",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Corsola",
+      "Luvdisc",
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 129",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wailord",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 130",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 131",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Route 132",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Horsea",
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 133",
+    "pokemon": [
+      "Horsea",
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 134",
+    "pokemon": [
+      "Horsea",
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Abandoned Ship",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Tentacool",
+      "Tentacruel"
+    ]
   },
   {
     "routeName": "Cave of Origin",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Golbat",
+      "Mawile",
+      "Sableye",
+      "Zubat"
+    ]
   },
   {
     "routeName": "Dewford Town",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Tentacool",
+      "Wailmer"
+    ]
   },
   {
-    "routeName": "Fallarbor Town",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "routeName": "Ever Grande City",
+    "pokemon": [
+      "Corsola",
+      "Luvdisc",
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Fiery Path",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Grimer",
+      "Koffing",
+      "Machop",
+      "Numel",
+      "Slugma",
+      "Torkoal"
+    ]
   },
   {
     "routeName": "Fortree City",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Plusle",
+      "Skitty"
+    ]
   },
   {
     "routeName": "Granite Cave",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Abra",
+      "Aron",
+      "Geodude",
+      "Makuhita",
+      "Nosepass",
+      "Sableye",
+      "Zubat"
+    ]
   },
   {
     "routeName": "Jagged Pass",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Machop",
+      "Numel",
+      "Spoink"
+    ]
   },
   {
     "routeName": "Lavaridge Town",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Wynaut"
+    ]
   },
   {
     "routeName": "Lilycove City",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
-  },
-  {
-    "routeName": "Littleroot Town",
-    "pokemon": ["Mudkip", "Torchic", "Treeko"]
-  },
-  {
-    "routeName": "Maubille City",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Staryu",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Meteor Falls",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Bagon",
+      "Barboach",
+      "Golbat",
+      "Goldeen",
+      "Magikarp",
+      "Solrock",
+      "Whiscash",
+      "Zubat"
+    ]
   },
   {
     "routeName": "Mossdeep City",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
-  },
-  {
-    "routeName": "Mount Chimmney",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Beldum",
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Mt. Pyre",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Chimecho",
+      "Duskull",
+      "Shuppet",
+      "Vulpix",
+      "Wingull"
+    ]
   },
   {
     "routeName": "New Mauville",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Electrode",
+      "Magnemite",
+      "Magneton",
+      "Voltorb"
+    ]
+  },
+  {
+    "routeName": "Pacifidlog Town",
+    "pokemon": [
+      "Horsea",
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
     "routeName": "Petalburg City",
-    "pokemon": ["Corphish", "Goldeen", "Magikarp", "Marill"]
+    "pokemon": [
+      "Corphish",
+      "Goldeen",
+      "Magikarp",
+      "Marill"
+    ]
   },
   {
-    "routeName": "Petalburg Wood",
+    "routeName": "Petalburg Woods",
     "pokemon": [
       "Cascoon",
       "Poochyena",
@@ -225,51 +587,120 @@
       "Silcoon",
       "Slakoth",
       "Taillow",
-      "Wumple"
+      "Wurmple"
     ]
   },
   {
     "routeName": "Rustboro City",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Anorith",
+      "Lileep",
+      "Seedot"
+    ]
   },
   {
     "routeName": "Rusturf Tunnel",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Whismur"
+    ]
   },
   {
     "routeName": "Safari Zone",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Dodrio",
+      "Doduo",
+      "Geodude",
+      "Gloom",
+      "Goldeen",
+      "Golduck",
+      "Magikarp",
+      "Marill",
+      "Oddish",
+      "Pikachu",
+      "Pinsir",
+      "Psyduck",
+      "Rhyhorn",
+      "Seaking"
+    ]
   },
   {
     "routeName": "Seafloor Cavern",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Golbat",
+      "Magikarp",
+      "Tentacool",
+      "Wailmer",
+      "Zubat"
+    ]
   },
   {
     "routeName": "Shoal Cave",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Golbat",
+      "Magikarp",
+      "Snorunt",
+      "Spheal",
+      "Tentacool",
+      "Wailmer",
+      "Zubat"
+    ]
   },
   {
     "routeName": "Sky Pillar",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
-  },
-  {
-    "routeName": "Sky Pillar",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Altaria",
+      "Banette",
+      "Claydol",
+      "Golbat",
+      "Sableye"
+    ]
   },
   {
     "routeName": "Slateport City",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
   },
   {
-    "routeName": "Slateport City",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "routeName": "Sootopolis City",
+    "pokemon": [
+      "Gyarados",
+      "Magikarp",
+      "Tentacool"
+    ]
   },
   {
-    "routeName": "Verdanturf Town",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "routeName": "Team Magma Hideout",
+    "pokemon": [
+      "Electrode",
+      "Geodude",
+      "Graveler",
+      "Torkoal"
+    ]
   },
   {
     "routeName": "Victory Road",
-    "pokemon": ["Glalie", "Sealeo", "Walrein"]
+    "pokemon": [
+      "Aron",
+      "Barboach",
+      "Geodude",
+      "Golbat",
+      "Goldeen",
+      "Graveler",
+      "Hariyama",
+      "Lairon",
+      "Loudred",
+      "Magikarp",
+      "Makuhita",
+      "Mawile",
+      "Sableye",
+      "Whiscash",
+      "Whismur",
+      "Zubat"
+    ]
   }
 ]
