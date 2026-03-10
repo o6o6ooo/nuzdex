@@ -48,7 +48,7 @@ struct BattlesView: View {
 	private var starterPicker: some View {
 		VStack(spacing: 14) {
 			Text("Starter Type")
-				.font(.system(size: 18, weight: .semibold))
+				.font(.headline.weight(.semibold))
 
 			HStack(spacing: 18) {
 				ForEach(StarterType.allCases, id: \.rawValue) { starter in
@@ -56,7 +56,7 @@ struct BattlesView: View {
 						selectedStarterRaw = starter.rawValue
 					} label: {
 						Text(starter.shortCode)
-							.font(.system(size: 22, weight: .bold))
+							.font(.title3.weight(.bold))
 							.foregroundStyle(.white)
 							.frame(width: 52, height: 52)
 							.background(Circle().fill(Color(hex: starter.bubbleHex)))
@@ -67,7 +67,7 @@ struct BattlesView: View {
 							.overlay(alignment: .topTrailing) {
 								if selectedStarter == starter {
 									Image(systemName: "checkmark.circle.fill")
-										.font(.system(size: 14))
+										.font(.caption)
 										.foregroundStyle(.white, .blue)
 										.offset(x: 3, y: -3)
 								}
@@ -107,7 +107,7 @@ private struct BattleEntryCard: View {
 						.padding(.top, 6)
 
 					Text("\(battle.levelCap)")
-						.font(.system(size: 34, weight: .bold, design: .rounded))
+						.font(.largeTitle.weight(.bold))
 						.monospacedDigit()
 
 					VStack(alignment: .leading, spacing: 0) {
@@ -115,7 +115,7 @@ private struct BattleEntryCard: View {
 							.font(.title2)
 							.fontWeight(.bold)
 						Text(battle.battleLabel)
-							.font(.system(size: 13, weight: .regular))
+							.font(.footnote)
 							.foregroundStyle(.secondary)
 					}
 
@@ -152,7 +152,7 @@ private struct BattlePokemonCard: View {
 		VStack(alignment: .leading, spacing: 10) {
 			HStack(alignment: .firstTextBaseline, spacing: 12) {
 				Text("\(pokemon.level)")
-					.font(.system(size: 24, weight: .heavy, design: .rounded))
+					.font(.title.weight(.bold))
 					.monospacedDigit()
 
 				Text(pokemon.name)
@@ -160,7 +160,7 @@ private struct BattlePokemonCard: View {
 					.fontWeight(.bold)
 
 				Text("\(pokemon.baseStats)")
-					.font(.system(size: 17, weight: .regular))
+					.font(.body)
 					.monospacedDigit()
 
 				Spacer(minLength: 8)
@@ -251,7 +251,7 @@ private struct BattleMoveCell: View {
 	var body: some View {
 		VStack(alignment: .leading, spacing: 7) {
 			Text(move.name)
-				.font(.system(size: 14, weight: .medium))
+				.font(.subheadline.weight(.medium))
 				.lineLimit(1)
 
 			HStack(spacing: 6) {
@@ -264,7 +264,7 @@ private struct BattleMoveCell: View {
 
 				if let power = move.power {
 					Text("\(power)")
-						.font(.system(size: 12, weight: .regular))
+						.font(.caption)
 						.monospacedDigit()
 						.lineLimit(1)
 						.fixedSize(horizontal: true, vertical: false)

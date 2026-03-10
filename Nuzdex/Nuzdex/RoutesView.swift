@@ -29,7 +29,7 @@ struct RoutesView: View {
 					ForEach(routes) { route in
 						VStack(alignment: .leading, spacing: 14) {
 							Text(route.routeName)
-								.font(.system(size: 18, weight: .semibold))
+								.font(.headline.weight(.semibold))
 
 							LazyVGrid(columns: spriteColumns, alignment: .leading, spacing: 8) {
 								ForEach(route.pokemon.indices, id: \.self) { index in

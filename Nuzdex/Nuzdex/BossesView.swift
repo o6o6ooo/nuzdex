@@ -57,7 +57,7 @@ private struct BossBattleCard: View {
 						.padding(.top, 6)
 
 					Text("\(battle.levelCap)")
-						.font(.system(size: 34, weight: .bold, design: .rounded))
+						.font(.largeTitle.weight(.bold))
 						.monospacedDigit()
 
 					VStack(alignment: .leading, spacing: 0) {
@@ -65,7 +65,7 @@ private struct BossBattleCard: View {
 							.font(.title2)
 							.fontWeight(.bold)
 						Text(battle.battleLabel)
-							.font(.system(size: 13, weight: .regular))
+							.font(.footnote)
 							.foregroundStyle(.secondary)
 					}
 
@@ -102,7 +102,7 @@ private struct PokemonCard: View {
 		VStack(alignment: .leading, spacing: 10) {
 			HStack(alignment: .firstTextBaseline, spacing: 12) {
 				Text("\(pokemon.level)")
-					.font(.system(size: 24, weight: .heavy, design: .rounded))
+					.font(.title.weight(.bold))
 					.monospacedDigit()
 
 				Text(pokemon.name)
@@ -110,7 +110,7 @@ private struct PokemonCard: View {
 					.fontWeight(.bold)
 
 				Text("\(pokemon.baseStats)")
-					.font(.system(size: 17, weight: .regular))
+					.font(.body)
 					.monospacedDigit()
 
 				Spacer(minLength: 8)
@@ -201,7 +201,7 @@ private struct MoveCell: View {
 	var body: some View {
 		VStack(alignment: .leading, spacing: 7) {
 			Text(move.name)
-				.font(.system(size: 14, weight: .medium))
+				.font(.subheadline.weight(.medium))
 				.lineLimit(1)
 
 			HStack(spacing: 6) {
@@ -214,7 +214,7 @@ private struct MoveCell: View {
 
 				if let power = move.power {
 					Text("\(power)")
-						.font(.system(size: 12, weight: .regular))
+						.font(.caption)
 						.monospacedDigit()
 						.lineLimit(1)
 						.fixedSize(horizontal: true, vertical: false)
