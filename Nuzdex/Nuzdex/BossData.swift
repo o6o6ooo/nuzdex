@@ -18,6 +18,7 @@ struct BossBattle: Identifiable, Decodable {
 }
 
 enum BattleDataStore {
+	@MainActor
 	static func battles(for game: GameId, starterBranch: String) -> [BossBattle] {
 		let battles = loadAllJSONBattles(for: game).filter { battle in
 			battle.game == game && (battle.category == .rival || battle.category == .evilTeam || battle.category == .other)
@@ -31,6 +32,7 @@ enum BattleDataStore {
 		return filtered.sorted(by: battleSort)
 	}
 
+	@MainActor
 	private static func loadAllJSONBattles(for game: GameId) -> [BossBattle] {
 		let rootURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
 		let extraURLs: [URL]
@@ -187,6 +189,7 @@ enum PokeType: String, Decodable {
 }
 
 enum BossDataStore {
+	@MainActor
 	static func battles(for game: GameId) -> [BossBattle] {
 		let battles = loadAllJSONBattles(for: game).filter { battle in
 			battle.game == game && (battle.category == .gymLeader || battle.category == .eliteFour)
@@ -194,6 +197,7 @@ enum BossDataStore {
 		return battles.sorted(by: battleSort)
 	}
 
+	@MainActor
 	private static func loadAllJSONBattles(for game: GameId) -> [BossBattle] {
 		let rootURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
 		let extraURLs: [URL]

@@ -140,25 +140,25 @@ private struct RouteEntry: Identifiable, Decodable {
 
 	private static func decodePokemon(from container: KeyedDecodingContainer<CodingKeys>) -> [RoutePokemon] {
 		if let pokemon = try? container.decodeIfPresent([RoutePokemon].self, forKey: .pokemon) {
-			return pokemon ?? []
+			return pokemon
 		}
 
 		if let pokemonNames = try? container.decodeIfPresent([RoutePokemon].self, forKey: .pokemonNames) {
-			return pokemonNames ?? []
+			return pokemonNames
 		}
 
 		if let names = try? container.decodeIfPresent([String].self, forKey: .pokemon) {
-			return (names ?? []).map { RoutePokemon(name: $0, notes: nil) }
+			return names.map { RoutePokemon(name: $0, notes: nil) }
 		}
 
 		if let names = try? container.decodeIfPresent([String].self, forKey: .pokemonNames) {
-			return (names ?? []).map { RoutePokemon(name: $0, notes: nil) }
+			return names.map { RoutePokemon(name: $0, notes: nil) }
 		}
 
 		return []
 	}
 
-	private static func pokemonSort(lhs: RoutePokemon, rhs: RoutePokemon) -> Bool {
+	nonisolated private static func pokemonSort(lhs: RoutePokemon, rhs: RoutePokemon) -> Bool {
 		lhs.name.localizedCaseInsensitiveCompare(rhs.name) == .orderedAscending
 	}
 }
@@ -223,14 +223,14 @@ private enum RouteDataStore {
 		}
 	}
 
-	private static func routeSort(lhs: RouteEntry, rhs: RouteEntry) -> Bool {
+	nonisolated private static func routeSort(lhs: RouteEntry, rhs: RouteEntry) -> Bool {
 		let l = routeNumber(from: lhs.routeName)
 		let r = routeNumber(from: rhs.routeName)
 		if l != r { return l < r }
 		return lhs.routeName.localizedCaseInsensitiveCompare(rhs.routeName) == .orderedAscending
 	}
 
-	private static func routeNumber(from routeName: String) -> Int {
+	nonisolated private static func routeNumber(from routeName: String) -> Int {
 		let digits = routeName.filter(\.isNumber)
 		return Int(digits) ?? Int.max
 	}
