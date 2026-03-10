@@ -1,0 +1,154 @@
+{
+  "game": "Leaf Green",
+  "category": "rival",
+  "trainerId": "rival-ssanne-water",
+  "trainerName": "Rival",
+  "battleLabel": "S.S. Anne",
+  "levelCap": 20,
+  "primaryType": null,
+  "starterBranch": "water",
+  "party": [
+    {
+      "baseStats": 349,
+      "name": "Pidgeotto",
+      "level": 19,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Gust",
+          "category": "physical",
+          "type": "flying",
+          "power": 40
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 400,
+      "name": "Kadabra",
+      "level": 18,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Teleport",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Confusion",
+          "category": "special",
+          "type": "psychic",
+          "power": 50
+        },
+        {
+          "name": "Kinesis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Disable",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 413,
+      "name": "Raticate",
+      "level": 16,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Hyper Fang",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 405,
+      "name": "Ivysaur",
+      "level": 20,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Vine Whip",
+          "category": "special",
+          "type": "grass",
+          "power": 45
+        },
+        {
+          "name": "Sleep Powder",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

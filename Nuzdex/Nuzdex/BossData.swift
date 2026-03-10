@@ -43,6 +43,9 @@ enum BattleDataStore {
 		case .fireRed:
 			let battleURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/firered/battles") ?? []
 			extraURLs = battleURLs
+		case .leafGreen:
+			let battleURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/leafgreen/battles") ?? []
+			extraURLs = battleURLs
 		default:
 			extraURLs = []
 		}
@@ -208,6 +211,14 @@ enum BossDataStore {
 		case .emerald:
 			let gymURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/gymleaders") ?? []
 			let eliteURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/elite4") ?? []
+			extraURLs = gymURLs + eliteURLs
+		case .fireRed:
+			let gymURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/firered/gymleaders") ?? []
+			let eliteURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/firered/elite4") ?? []
+			extraURLs = gymURLs + eliteURLs
+		case .leafGreen:
+			let gymURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/leafgreen/gymleaders") ?? []
+			let eliteURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/leafgreen/elite4") ?? []
 			extraURLs = gymURLs + eliteURLs
 		default:
 			extraURLs = []

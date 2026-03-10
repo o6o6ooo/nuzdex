@@ -1,0 +1,154 @@
+{
+  "game": "Leaf Green",
+  "category": "evilTeam",
+  "trainerId": "giovanni-silphco",
+  "trainerName": "Giovanni",
+  "battleLabel": "Silph Co.",
+  "levelCap": 41,
+  "primaryType": "ground",
+  "starterBranch": null,
+  "party": [
+    {
+      "baseStats": 365,
+      "name": "Nidorino",
+      "level": 37,
+      "types": [
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Horn Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 65
+        },
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        },
+        {
+          "name": "Helping Hand",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Fury Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        }
+      ]
+    },
+    {
+      "baseStats": 345,
+      "name": "Rhyhorn",
+      "level": 37,
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fury Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rock Blast",
+          "category": "physical",
+          "type": "rock",
+          "power": 25
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Kangaskhan",
+      "level": 35,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Rage",
+          "category": "physical",
+          "type": "normal",
+          "power": 20
+        },
+        {
+          "name": "Mega Punch",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 505,
+      "name": "Nidoqueen",
+      "level": 41,
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Double Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 30
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "game": "Leaf Green",
+  "category": "gymLeader",
+  "trainerId": "blaine-gym-7",
+  "trainerName": "Blaine",
+  "battleLabel": "7th Gym Leader - Cinnabar Island",
+  "primaryType": "fire",
+  "levelCap": 47,
+  "party": [
+    {
+      "baseStats": 350,
+      "name": "Growlithe",
+      "level": 42,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 410,
+      "name": "Ponyta",
+      "level": 40,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stomp",
+          "category": "physical",
+          "type": "normal",
+          "power": 65
+        },
+        {
+          "name": "Bounce",
+          "category": "physical",
+          "type": "flying",
+          "power": 85
+        },
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Fire Spin",
+          "category": "special",
+          "type": "fire",
+          "power": 35
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Rapidash",
+      "level": 42,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stomp",
+          "category": "physical",
+          "type": "normal",
+          "power": 65
+        },
+        {
+          "name": "Bounce",
+          "category": "physical",
+          "type": "flying",
+          "power": 85
+        },
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Fire Spin",
+          "category": "special",
+          "type": "fire",
+          "power": 35
+        }
+      ]
+    },
+    {
+      "baseStats": 555,
+      "name": "Arcanine",
+      "level": 47,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

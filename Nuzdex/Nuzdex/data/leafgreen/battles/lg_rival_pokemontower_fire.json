@@ -1,0 +1,189 @@
+{
+  "game": "Leaf Green",
+  "category": "rival",
+  "trainerId": "rival-pokemontower-fire",
+  "trainerName": "Rival",
+  "battleLabel": "Pokemon Tower",
+  "levelCap": 25,
+  "primaryType": null,
+  "starterBranch": "fire",
+  "party": [
+    {
+      "baseStats": 349,
+      "name": "Pidgeotto",
+      "level": 25,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Gust",
+          "category": "physical",
+          "type": "flying",
+          "power": 40
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Whirlwind",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 325,
+      "name": "Exeggcute",
+      "level": 22,
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Barrage",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Confusion",
+          "category": "special",
+          "type": "psychic",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 350,
+      "name": "Growlithe",
+      "level": 23,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 400,
+      "name": "Kadabra",
+      "level": 20,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Teleport",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Confusion",
+          "category": "special",
+          "type": "psychic",
+          "power": 50
+        },
+        {
+          "name": "Kinesis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Disable",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 405,
+      "name": "Wartortle",
+      "level": 25,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bubble",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Bite",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

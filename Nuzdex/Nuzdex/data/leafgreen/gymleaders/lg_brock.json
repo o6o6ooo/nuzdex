@@ -1,0 +1,71 @@
+{
+  "game": "Leaf Green",
+  "category": "gymLeader",
+  "trainerId": "brock-gym-1",
+  "trainerName": "Brock",
+  "battleLabel": "1st Gym Leader - Pewter City",
+  "primaryType": "rock",
+  "levelCap": 14,
+  "party": [
+    {
+      "baseStats": 300,
+      "name": "Geodude",
+      "level": 12,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 35
+        },
+        {
+          "name": "Defense Curl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 385,
+      "name": "Onix",
+      "level": 14,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 35
+        },
+        {
+          "name": "Bind",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Harden",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

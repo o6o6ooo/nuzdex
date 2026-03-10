@@ -1,0 +1,190 @@
+{
+  "game": "Leaf Green",
+  "category": "eliteFour",
+  "trainerId": "agatha-e4-3",
+  "trainerName": "Agatha",
+  "battleLabel": "Elite 4 - 3",
+  "primaryType": "ghost",
+  "levelCap": 58,
+  "party": [
+    {
+      "baseStats": 500,
+      "name": "Gengar",
+      "level": 54,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Shadow Punch",
+          "category": "physical",
+          "type": "ghost",
+          "power": 60
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 455,
+      "name": "Golbat",
+      "level": 54,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Air Cutter",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Poison Fang",
+          "category": "physical",
+          "type": "poison",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 405,
+      "name": "Haunter",
+      "level": 53,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Dream Eater",
+          "category": "special",
+          "type": "psychic",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "baseStats": 448,
+      "name": "Arbok",
+      "level": 56,
+      "types": [
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "physical",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Iron Tail",
+          "category": "physical",
+          "type": "steel",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Gengar",
+      "level": 58,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "physical",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Nightmare",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "physical",
+          "type": "poison",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

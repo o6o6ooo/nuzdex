@@ -1,0 +1,191 @@
+{
+  "game": "Leaf Green",
+  "category": "eliteFour",
+  "trainerId": "lorelei-e4-1",
+  "trainerName": "Lorelei",
+  "battleLabel": "Elite 4 - 1",
+  "primaryType": "ice",
+  "levelCap": 54,
+  "party": [
+    {
+      "baseStats": 475,
+      "name": "Dewgong",
+      "level": 52,
+      "types": [
+        "water",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Hail",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 135
+        },
+        {
+          "name": "Safeguard",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        }
+      ]
+    },
+    {
+      "baseStats": 525,
+      "name": "Cloyster",
+      "level": 51,
+      "types": [
+        "water",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Spikes",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Dive",
+          "category": "special",
+          "type": "water",
+          "power": 120
+        },
+        {
+          "name": "Hail",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Slowbro",
+      "level": 52,
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        },
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 455,
+      "name": "Jynx",
+      "level": 54,
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Ice Punch",
+          "category": "special",
+          "type": "ice",
+          "power": 113
+        },
+        {
+          "name": "Double Slap",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Lovely Kiss",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 535,
+      "name": "Lapras",
+      "level": 54,
+      "types": [
+        "water",
+        "ice"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 135
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}
