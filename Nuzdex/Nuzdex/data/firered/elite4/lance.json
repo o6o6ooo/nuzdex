@@ -1,0 +1,176 @@
+{
+  "game": "Fire Red",
+  "category": "eliteFour",
+  "trainerId": "lance-e4-4",
+  "trainerName": "Lance",
+  "battleLabel": "Elite 4 - 4",
+  "primaryType": "dragon",
+  "levelCap": 60,
+  "party": [
+    {
+      "baseStats": 540,
+      "name": "Gyarados",
+      "level": 56,
+      "types": ["water", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Twister",
+          "category": "special",
+          "type": "dragon",
+          "power": 40
+        },
+        {
+          "name": "Dragon Rage",
+          "category": "special",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    },
+    {
+      "baseStats": 420,
+      "name": "Dragonair",
+      "level": 54,
+      "types": ["dragon"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Safeguard",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Outrage",
+          "category": "physical",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "Dragon Rage",
+          "category": "special",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    },
+    {
+      "baseStats": 420,
+      "name": "Dragonair",
+      "level": 54,
+      "types": ["dragon"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Safeguard",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Outrage",
+          "category": "physical",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    },
+    {
+      "baseStats": 515,
+      "name": "Aerodactyl",
+      "level": 58,
+      "types": ["rock", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    },
+    {
+      "baseStats": 600,
+      "name": "Dragonite",
+      "level": 60,
+      "types": ["dragon", "flying"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Safeguard",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Outrage",
+          "category": "physical",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    }
+  ]
+}

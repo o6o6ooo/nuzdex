@@ -1,0 +1,176 @@
+{
+  "game": "Fire Red",
+  "category": "eliteFour",
+  "trainerId": "bruno-e4-2",
+  "trainerName": "Bruno",
+  "battleLabel": "Elite 4 - 2",
+  "primaryType": "fighting",
+  "levelCap": 56,
+  "party": [
+    {
+      "baseStats": 385,
+      "name": "Onix",
+      "level": 51,
+      "types": ["rock", "ground"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Iron Tail",
+          "category": "physical",
+          "type": "steel",
+          "power": 100
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 455,
+      "name": "Hitmonchan",
+      "level": 53,
+      "types": ["fighting"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sky Uppercut",
+          "category": "physical",
+          "type": "fighting",
+          "power": 85
+        },
+        {
+          "name": "Mach Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 40
+        },
+        {
+          "name": "Counter",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 455,
+      "name": "Hitmonlee",
+      "level": 53,
+      "types": ["fighting"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Foresight",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mega Kick",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "baseStats": 385,
+      "name": "Onix",
+      "level": 54,
+      "types": ["rock", "ground"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Double Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Iron Tail",
+          "category": "physical",
+          "type": "steel",
+          "power": 100
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Sand Tomb",
+          "category": "physical",
+          "type": "ground",
+          "power": 35
+        }
+      ]
+    },
+    {
+      "baseStats": 505,
+      "name": "Machamp",
+      "level": 56,
+      "types": ["fighting"],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Bulk Up",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Cross Chop",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}
