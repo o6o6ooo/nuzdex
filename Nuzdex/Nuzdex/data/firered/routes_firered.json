@@ -1,0 +1,555 @@
+[
+  {
+    "routeName": "Route 1",
+    "pokemon": [
+      "Pidgey",
+      "Rattata"
+    ]
+  },
+  {
+    "routeName": "Route 2",
+    "pokemon": [
+      "Caterpie",
+      "Pidgey",
+      "Rattata",
+      "Weedle"
+    ]
+  },
+  {
+    "routeName": "Route 3",
+    "pokemon": [
+      "Jigglypuff",
+      "Mankey",
+      "Nidoran-F",
+      "Nidoran-M",
+      "Pidgey",
+      "Spearow"
+    ]
+  },
+  {
+    "routeName": "Route 4",
+    "pokemon": [
+      "Ekans",
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Mankey",
+      "Psyduck",
+      "Rattata",
+      "Sandshrew",
+      "Slowpoke",
+      "Spearow",
+      "Tentacool"
+    ]
+  },
+  {
+    "routeName": "Route 5",
+    "pokemon": [
+      "Bellsprout",
+      "Meowth",
+      "Oddish",
+      "Pidgey"
+    ]
+  },
+  {
+    "routeName": "Route 6",
+    "pokemon": [
+      "Bellsprout",
+      "Goldeen",
+      "Gyarados",
+      "Magikarp",
+      "Meowth",
+      "Oddish",
+      "Pidgey",
+      "Poliwag",
+      "Poliwhirl",
+      "Psyduck",
+      "Slowpoke"
+    ]
+  },
+  {
+    "routeName": "Route 7",
+    "pokemon": [
+      "Bellsprout",
+      "Growlithe",
+      "Meowth",
+      "Oddish",
+      "Pidgey",
+      "Vulpix"
+    ]
+  },
+  {
+    "routeName": "Route 8",
+    "pokemon": [
+      "Ekans",
+      "Growlithe",
+      "Meowth",
+      "Pidgey",
+      "Sandshrew",
+      "Vulpix"
+    ]
+  },
+  {
+    "routeName": "Route 9",
+    "pokemon": [
+      "Ekans",
+      "Rattata",
+      "Sandshrew",
+      "Spearow"
+    ]
+  },
+  {
+    "routeName": "Route 10",
+    "pokemon": [
+      "Ekans",
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Psyduck",
+      "Sandshrew",
+      "Slowpoke",
+      "Spearow",
+      "Tentacool",
+      "Voltorb"
+    ]
+  },
+  {
+    "routeName": "Route 11",
+    "pokemon": [
+      "Drowzee",
+      "Ekans",
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Psyduck",
+      "Sandshrew",
+      "Slowpoke",
+      "Spearow",
+      "Tentacool"
+    ]
+  },
+  {
+    "routeName": "Route 12",
+    "pokemon": [
+      "Bellsprout",
+      "Gloom",
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Oddish",
+      "Pidgey",
+      "Psyduck",
+      "Slowpoke",
+      "Snorlax",
+      "Tentacool",
+      "Venonat",
+      "Weepinbell"
+    ]
+  },
+  {
+    "routeName": "Route 13",
+    "pokemon": [
+      "Bellsprout",
+      "Ditto",
+      "Gloom",
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Oddish",
+      "Pidgeotto",
+      "Pidgey",
+      "Psyduck",
+      "Slowpoke",
+      "Tentacool",
+      "Venonat",
+      "Weepinbell"
+    ]
+  },
+  {
+    "routeName": "Route 14",
+    "pokemon": [
+      "Bellsprout",
+      "Ditto",
+      "Gloom",
+      "Oddish",
+      "Pidgeotto",
+      "Pidgey",
+      "Venonat",
+      "Weepinbell"
+    ]
+  },
+  {
+    "routeName": "Route 15",
+    "pokemon": [
+      "Bellsprout",
+      "Ditto",
+      "Gloom",
+      "Oddish",
+      "Pidgeotto",
+      "Pidgey",
+      "Venonat",
+      "Weepinbell"
+    ]
+  },
+  {
+    "routeName": "Route 16",
+    "pokemon": [
+      "Doduo",
+      "Raticate",
+      "Rattata",
+      "Snorlax",
+      "Spearow"
+    ]
+  },
+  {
+    "routeName": "Route 17",
+    "pokemon": [
+      "Doduo",
+      "Fearow",
+      "Raticate",
+      "Rattata",
+      "Spearow"
+    ]
+  },
+  {
+    "routeName": "Route 18",
+    "pokemon": [
+      "Doduo",
+      "Fearow",
+      "Raticate",
+      "Rattata",
+      "Spearow"
+    ]
+  },
+  {
+    "routeName": "Route 19",
+    "pokemon": [
+      "Electabuzz",
+      "Electrode",
+      "Magnemite",
+      "Magneton",
+      "Pikachu",
+      "Voltorb"
+    ]
+  },
+  {
+    "routeName": "Route 20",
+    "pokemon": [
+      "Gyarados",
+      "Horsea",
+      "Kingler",
+      "Krabby",
+      "Magikarp",
+      "Psyduck",
+      "Seadra",
+      "Slowpoke",
+      "Tentacool"
+    ]
+  },
+  {
+    "routeName": "Route 21",
+    "pokemon": [
+      "Gyarados",
+      "Horsea",
+      "Kingler",
+      "Krabby",
+      "Magikarp",
+      "Psyduck",
+      "Seadra",
+      "Slowpoke",
+      "Tangela",
+      "Tentacool"
+    ]
+  },
+  {
+    "routeName": "Route 22",
+    "pokemon": [
+      "Goldeen",
+      "Gyarados",
+      "Magikarp",
+      "Mankey",
+      "Poliwag",
+      "Poliwhirl",
+      "Psyduck",
+      "Rattata",
+      "Slowpoke",
+      "Spearow"
+    ]
+  },
+  {
+    "routeName": "Route 23",
+    "pokemon": [
+      "Arbok",
+      "Ekans",
+      "Fearow",
+      "Goldeen",
+      "Gyarados",
+      "Magikarp",
+      "Mankey",
+      "Poliwag",
+      "Poliwhirl",
+      "Primeape",
+      "Psyduck",
+      "Sandshrew",
+      "Sandslash",
+      "Slowpoke",
+      "Spearow"
+    ]
+  },
+  {
+    "routeName": "Route 24",
+    "pokemon": [
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Psyduck",
+      "Slowpoke",
+      "Tentacool"
+    ]
+  },
+  {
+    "routeName": "Route 25",
+    "pokemon": [
+      "Abra",
+      "Bellsprout",
+      "Caterpie",
+      "Goldeen",
+      "Gyarados",
+      "Kakuna",
+      "Magikarp",
+      "Metapod",
+      "Oddish",
+      "Pidgey",
+      "Poliwag",
+      "Poliwhirl",
+      "Psyduck",
+      "Slowpoke",
+      "Weedle"
+    ]
+  },
+  {
+    "routeName": "Celadon City",
+    "pokemon": [
+      "Grimer",
+      "Koffing",
+      "Magikarp",
+      "Psyduck",
+      "Slowpoke"
+    ]
+  },
+  {
+    "routeName": "Cerulean City",
+    "pokemon": [
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Psyduck",
+      "Slowpoke",
+      "Tentacool"
+    ]
+  },
+  {
+    "routeName": "Cinnabar Island",
+    "pokemon": [
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Psyduck",
+      "Seadra",
+      "Shellder",
+      "Slowbro",
+      "Slowpoke",
+      "Staryu",
+      "Tentacool"
+    ]
+  },
+  {
+    "routeName": "Diglett's Cave",
+    "pokemon": [
+      "Diglett",
+      "Dugtrio"
+    ]
+  },
+  {
+    "routeName": "Fuschia City",
+    "pokemon": [
+      "Goldeen",
+      "Gyarados",
+      "Magikarp",
+      "Poliwag",
+      "Psyduck",
+      "Seaking",
+      "Slowpoke"
+    ]
+  },
+  {
+    "routeName": "Mt. Moon",
+    "pokemon": [
+      "Clefairy",
+      "Geodude",
+      "Paras",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "One Island",
+    "pokemon": [
+      "Gyarados",
+      "Horsea",
+      "Kingler",
+      "Krabby",
+      "Magikarp",
+      "Psyduck",
+      "Seadra",
+      "Shellder",
+      "Slowpoke",
+      "Staryu",
+      "Tentacool",
+      "Tentacruel"
+    ]
+  },
+  {
+    "routeName": "Pallet Town",
+    "pokemon": [
+      "Chinchou",
+      "Lanturn",
+      "Magikarp",
+      "Shellder",
+      "Tentacool",
+      "Tentacruel"
+    ]
+  },
+  {
+    "routeName": "Power Plant",
+    "pokemon": [
+      "Electabuzz",
+      "Electrode",
+      "Magnemite",
+      "Magneton",
+      "Pikachu",
+      "Voltorb"
+    ]
+  },
+  {
+    "routeName": "Rock Tunnel",
+    "pokemon": [
+      "Geodude",
+      "Machop",
+      "Mankey",
+      "Onix",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Safari Zone",
+    "pokemon": [
+      "Chansey",
+      "Dragonair",
+      "Dratini",
+      "Exeggcute",
+      "Goldeen",
+      "Magikarp",
+      "Nidoran-F",
+      "Nidoran-M",
+      "Nidorina",
+      "Nidorino",
+      "Parasect",
+      "Pinsir",
+      "Poliwag",
+      "Psyduck",
+      "Rhyhorn",
+      "Scyther",
+      "Seaking",
+      "Slowpoke",
+      "Venonat"
+    ]
+  },
+  {
+    "routeName": "Saffron City",
+    "pokemon": [
+      "Hitmonchan",
+      "Hitmonlee",
+      "Lapras"
+    ]
+  },
+  {
+    "routeName": "Seafoam Islands",
+    "pokemon": [
+      "Absol",
+      "Bronzor",
+      "Chingling",
+      "Dewgong",
+      "Golbat",
+      "Golduck",
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Makuhita",
+      "Psyduck",
+      "Seel",
+      "Slowbro",
+      "Slowpoke",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Vermillion City",
+    "pokemon": [
+      "Gyarados",
+      "Horsea",
+      "Krabby",
+      "Magikarp",
+      "Psyduck",
+      "Shellder",
+      "Slowpoke",
+      "Staryu",
+      "Tentacool"
+    ]
+  },
+  {
+    "routeName": "Victory Road",
+    "pokemon": [
+      "Arbok",
+      "Geodude",
+      "Golbat",
+      "Machoke",
+      "Machop",
+      "Marowak",
+      "Onix",
+      "Primeape",
+      "Sandslash",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Viridian City",
+    "pokemon": [
+      "Goldeen",
+      "Gyarados",
+      "Magikarp",
+      "Poliwag",
+      "Poliwhirl",
+      "Psyduck",
+      "Slowpoke"
+    ]
+  },
+  {
+    "routeName": "Viridian Forest",
+    "pokemon": [
+      "Caterpie",
+      "Kakuna",
+      "Metapod",
+      "Pikachu",
+      "Weedle"
+    ]
+  }
+]
