@@ -1,0 +1,77 @@
+{
+  "game": "Fire Red",
+  "category": "gymLeader",
+  "trainerId": "misty-gym-2",
+  "trainerName": "Misty",
+  "battleLabel": "2nd Gym Leader - Cerulean City",
+  "primaryType": "water",
+  "levelCap": 21,
+  "party": [
+    {
+      "baseStats": 340,
+      "name": "Staryu",
+      "level": 18,
+      "types": [ "water" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 35
+        },
+        {
+          "name": "Harden",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 520,
+      "name": "Starmie",
+      "level": 21,
+      "types": [ "water", "psychic" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rapid Spin",
+          "category": "physical",
+          "type": "normal",
+          "power": 50
+        },
+        {
+          "name": "Swift",
+          "category": "special",
+          "type": "normal",
+          "power": 60
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "game": "Fire Red",
+  "category": "gymLeader",
+  "trainerId": "sabrina-gym-6",
+  "trainerName": "Sabrina",
+  "battleLabel": "6th Gym Leader - Saffron City",
+  "primaryType": "psychic",
+  "levelCap": 43,
+  "party": [
+    {
+      "baseStats": 400,
+      "name": "Kadabra",
+      "level": 38,
+      "types": [ "psychic" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Future Sight",
+          "category": "special",
+          "type": "psychic",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "baseStats": 460,
+      "name": "Mr. Mime",
+      "level": 37,
+      "types": [ "psychic" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Barrier",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Baton Pass",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "baseStats": 450,
+      "name": "Venomoth",
+      "level": 38,
+      "types": [ "bug", "poison" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Gust",
+          "category": "special",
+          "type": "flying",
+          "power": 40
+        },
+        {
+          "name": "Leech Life",
+          "category": "physical",
+          "type": "bug",
+          "power": 20
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Alakazam",
+      "level": 43,
+      "types": [ "psychic" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Future Sight",
+          "category": "special",
+          "type": "psychic",
+          "power": 120
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "game": "Fire Red",
+  "category": "gymLeader",
+  "trainerId": "koga-gym-5",
+  "trainerName": "Koga",
+  "battleLabel": "5th Gym Leader - Fuchsia City",
+  "primaryType": "poison",
+  "levelCap": 43,
+  "party": [
+    {
+      "baseStats": 340,
+      "name": "Koffing",
+      "level": 37,
+      "types": [ "poison" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Self-Destruct",
+          "category": "physical",
+          "type": "normal",
+          "power": 200
+        },
+        {
+          "name": "Smokescreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sludge",
+          "category": "special",
+          "type": "poison",
+          "power": 65
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 340,
+      "name": "Koffing",
+      "level": 37,
+      "types": [ "poison" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Self-Destruct",
+          "category": "physical",
+          "type": "normal",
+          "power": 200
+        },
+        {
+          "name": "Smokescreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sludge",
+          "category": "special",
+          "type": "poison",
+          "power": 65
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Muk",
+      "level": 39,
+      "types": [ "poison" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Minimize",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sludge",
+          "category": "special",
+          "type": "poison",
+          "power": 65
+        },
+        {
+          "name": "Acid Armor",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Weezing",
+      "level": 43,
+      "types": [ "poison" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Sludge",
+          "category": "special",
+          "type": "poison",
+          "power": 65
+        },
+        {
+          "name": "Smokescreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 35
+        }
+      ]
+    }
+  ]
+}

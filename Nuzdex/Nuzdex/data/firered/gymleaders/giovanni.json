@@ -1,0 +1,176 @@
+{
+  "game": "Fire Red",
+  "category": "gymLeader",
+  "trainerId": "giovanni-gym-8",
+  "trainerName": "Giovanni",
+  "battleLabel": "8th Gym Leader - Viridian City",
+  "primaryType": "ground",
+  "levelCap": 50,
+  "party": [
+    {
+      "baseStats": 345,
+      "name": "Rhyhorn",
+      "level": 45,
+      "types": [ "ground", "rock" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rock Blast",
+          "category": "physical",
+          "type": "rock",
+          "power": 25
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "baseStats": 405,
+      "name": "Dugtrio",
+      "level": 42,
+      "types": [ "ground" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Sand Tomb",
+          "category": "physical",
+          "type": "ground",
+          "power": 35
+        },
+        {
+          "name": "Mud-Slap",
+          "category": "special",
+          "type": "ground",
+          "power": 20
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "baseStats": 505,
+      "name": "Nidoqueen",
+      "level": 44,
+      "types": [ "poison", "ground" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Double Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 30
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        }
+      ]
+    },
+    {
+      "baseStats": 505,
+      "name": "Nidoking",
+      "level": 45,
+      "types": [ "poison", "ground" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Double Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 30
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Thrash",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        }
+      ]
+    },
+    {
+      "baseStats": 345,
+      "name": "Rhyhorn",
+      "level": 50,
+      "types": [ "ground", "rock" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rock Blast",
+          "category": "physical",
+          "type": "rock",
+          "power": 25
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

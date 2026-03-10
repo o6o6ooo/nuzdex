@@ -1,0 +1,110 @@
+{
+  "game": "Fire Red",
+  "category": "gymLeader",
+  "trainerId": "surge-gym-3",
+  "trainerName": "Lt. Surge",
+  "battleLabel": "3rd Gym Leader - Vermilion City",
+  "primaryType": "electric",
+  "levelCap": 24,
+  "party": [
+    {
+      "baseStats": 330,
+      "name": "Voltorb",
+      "level": 21,
+      "types": [ "electric" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 35
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 320,
+      "name": "Pikachu",
+      "level": 18,
+      "types": [ "electric" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 485,
+      "name": "Raichu",
+      "level": 24,
+      "types": [ "electric" ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}
