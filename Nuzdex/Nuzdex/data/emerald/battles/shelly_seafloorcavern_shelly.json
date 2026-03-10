@@ -1,0 +1,83 @@
+{
+  "game": "Emerald",
+  "category": "evilTeam",
+  "trainerId": "shelly-seafloorcavern_shelly",
+  "trainerName": "Shelly",
+  "battleLabel": "Seafloor Cavern",
+  "levelCap": 37,
+  "primaryType": null,
+  "starterBranch": null,
+  "party": [
+    {
+      "baseStats": 460,
+      "name": "Sharpedo",
+      "level": 37,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Crunch",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 420,
+      "name": "Mightyena",
+      "level": 37,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "game": "Emerald",
+  "category": "other",
+  "trainerId": "wally-mauvillecity",
+  "trainerName": "Wally",
+  "battleLabel": "Mauville City",
+  "levelCap": 16,
+  "primaryType": null,
+  "starterBranch": null,
+  "party": [
+    {
+      "baseStats": 198,
+      "name": "Ralts",
+      "level": 16,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Confusion",
+          "category": "special",
+          "type": "psychic",
+          "power": 50
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Teleport",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

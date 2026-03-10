@@ -1,0 +1,120 @@
+{
+  "game": "Emerald",
+  "category": "rival",
+  "trainerId": "rival-route110-grass",
+  "trainerName": "Rival",
+  "battleLabel": "Route 110",
+  "levelCap": 20,
+  "primaryType": null,
+  "starterBranch": "grass",
+  "party": [
+    {
+      "baseStats": 270,
+      "name": "Wingull",
+      "level": 18,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 340,
+      "name": "Lombre",
+      "level": 18,
+      "types": [
+        "water",
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Astonish",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Absorb",
+          "category": "special",
+          "type": "grass",
+          "power": 20
+        },
+        {
+          "name": "Nature Power",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 405,
+      "name": "Combusken",
+      "level": 20,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        },
+        {
+          "name": "Double Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 30
+        },
+        {
+          "name": "Peck",
+          "category": "physical",
+          "type": "flying",
+          "power": 35
+        }
+      ]
+    }
+  ]
+}

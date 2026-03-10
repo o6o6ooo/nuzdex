@@ -1,0 +1,119 @@
+{
+  "game": "Emerald",
+  "category": "evilTeam",
+  "trainerId": "maxie-seafloorcavern",
+  "trainerName": "Maxie",
+  "battleLabel": "Seafloor Cavern",
+  "levelCap": 39,
+  "primaryType": null,
+  "starterBranch": null,
+  "party": [
+    {
+      "baseStats": 420,
+      "name": "Mightyena",
+      "level": 37,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 535,
+      "name": "Crobat",
+      "level": 38,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Air Cutter",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 460,
+      "name": "Camerupt",
+      "level": 39,
+      "types": [
+        "fire",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

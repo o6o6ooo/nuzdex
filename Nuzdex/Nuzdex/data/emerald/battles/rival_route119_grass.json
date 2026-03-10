@@ -1,0 +1,120 @@
+{
+  "game": "Emerald",
+  "category": "rival",
+  "trainerId": "rival-route119-grass",
+  "trainerName": "Rival",
+  "battleLabel": "Route 119",
+  "levelCap": 31,
+  "primaryType": null,
+  "starterBranch": "grass",
+  "party": [
+    {
+      "baseStats": 440,
+      "name": "Pelipper",
+      "level": 29,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mist",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 340,
+      "name": "Lombre",
+      "level": 29,
+      "types": [
+        "water",
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Absorb",
+          "category": "special",
+          "type": "grass",
+          "power": 20
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Nature Power",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 405,
+      "name": "Combusken",
+      "level": 31,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Double Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 30
+        },
+        {
+          "name": "Bulk Up",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Peck",
+          "category": "physical",
+          "type": "flying",
+          "power": 35
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

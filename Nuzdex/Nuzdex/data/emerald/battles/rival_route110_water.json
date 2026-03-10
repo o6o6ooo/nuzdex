@@ -1,0 +1,118 @@
+{
+  "game": "Emerald",
+  "category": "rival",
+  "trainerId": "rival-route110-water",
+  "trainerName": "Rival",
+  "battleLabel": "Route 110",
+  "levelCap": 20,
+  "primaryType": null,
+  "starterBranch": "water",
+  "party": [
+    {
+      "baseStats": 250,
+      "name": "Slugma",
+      "level": 18,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Smog",
+          "category": "physical",
+          "type": "poison",
+          "power": 30
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 270,
+      "name": "Wingull",
+      "level": 18,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 405,
+      "name": "Grovyle",
+      "level": 20,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Absorb",
+          "category": "special",
+          "type": "grass",
+          "power": 20
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Fury Cutter",
+          "category": "physical",
+          "type": "bug",
+          "power": 40
+        },
+        {
+          "name": "Pursuit",
+          "category": "special",
+          "type": "dark",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "game": "Emerald",
+  "category": "rival",
+  "trainerId": "rival-lilycovecity-fire",
+  "trainerName": "Rival",
+  "battleLabel": "Lilycove City",
+  "levelCap": 34,
+  "primaryType": null,
+  "starterBranch": "fire",
+  "party": [
+    {
+      "baseStats": 460,
+      "name": "Tropius",
+      "level": 31,
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stomp",
+          "category": "physical",
+          "type": "normal",
+          "power": 65
+        },
+        {
+          "name": "Sweet Scent",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Whirlwind",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Magical Leaf",
+          "category": "special",
+          "type": "grass",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 480,
+      "name": "Ludicolo",
+      "level": 32,
+      "types": [
+        "water",
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Astonish",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Absorb",
+          "category": "special",
+          "type": "grass",
+          "power": 20
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Nature Power",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 250,
+      "name": "Slugma",
+      "level": 32,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Harden",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        },
+        {
+          "name": "Rock Throw",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 405,
+      "name": "Marshtomp",
+      "level": 34,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Mud Shot",
+          "category": "physical",
+          "type": "ground",
+          "power": 55
+        },
+        {
+          "name": "Mud Sport",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Foresight",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}
