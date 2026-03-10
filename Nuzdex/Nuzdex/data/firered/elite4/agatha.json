@@ -49,7 +49,7 @@
 			"moves": [
 				{
 					"name": "Bite",
-					"category": "physical",
+					"category": "special",
 					"type": "dark",
 					"power": 60
 				},
@@ -61,7 +61,7 @@
 				},
 				{
 					"name": "Air Cutter",
-					"category": "special",
+					"category": "physical",
 					"type": "flying",
 					"power": 55
 				},
@@ -115,13 +115,13 @@
 			"moves": [
 				{
 					"name": "Bite",
-					"category": "physical",
+					"category": "special",
 					"type": "dark",
 					"power": 60
 				},
 				{
 					"name": "Sludge Bomb",
-					"category": "special",
+					"category": "physical",
 					"type": "poison",
 					"power": 90
 				},
@@ -148,7 +148,7 @@
 			"moves": [
 				{
 					"name": "Shadow Ball",
-					"category": "special",
+					"category": "physical",
 					"type": "ghost",
 					"power": 80
 				},
@@ -166,7 +166,7 @@
 				},
 				{
 					"name": "Sludge Bomb",
-					"category": "special",
+					"category": "physical",
 					"type": "poison",
 					"power": 90
 				}

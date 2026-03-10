@@ -40,6 +40,9 @@ enum BattleDataStore {
 		case .emerald:
 			let battleURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/battles") ?? []
 			extraURLs = battleURLs
+		case .fireRed:
+			let battleURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/firered/battles") ?? []
+			extraURLs = battleURLs
 		default:
 			extraURLs = []
 		}

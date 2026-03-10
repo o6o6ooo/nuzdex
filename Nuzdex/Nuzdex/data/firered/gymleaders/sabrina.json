@@ -82,7 +82,7 @@
       "moves": [
         {
           "name": "Gust",
-          "category": "special",
+          "category": "physical",
           "type": "flying",
           "power": 40
         },

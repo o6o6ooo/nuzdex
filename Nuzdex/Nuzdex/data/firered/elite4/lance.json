@@ -28,7 +28,7 @@
         },
         {
           "name": "Bite",
-          "category": "physical",
+          "category": "special",
           "type": "dark",
           "power": 60
         },
@@ -55,7 +55,7 @@
         },
         {
           "name": "Outrage",
-          "category": "physical",
+          "category": "special",
           "type": "dragon",
           "power": 120
         },
@@ -88,7 +88,7 @@
         },
         {
           "name": "Outrage",
-          "category": "physical",
+          "category": "special",
           "type": "dragon",
           "power": 120
         },
@@ -121,7 +121,7 @@
         },
         {
           "name": "Ancient Power",
-          "category": "special",
+          "category": "physical",
           "type": "rock",
           "power": 60
         },
@@ -154,7 +154,7 @@
         },
         {
           "name": "Outrage",
-          "category": "physical",
+          "category": "special",
           "type": "dragon",
           "power": 120
         },

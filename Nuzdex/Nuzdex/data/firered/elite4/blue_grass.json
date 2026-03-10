@@ -148,7 +148,7 @@
       "moves": [
         {
           "name": "Bite",
-          "category": "physical",
+          "category": "special",
           "type": "dark",
           "power": 60
         },

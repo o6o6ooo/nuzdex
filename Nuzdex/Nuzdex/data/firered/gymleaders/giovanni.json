@@ -61,7 +61,7 @@
         },
         {
           "name": "Mud-Slap",
-          "category": "special",
+          "category": "physical",
           "type": "ground",
           "power": 20
         },

@@ -28,7 +28,7 @@
         },
         {
           "name": "Acid",
-          "category": "special",
+          "category": "physical",
           "type": "poison",
           "power": 40
         },
@@ -100,7 +100,7 @@
         },
         {
           "name": "Acid",
-          "category": "special",
+          "category": "physical",
           "type": "poison",
           "power": 40
         }
