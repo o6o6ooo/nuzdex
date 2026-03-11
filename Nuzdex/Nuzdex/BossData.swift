@@ -60,7 +60,6 @@ enum BattleDataStore {
 			let data = try Data(contentsOf: url)
 			return try JSONDecoder().decode(BossBattle.self, from: data)
 		} catch {
-			print("Failed to load \(url.lastPathComponent): \(error)")
 			return nil
 		}
 	}
