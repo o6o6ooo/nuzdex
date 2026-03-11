@@ -319,12 +319,16 @@ private struct CreditsDetailsView: View {
 		NavigationStack {
 			ScrollView {
 				VStack(alignment: .leading, spacing: 18) {
-					Text("Nuzdex is an unofficial fan project and is not affiliated with Nintendo, Game Freak, Creatures, The Pokemon Company, or PokemonDB.")
+					Text("Nuzdex is an unofficial fan project and is not affiliated with Nintendo, Game Freak, Creatures, The Pokemon Company, PokemonDB, or Nuzlocke Redux.")
 					Text("Pokemon names, characters, game titles, and related marks are trademarks or registered trademarks of their respective owners.")
-					Text("Some reference images and data are sourced from publicly available resources, including PokemonDB.")
+					Text("Reference route and battle data is based on publicly available sources, including domtronn/nuzlocke.data and Nuzlocke Redux guides.")
+					Text("Some image and Pokemon reference material is based on publicly available resources, including PokemonDB.")
 					Text("This app is non-commercial and shared only with friends and family for personal use.")
 					Text("App UI and original app code © 2026 Sakura Wallace.")
 					Text("If any rights holder requests removal or correction, content will be updated or removed promptly.")
+					Link("Data source: github.com/domtronn/nuzlocke.data", destination: URL(string: "https://github.com/domtronn/nuzlocke.data")!)
+					Link("Reference guide: nuzlocke-redux.vercel.app", destination: URL(string: "https://nuzlocke-redux.vercel.app")!)
+					Link("Pokemon reference: pokemondb.net", destination: URL(string: "https://pokemondb.net")!)
 					Link("Contact: github.com/o6o6ooo", destination: URL(string: "https://github.com/o6o6ooo")!)
 				}
 				.font(.footnote)
