@@ -57,7 +57,7 @@ private struct BossBattleCard: View {
 						.padding(.top, 6)
 
 					Text("\(battle.levelCap)")
-						.font(.largeTitle.weight(.bold))
+						.font(.largeTitle.weight(.semibold))
 						.monospacedDigit()
 
 					VStack(alignment: .leading, spacing: 0) {
