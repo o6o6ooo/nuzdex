@@ -63,7 +63,7 @@ private struct BossBattleCard: View {
 					VStack(alignment: .leading, spacing: 0) {
 						Text(battle.trainerName)
 							.font(.title2)
-							.fontWeight(.bold)
+							.fontWeight(.semibold)
 						Text(battle.battleLabel)
 							.font(.footnote)
 							.foregroundStyle(.secondary)
@@ -102,12 +102,12 @@ private struct PokemonCard: View {
 		VStack(alignment: .leading, spacing: 10) {
 			HStack(alignment: .firstTextBaseline, spacing: 12) {
 				Text("\(pokemon.level)")
-					.font(.title.weight(.bold))
+					.font(.title.weight(.semibold))
 					.monospacedDigit()
 
 				Text(pokemon.name)
 					.font(.title3)
-					.fontWeight(.bold)
+					.fontWeight(.semibold)
 
 				Text("\(pokemon.baseStats)")
 					.font(.body)
