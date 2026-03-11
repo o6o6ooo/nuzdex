@@ -400,23 +400,6 @@
     ]
   },
   {
-    "routeName": "One Island",
-    "pokemon": [
-      "Gyarados",
-      "Horsea",
-      "Kingler",
-      "Krabby",
-      "Magikarp",
-      "Psyduck",
-      "Seadra",
-      "Shellder",
-      "Slowpoke",
-      "Staryu",
-      "Tentacool",
-      "Tentacruel"
-    ]
-  },
-  {
     "routeName": "Pallet Town",
     "pokemon": [
       "Chinchou",
@@ -483,9 +466,6 @@
   {
     "routeName": "Seafoam Islands",
     "pokemon": [
-      "Absol",
-      "Bronzor",
-      "Chingling",
       "Dewgong",
       "Golbat",
       "Golduck",
@@ -493,7 +473,6 @@
       "Horsea",
       "Krabby",
       "Magikarp",
-      "Makuhita",
       "Psyduck",
       "Seel",
       "Slowbro",

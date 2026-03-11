@@ -400,23 +400,6 @@
     ]
   },
   {
-    "routeName": "One Island",
-    "pokemon": [
-      "Gyarados",
-      "Horsea",
-      "Kingler",
-      "Krabby",
-      "Magikarp",
-      "Psyduck",
-      "Seadra",
-      "Shellder",
-      "Slowpoke",
-      "Staryu",
-      "Tentacool",
-      "Tentacruel"
-    ]
-  },
-  {
     "routeName": "Pallet Town",
     "pokemon": [
       "Chinchou",
