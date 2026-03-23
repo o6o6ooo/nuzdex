@@ -199,27 +199,20 @@ private struct RoutePokemon: Decodable, Hashable {
 
 	private enum RouteDataStore {
 		static func routes(for game: GameId) -> [RouteEntry] {
-			let url: URL?
-		switch game {
-		case .emerald:
-			url =
-				Bundle.main.url(forResource: "routes_emerald", withExtension: "json", subdirectory: "data/emerald") ??
-				Bundle.main.url(forResource: "routes_emerald", withExtension: "json")
-		case .fireRed:
-			url =
-				Bundle.main.url(forResource: "routes_firered", withExtension: "json", subdirectory: "data/firered") ??
-				Bundle.main.url(forResource: "routes_firered", withExtension: "json")
-		case .leafGreen:
-			url =
-				Bundle.main.url(forResource: "routes_leafgreen", withExtension: "json", subdirectory: "data/leafgreen") ??
-				Bundle.main.url(forResource: "routes_leafgreen", withExtension: "json")
-		default:
-			url = nil
-		}
+			guard
+				let resourceName = game.routeResourceName,
+				let dataDirectoryName = game.dataDirectoryName
+			else {
+				return []
+			}
 
-		guard let url else { return [] }
-		return decodeRoutes(from: url).sorted(by: routeSort)
-	}
+			let url =
+				Bundle.main.url(forResource: resourceName, withExtension: "json", subdirectory: "data/\(dataDirectoryName)") ??
+				Bundle.main.url(forResource: resourceName, withExtension: "json")
+
+			guard let url else { return [] }
+			return decodeRoutes(from: url).sorted(by: routeSort)
+		}
 
 	private static func decodeRoutes(from url: URL) -> [RouteEntry] {
 		do {

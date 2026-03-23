@@ -17,6 +17,41 @@ struct BossBattle: Identifiable, Decodable {
 	var id: String { "\(game.rawValue)-\(trainerId)" }
 }
 
+extension GameId {
+	var dataDirectoryName: String? {
+		switch self {
+		case .emerald:
+			return "emerald"
+		case .platinum:
+			return "platinum"
+		case .fireRed:
+			return "firered"
+		case .leafGreen:
+			return "leafgreen"
+		default:
+			return nil
+		}
+	}
+
+	var battlesJSONSubdirectory: String? {
+		guard let dataDirectoryName else { return nil }
+		return "data/\(dataDirectoryName)/battles"
+	}
+
+	var bossesJSONSubdirectories: [String] {
+		guard let dataDirectoryName else { return [] }
+		return [
+			"data/\(dataDirectoryName)/gymleaders",
+			"data/\(dataDirectoryName)/elite4",
+		]
+	}
+
+	var routeResourceName: String? {
+		guard let dataDirectoryName else { return nil }
+		return "routes_\(dataDirectoryName)"
+	}
+}
+
 enum BattleDataStore {
 	@MainActor
 	static func battles(for game: GameId, starterBranch: String) -> [BossBattle] {
@@ -35,20 +70,8 @@ enum BattleDataStore {
 	@MainActor
 	private static func loadAllJSONBattles(for game: GameId) -> [BossBattle] {
 		let rootURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
-		let extraURLs: [URL]
-		switch game {
-		case .emerald:
-			let battleURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/battles") ?? []
-			extraURLs = battleURLs
-		case .fireRed:
-			let battleURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/firered/battles") ?? []
-			extraURLs = battleURLs
-		case .leafGreen:
-			let battleURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/leafgreen/battles") ?? []
-			extraURLs = battleURLs
-		default:
-			extraURLs = []
-		}
+		let extraURLs = game.battlesJSONSubdirectory
+			.flatMap { Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: $0) } ?? []
 
 		let urls = Array(Set(rootURLs + extraURLs))
 			.sorted { $0.lastPathComponent < $1.lastPathComponent }
@@ -205,22 +228,8 @@ enum BossDataStore {
 	@MainActor
 	private static func loadAllJSONBattles(for game: GameId) -> [BossBattle] {
 		let rootURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
-		let extraURLs: [URL]
-		switch game {
-		case .emerald:
-			let gymURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/gymleaders") ?? []
-			let eliteURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/emerald/elite4") ?? []
-			extraURLs = gymURLs + eliteURLs
-		case .fireRed:
-			let gymURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/firered/gymleaders") ?? []
-			let eliteURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/firered/elite4") ?? []
-			extraURLs = gymURLs + eliteURLs
-		case .leafGreen:
-			let gymURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/leafgreen/gymleaders") ?? []
-			let eliteURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: "data/leafgreen/elite4") ?? []
-			extraURLs = gymURLs + eliteURLs
-		default:
-			extraURLs = []
+		let extraURLs = game.bossesJSONSubdirectories.flatMap {
+			Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: $0) ?? []
 		}
 
 		let urls = Array(Set(rootURLs + extraURLs))

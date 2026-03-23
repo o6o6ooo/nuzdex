@@ -1,0 +1,70 @@
+{
+  "game": "Platinum",
+  "category": "evilTeam",
+  "trainerId": "mars-valleywindworks",
+  "trainerName": "Mars",
+  "battleLabel": "Valley Windworks",
+  "primaryType": null,
+  "levelCap": 17,
+  "party": [
+    {
+      "name": "Zubat",
+      "baseStats": 245,
+      "level": 15,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Leech Life",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Purugly",
+      "baseStats": 452,
+      "level": 17,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Oran Berry",
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Scratch",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

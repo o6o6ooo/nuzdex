@@ -1,0 +1,226 @@
+{
+  "game": "Platinum",
+  "category": "evilTeam",
+  "trainerId": "marsandjupiter-spearpillar",
+  "trainerName": "Mars & Jupiter",
+  "battleLabel": "Spear Pillar",
+  "primaryType": null,
+  "levelCap": 46,
+  "party": [
+    {
+      "name": "Bronzor",
+      "baseStats": 300,
+      "level": 44,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Extrasensory",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Golbat",
+      "baseStats": 455,
+      "level": 44,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Poison Fang",
+          "category": "physical",
+          "type": "poison",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "name": "Purugly",
+      "baseStats": 452,
+      "level": 46,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Shadow Claw",
+          "category": "physical",
+          "type": "ghost",
+          "power": 70
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Bronzor",
+      "baseStats": 300,
+      "level": 44,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Extrasensory",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Golbat",
+      "baseStats": 455,
+      "level": 44,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Skuntank",
+      "baseStats": 479,
+      "level": 46,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Smokescreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

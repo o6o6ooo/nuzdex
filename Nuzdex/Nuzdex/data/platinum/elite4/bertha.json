@@ -1,0 +1,190 @@
+{
+  "game": "Platinum",
+  "category": "eliteFour",
+  "trainerId": "bertha-e2",
+  "trainerName": "Bertha",
+  "battleLabel": "Elite 4 - 2",
+  "primaryType": "ground",
+  "levelCap": 55,
+  "party": [
+    {
+      "name": "Whiscash",
+      "baseStats": 468,
+      "level": 50,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earth Power",
+          "category": "special",
+          "type": "ground",
+          "power": 90
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Gliscor",
+      "baseStats": 510,
+      "level": 53,
+      "types": [
+        "ground",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Fire Fang",
+          "category": "physical",
+          "type": "fire",
+          "power": 65
+        },
+        {
+          "name": "Ice Fang",
+          "category": "physical",
+          "type": "ice",
+          "power": 65
+        },
+        {
+          "name": "Thunder Fang",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Golem",
+      "baseStats": 495,
+      "level": 52,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fire Punch",
+          "category": "physical",
+          "type": "fire",
+          "power": 75
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Hippowdon",
+      "baseStats": 525,
+      "level": 52,
+      "types": [
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Rhyperior",
+      "baseStats": 535,
+      "level": 55,
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Avalanche",
+          "category": "physical",
+          "type": "ice",
+          "power": 60
+        },
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Rock Wrecker",
+          "category": "physical",
+          "type": "rock",
+          "power": 150
+        }
+      ]
+    }
+  ]
+}

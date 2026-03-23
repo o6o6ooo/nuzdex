@@ -1,0 +1,118 @@
+{
+  "game": "Platinum",
+  "category": "gymLeader",
+  "trainerId": "crasherwake-gym-5",
+  "trainerName": "Crasher Wake",
+  "battleLabel": "5th Gym Leader - Pastoria City",
+  "primaryType": "water",
+  "levelCap": 37,
+  "party": [
+    {
+      "name": "Gyarados",
+      "baseStats": 540,
+      "level": 33,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Brine",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        },
+        {
+          "name": "Waterfall",
+          "category": "physical",
+          "type": "water",
+          "power": 80
+        },
+        {
+          "name": "Twister",
+          "category": "special",
+          "type": "dragon",
+          "power": 40
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Quagsire",
+      "baseStats": 430,
+      "level": 34,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        },
+        {
+          "name": "Mud Shot",
+          "category": "special",
+          "type": "ground",
+          "power": 55
+        },
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Floatzel",
+      "baseStats": 495,
+      "level": 37,
+      "types": [
+        "water"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Brine",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        },
+        {
+          "name": "Ice Fang",
+          "category": "physical",
+          "type": "ice",
+          "power": 65
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

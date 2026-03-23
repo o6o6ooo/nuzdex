@@ -1,0 +1,189 @@
+{
+  "game": "Platinum",
+  "category": "eliteFour",
+  "trainerId": "lucian-e4",
+  "trainerName": "Lucian",
+  "battleLabel": "Elite 4 - 4",
+  "primaryType": "psychic",
+  "levelCap": 59,
+  "party": [
+    {
+      "name": "Mr. Mime",
+      "baseStats": 460,
+      "level": 53,
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Espeon",
+      "baseStats": 525,
+      "level": 55,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Signal Beam",
+          "category": "special",
+          "type": "bug",
+          "power": 75
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Bronzong",
+      "baseStats": 500,
+      "level": 54,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "baseStats": 500,
+      "level": 56,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Gallade",
+      "baseStats": 518,
+      "level": 59,
+      "types": [
+        "psychic",
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Psycho Cut",
+          "category": "physical",
+          "type": "psychic",
+          "power": 70
+        },
+        {
+          "name": "Drain Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "physical",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

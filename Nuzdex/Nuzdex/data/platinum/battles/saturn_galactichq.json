@@ -1,0 +1,119 @@
+{
+  "game": "Platinum",
+  "category": "evilTeam",
+  "trainerId": "saturn-galactichq",
+  "trainerName": "Saturn",
+  "battleLabel": "Galactic HQ",
+  "primaryType": null,
+  "levelCap": 44,
+  "party": [
+    {
+      "name": "Golbat",
+      "baseStats": 455,
+      "level": 42,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Poison Fang",
+          "category": "physical",
+          "type": "poison",
+          "power": 50
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Toxicroak",
+      "baseStats": 490,
+      "level": 44,
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Bronzor",
+      "baseStats": 300,
+      "level": 42,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Extrasensory",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

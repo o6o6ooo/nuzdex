@@ -1,0 +1,154 @@
+{
+  "game": "Platinum",
+  "category": "rival",
+  "trainerId": "barry-route209-fire",
+  "trainerName": "Barry",
+  "battleLabel": "Route 209",
+  "primaryType": null,
+  "levelCap": 27,
+  "starterBranch": "fire",
+  "party": [
+    {
+      "name": "Staravia",
+      "baseStats": 340,
+      "level": 25,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Endeavor",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Roselia",
+      "baseStats": 400,
+      "level": 23,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        },
+        {
+          "name": "Stun Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Mega Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 40
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Ponyta",
+      "baseStats": 410,
+      "level": 23,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Prinplup",
+      "baseStats": 405,
+      "level": 27,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Peck",
+          "category": "physical",
+          "type": "flying",
+          "power": 35
+        },
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Bubble",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

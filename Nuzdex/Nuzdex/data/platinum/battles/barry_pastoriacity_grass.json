@@ -1,0 +1,155 @@
+{
+  "game": "Platinum",
+  "category": "rival",
+  "trainerId": "barry-pastoriacity-grass",
+  "trainerName": "Barry",
+  "battleLabel": "Pastoria City",
+  "primaryType": null,
+  "levelCap": 36,
+  "starterBranch": "grass",
+  "party": [
+    {
+      "name": "Staravia",
+      "baseStats": 340,
+      "level": 34,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Endeavor",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Roselia",
+      "baseStats": 400,
+      "level": 32,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        },
+        {
+          "name": "Toxic Spikes",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Mega Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 40
+        },
+        {
+          "name": "Magical Leaf",
+          "category": "special",
+          "type": "grass",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Buizel",
+      "baseStats": 330,
+      "level": 32,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Monferno",
+      "baseStats": 405,
+      "level": 36,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mach Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 40
+        },
+        {
+          "name": "Flame Wheel",
+          "category": "physical",
+          "type": "fire",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,898 @@
+[
+  {
+    "routeName": "Twinleaf Town",
+    "pokemon": [
+      "Goldeen",
+      "Golduck",
+      "Gyarados",
+      "Magikarp",
+      "Psyduck",
+      "Seaking"
+    ]
+  },
+  {
+    "routeName": "Route 201",
+    "pokemon": [
+      "Bidoof",
+      "Doduo",
+      "Growlithe",
+      "Kricketot",
+      "Nidoran-F",
+      "Nidoran-M",
+      "Starly"
+    ]
+  },
+  {
+    "routeName": "Lake Verity",
+    "pokemon": [
+      "Bibarel",
+      "Bidoof",
+      "Goldeen",
+      "Golduck",
+      "Gyarados",
+      "Lunatone",
+      "Magikarp",
+      "Psyduck",
+      "Seaking",
+      "Solrock",
+      "Staravia",
+      "Starly",
+      "Surskit",
+      "Wobbuffet"
+    ]
+  },
+  {
+    "routeName": "Route 202",
+    "pokemon": [
+      "Bidoof",
+      "Growlithe",
+      "Kricketot",
+      "Sentret",
+      "Shinx",
+      "Starly",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Route 203",
+    "pokemon": [
+      "Abra",
+      "Bidoof",
+      "Cubone",
+      "Goldeen",
+      "Golduck",
+      "Gyarados",
+      "Kirlia",
+      "Kricketot",
+      "Lotad",
+      "Magikarp",
+      "Pineco",
+      "Psyduck",
+      "Ralts",
+      "Seaking",
+      "Seedot",
+      "Shinx",
+      "Starly",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Oreburgh Gate",
+    "pokemon": [
+      "Geodude",
+      "Psyduck",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Oreburgh City",
+    "pokemon": [
+      "Abra",
+      "Aerodactyl",
+      "Anorith",
+      "Cranidos",
+      "Kabuto",
+      "Lileep",
+      "Omanyte",
+      "Shieldon"
+    ]
+  },
+  {
+    "routeName": "Oreburgh Mine",
+    "pokemon": [
+      "Geodude",
+      "Onix",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Route 207",
+    "pokemon": [
+      "Geodude",
+      "Gligar",
+      "Kricketot",
+      "Larvitar",
+      "Machop",
+      "Phanpy",
+      "Ponyta",
+      "Stantler",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Route 204",
+    "pokemon": [
+      "Bidoof",
+      "Budew",
+      "Caterpie",
+      "Goldeen",
+      "Golduck",
+      "Gyarados",
+      "Kirlia",
+      "Kricketot",
+      "Lotad",
+      "Magikarp",
+      "Pineco",
+      "Psyduck",
+      "Ralts",
+      "Seaking",
+      "Seedot",
+      "Shinx",
+      "Starly",
+      "Weedle",
+      "Wurmple",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Ravaged Path",
+    "pokemon": [
+      "Barboach",
+      "Geodude",
+      "Golbat",
+      "Golduck",
+      "Gyarados",
+      "Magikarp",
+      "Psyduck",
+      "Whiscash",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Floaroma Meadow",
+    "pokemon": [
+      "Aipom",
+      "Burmy",
+      "Cherubi",
+      "Combee",
+      "Heracross",
+      "Munchlax",
+      "Wurmple"
+    ]
+  },
+  {
+    "routeName": "Route 205",
+    "pokemon": [
+      "Barboach",
+      "Beautifly",
+      "Bidoof",
+      "Budew",
+      "Buizel",
+      "Cascoon",
+      "Dustox",
+      "Elekid",
+      "Finneon",
+      "Gastrodon",
+      "Golduck",
+      "Gyarados",
+      "Hoothoot",
+      "Hoppip",
+      "Kricketot",
+      "Lumineon",
+      "Magikarp",
+      "Pachirisu",
+      "Pelipper",
+      "Psyduck",
+      "Shellder",
+      "Shellos",
+      "Silcoon",
+      "Tentacool",
+      "Tentacruel",
+      "Whiscash",
+      "Wingull",
+      "Wurmple"
+    ]
+  },
+  {
+    "routeName": "Valley Windworks",
+    "pokemon": [
+      "Bidoof",
+      "Buizel",
+      "Electrike",
+      "Elekid",
+      "Finneon",
+      "Gastrodon",
+      "Gyarados",
+      "Lumineon",
+      "Magikarp",
+      "Mareep",
+      "Pachirisu",
+      "Pelipper",
+      "Shellder",
+      "Shellos",
+      "Shinx",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Eterna Forest",
+    "pokemon": [
+      "Beautifly",
+      "Bidoof",
+      "Budew",
+      "Buneary",
+      "Cascoon",
+      "Caterpie",
+      "Dustox",
+      "Gastly",
+      "Hoothoot",
+      "Kakuna",
+      "Kricketot",
+      "Metapod",
+      "Misdreavus",
+      "Murkrow",
+      "Nincada",
+      "Pineco",
+      "Seedot",
+      "Silcoon",
+      "Slakoth",
+      "Weedle",
+      "Wurmple"
+    ]
+  },
+  {
+    "routeName": "The Old Chateau",
+    "pokemon": [
+      "Gastly",
+      "Rotom"
+    ]
+  },
+  {
+    "routeName": "Eterna City",
+    "pokemon": [
+      "Barboach",
+      "Golduck",
+      "Gyarados",
+      "Magikarp",
+      "Psyduck",
+      "Whiscash"
+    ]
+  },
+  {
+    "routeName": "Route 211",
+    "pokemon": [
+      "Bidoof",
+      "Bronzor",
+      "Chingling",
+      "Geodude",
+      "Graveler",
+      "Hoothoot",
+      "Machoke",
+      "Machop",
+      "Meditite",
+      "Noctowl",
+      "Ponyta",
+      "Swablu",
+      "Teddiursa",
+      "Tyrogue",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Mt. Coronet",
+    "pokemon": [
+      "Abomasnow",
+      "Absol",
+      "Barboach",
+      "Bronzong",
+      "Bronzor",
+      "Chingling",
+      "Clefairy",
+      "Cleffa",
+      "Dragonair",
+      "Dratini",
+      "Feebas",
+      "Geodude",
+      "Golbat",
+      "Graveler",
+      "Gyarados",
+      "Lunatone",
+      "Machoke",
+      "Machop",
+      "Magikarp",
+      "Medicham",
+      "Meditite",
+      "Noctowl",
+      "Nosepass",
+      "Snover",
+      "Solrock",
+      "Whiscash",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Route 206",
+    "pokemon": [
+      "Baltoy",
+      "Bronzor",
+      "Geodude",
+      "Gligar",
+      "Kricketot",
+      "Kricketune",
+      "Larvitar",
+      "Machop",
+      "Nosepass",
+      "Ponyta",
+      "Stunky",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Wayward Cave",
+    "pokemon": [
+      "Bronzor",
+      "Geodude",
+      "Gible",
+      "Onix",
+      "Sandshrew",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Route 208",
+    "pokemon": [
+      "Barboach",
+      "Bibarel",
+      "Bidoof",
+      "Budew",
+      "Dunsparce",
+      "Goldeen",
+      "Golduck",
+      "Gyarados",
+      "Machop",
+      "Magikarp",
+      "Meditite",
+      "Psyduck",
+      "Ralts",
+      "Roselia",
+      "Seaking",
+      "Seviper",
+      "Smeargle",
+      "Tyrogue",
+      "Whiscash",
+      "Zangoose",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Hearthome City",
+    "pokemon": [
+      "Eevee"
+    ]
+  },
+  {
+    "routeName": "Route 209",
+    "pokemon": [
+      "Bibarel",
+      "Bonsly",
+      "Chansey",
+      "Duskull",
+      "Gastly",
+      "Goldeen",
+      "Golduck",
+      "Gyarados",
+      "Kirlia",
+      "Magikarp",
+      "Miltank",
+      "Mime Jr.",
+      "Psyduck",
+      "Ralts",
+      "Roselia",
+      "Seaking",
+      "Snubbull",
+      "Staravia",
+      "Starly",
+      "Tauros",
+      "Vulpix",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "The Lost Tower",
+    "pokemon": [
+      "Duskull",
+      "Gastly",
+      "Golbat",
+      "Misdreavus",
+      "Murkrow",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Solaceon Ruins",
+    "pokemon": [
+      "Unown"
+    ]
+  },
+  {
+    "routeName": "Route 210",
+    "pokemon": [
+      "Bonsly",
+      "Chansey",
+      "Geodude",
+      "Hoothoot",
+      "Kricketune",
+      "Miltank",
+      "Mime Jr.",
+      "Noctowl",
+      "Nuzleaf",
+      "Pineco",
+      "Ponyta",
+      "Roselia",
+      "Scyther",
+      "Seedot",
+      "Staravia",
+      "Tauros"
+    ]
+  },
+  {
+    "routeName": "Route 215",
+    "pokemon": [
+      "Abra",
+      "Drowzee",
+      "Geodude",
+      "Gligar",
+      "Houndoom",
+      "Kadabra",
+      "Kricketune",
+      "Lickitung",
+      "Marill",
+      "Mightyena",
+      "Ponyta",
+      "Scyther",
+      "Staravia"
+    ]
+  },
+  {
+    "routeName": "Veilstone City",
+    "pokemon": [
+      "Porygon"
+    ]
+  },
+  {
+    "routeName": "Route 214",
+    "pokemon": [
+      "Geodude",
+      "Girafarig",
+      "Gligar",
+      "Goldeen",
+      "Golduck",
+      "Graveler",
+      "Gyarados",
+      "Houndoom",
+      "Houndour",
+      "Kricketune",
+      "Magikarp",
+      "Mightyena",
+      "Ponyta",
+      "Poochyena",
+      "Psyduck",
+      "Rhyhorn",
+      "Seaking",
+      "Spoink",
+      "Stunky",
+      "Sudowoodo",
+      "Vulpix",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Valor Lakefront",
+    "pokemon": [
+      "Bibarel",
+      "Geodude",
+      "Girafarig",
+      "Graveler",
+      "Houndour",
+      "Kricketune",
+      "Nidorina",
+      "Nidorino",
+      "Staravia"
+    ]
+  },
+  {
+    "routeName": "Pastoria City",
+    "pokemon": [
+      "Gastrodon",
+      "Gyarados",
+      "Magikarp",
+      "Octillery",
+      "Pelipper",
+      "Remoraid",
+      "Shellos",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 213",
+    "pokemon": [
+      "Absol",
+      "Buizel",
+      "Chatot",
+      "Floatzel",
+      "Gastrodon",
+      "Gyarados",
+      "Magikarp",
+      "Octillery",
+      "Pelipper",
+      "Remoraid",
+      "Sharpedo",
+      "Shellos",
+      "Swellow",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 212",
+    "pokemon": [
+      "Barboach",
+      "Bibarel",
+      "Budew",
+      "Buizel",
+      "Croagunk",
+      "Ekans",
+      "Gastrodon",
+      "Goldeen",
+      "Golduck",
+      "Grimer",
+      "Gyarados",
+      "Kirlia",
+      "Kricketune",
+      "Lombre",
+      "Lotad",
+      "Magikarp",
+      "Marill",
+      "Octillery",
+      "Psyduck",
+      "Quagsire",
+      "Ralts",
+      "Remoraid",
+      "Roselia",
+      "Seaking",
+      "Shellos",
+      "Smeargle",
+      "Staravia",
+      "Starly",
+      "Tentacool",
+      "Tentacruel",
+      "Whiscash",
+      "Wooper"
+    ]
+  },
+  {
+    "routeName": "Celestic Town",
+    "pokemon": [
+      "Barboach",
+      "Corphish",
+      "Crawdaunt",
+      "Goldeen",
+      "Golduck",
+      "Gyarados",
+      "Magikarp",
+      "Psyduck",
+      "Seaking",
+      "Whiscash"
+    ]
+  },
+  {
+    "routeName": "Fuego Ironworks",
+    "pokemon": [
+      "Barboach",
+      "Corphish",
+      "Crawdaunt",
+      "Floatzel",
+      "Gastrodon",
+      "Goldeen",
+      "Golduck",
+      "Gyarados",
+      "Luxio",
+      "Magikarp",
+      "Magmar",
+      "Magnemite",
+      "Pachirisu",
+      "Pelipper",
+      "Psyduck",
+      "Seaking",
+      "Shellos",
+      "Shinx",
+      "Whiscash",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 219",
+    "pokemon": [
+      "Clamperl",
+      "Finneon",
+      "Gyarados",
+      "Lumineon",
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 220",
+    "pokemon": [
+      "Chinchou",
+      "Finneon",
+      "Gyarados",
+      "Lanturn",
+      "Lumineon",
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 221",
+    "pokemon": [
+      "Clamperl",
+      "Farfetch'd",
+      "Finneon",
+      "Floatzel",
+      "Gastrodon",
+      "Girafarig",
+      "Gyarados",
+      "Lumineon",
+      "Magikarp",
+      "Nidorina",
+      "Nidorino",
+      "Pelipper",
+      "Roselia",
+      "Shellos",
+      "Skuntank",
+      "Stunky",
+      "Sudowoodo",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 218",
+    "pokemon": [
+      "Chatot",
+      "Ditto",
+      "Finneon",
+      "Floatzel",
+      "Gastrodon",
+      "Glameow",
+      "Gyarados",
+      "Lumineon",
+      "Magikarp",
+      "Mr. Mime",
+      "Pelipper",
+      "Shellos",
+      "Tentacool",
+      "Tentacruel",
+      "Voltorb",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Canalave City",
+    "pokemon": [
+      "Finneon",
+      "Gastrodon",
+      "Gyarados",
+      "Lumineon",
+      "Magikarp",
+      "Pelipper",
+      "Shellos",
+      "Staryu",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Iron Island",
+    "pokemon": [
+      "Finneon",
+      "Geodude",
+      "Graveler",
+      "Gyarados",
+      "Lumineon",
+      "Magikarp",
+      "Mawile",
+      "Onix",
+      "Pelipper",
+      "Qwilfish",
+      "Riolu",
+      "Sableye",
+      "Steelix",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 216",
+    "pokemon": [
+      "Delibird",
+      "Graveler",
+      "Machoke",
+      "Meditite",
+      "Noctowl",
+      "Sneasel",
+      "Snorunt",
+      "Snover",
+      "Ursaring",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Route 217",
+    "pokemon": [
+      "Delibird",
+      "Machoke",
+      "Medicham",
+      "Meditite",
+      "Noctowl",
+      "Piloswine",
+      "Sneasel",
+      "Snorunt",
+      "Snover",
+      "Swinub",
+      "Ursaring",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Acuity Lakefront",
+    "pokemon": [
+      "Delibird",
+      "Machoke",
+      "Medicham",
+      "Meditite",
+      "Noctowl",
+      "Piloswine",
+      "Sneasel",
+      "Snorunt",
+      "Snover",
+      "Swinub",
+      "Ursaring",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Lake Acuity",
+    "pokemon": [
+      "Bibarel",
+      "Chingling",
+      "Goldeen",
+      "Golduck",
+      "Gyarados",
+      "Lunatone",
+      "Magikarp",
+      "Noctowl",
+      "Psyduck",
+      "Seaking",
+      "Smoochum",
+      "Sneasel",
+      "Snorunt",
+      "Snover",
+      "Solrock",
+      "Teddiursa",
+      "Ursaring",
+      "Wobbuffet"
+    ]
+  },
+  {
+    "routeName": "Snowpoint Temple",
+    "pokemon": [
+      "Golbat",
+      "Graveler",
+      "Jynx",
+      "Onix",
+      "Smoochum",
+      "Sneasel",
+      "Steelix"
+    ]
+  },
+  {
+    "routeName": "Route 222",
+    "pokemon": [
+      "Chatot",
+      "Electabuzz",
+      "Floatzel",
+      "Gastrodon",
+      "Glameow",
+      "Gyarados",
+      "Luxio",
+      "Magikarp",
+      "Magnemite",
+      "Magneton",
+      "Mr. Mime",
+      "Octillery",
+      "Pelipper",
+      "Purugly",
+      "Remoraid",
+      "Sharpedo",
+      "Skitty",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Sunyshore City",
+    "pokemon": [
+      "Gyarados",
+      "Magikarp",
+      "Mantyke",
+      "Octillery",
+      "Pelipper",
+      "Remoraid",
+      "Staryu",
+      "Tentacool",
+      "Tentacruel",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 223",
+    "pokemon": [
+      "Gyarados",
+      "Magikarp",
+      "Mantyke",
+      "Octillery",
+      "Pelipper",
+      "Remoraid",
+      "Tentacruel",
+      "Wailmer",
+      "Wailord"
+    ]
+  },
+  {
+    "routeName": "Victory Road",
+    "pokemon": [
+      "Azumarill",
+      "Floatzel",
+      "Gabite",
+      "Golbat",
+      "Graveler",
+      "Gyarados",
+      "Kadabra",
+      "Machoke",
+      "Magikarp",
+      "Magneton",
+      "Medicham",
+      "Onix",
+      "Rhydon",
+      "Rhyhorn",
+      "Steelix"
+    ]
+  }
+]

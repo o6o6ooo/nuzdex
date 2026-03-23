@@ -1,0 +1,188 @@
+{
+  "game": "Platinum",
+  "category": "eliteFour",
+  "trainerId": "flint-e3",
+  "trainerName": "Flint",
+  "battleLabel": "Elite 4 - 3",
+  "primaryType": "fire",
+  "levelCap": 57,
+  "party": [
+    {
+      "name": "Houndoom",
+      "baseStats": 500,
+      "level": 52,
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Dark Pulse",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Flareon",
+      "baseStats": 525,
+      "level": 55,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 130
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Giga Impact",
+          "category": "physical",
+          "type": "normal",
+          "power": 150
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Rapidash",
+      "baseStats": 500,
+      "level": 53,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Bounce",
+          "category": "physical",
+          "type": "flying",
+          "power": 85
+        }
+      ]
+    },
+    {
+      "name": "Infernape",
+      "baseStats": 534,
+      "level": 55,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Mach Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Magmortar",
+      "baseStats": 540,
+      "level": 57,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    }
+  ]
+}

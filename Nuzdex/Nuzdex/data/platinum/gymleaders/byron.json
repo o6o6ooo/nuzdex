@@ -1,0 +1,119 @@
+{
+  "game": "Platinum",
+  "category": "gymLeader",
+  "trainerId": "byron-gym-6",
+  "trainerName": "Byron",
+  "battleLabel": "6th Gym Leader - Canalave City",
+  "primaryType": "steel",
+  "levelCap": 41,
+  "party": [
+    {
+      "name": "Magneton",
+      "baseStats": 465,
+      "level": 37,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Metal Sound",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Tri Attack",
+          "category": "special",
+          "type": "normal",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Steelix",
+      "baseStats": 510,
+      "level": 38,
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Ice Fang",
+          "category": "physical",
+          "type": "ice",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Bastiodon",
+      "baseStats": 495,
+      "level": 41,
+      "types": [
+        "rock",
+        "steel"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Metal Burst",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Iron Defense",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

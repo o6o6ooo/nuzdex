@@ -1,0 +1,117 @@
+{
+  "game": "Platinum",
+  "category": "gymLeader",
+  "trainerId": "fantina-gym-3",
+  "trainerName": "Fantina",
+  "battleLabel": "3rd Gym Leader - Hearthome City",
+  "primaryType": "ghost",
+  "levelCap": 26,
+  "party": [
+    {
+      "name": "Duskull",
+      "baseStats": 295,
+      "level": 24,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Shadow Sneak",
+          "category": "physical",
+          "type": "ghost",
+          "power": 40
+        },
+        {
+          "name": "Future Sight",
+          "category": "special",
+          "type": "psychic",
+          "power": 120
+        },
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Haunter",
+      "baseStats": 405,
+      "level": 24,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Shadow Claw",
+          "category": "physical",
+          "type": "ghost",
+          "power": 70
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Mismagius",
+      "baseStats": 495,
+      "level": 26,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Magical Leaf",
+          "category": "special",
+          "type": "grass",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

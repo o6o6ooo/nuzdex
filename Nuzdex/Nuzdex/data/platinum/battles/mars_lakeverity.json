@@ -1,0 +1,118 @@
+{
+  "game": "Platinum",
+  "category": "evilTeam",
+  "trainerId": "mars-lakeverity",
+  "trainerName": "Mars",
+  "battleLabel": "Lake Verity",
+  "primaryType": null,
+  "levelCap": 40,
+  "party": [
+    {
+      "name": "Golbat",
+      "baseStats": 455,
+      "level": 38,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Bronzor",
+      "baseStats": 300,
+      "level": 38,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Iron Defense",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Extrasensory",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Purugly",
+      "baseStats": 452,
+      "level": 40,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "game": "Platinum",
+  "category": "gymLeader",
+  "trainerId": "volkner-gym-8",
+  "trainerName": "Volkner",
+  "battleLabel": "8th Gym Leader - Sunyshore City",
+  "primaryType": "electric",
+  "levelCap": 50,
+  "party": [
+    {
+      "name": "Jolteon",
+      "baseStats": 525,
+      "level": 46,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Iron Tail",
+          "category": "physical",
+          "type": "steel",
+          "power": 100
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Raichu",
+      "baseStats": 485,
+      "level": 46,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        },
+        {
+          "name": "Signal Beam",
+          "category": "special",
+          "type": "bug",
+          "power": 75
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Luxray",
+      "baseStats": 523,
+      "level": 48,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Fang",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        },
+        {
+          "name": "Fire Fang",
+          "category": "physical",
+          "type": "fire",
+          "power": 65
+        },
+        {
+          "name": "Ice Fang",
+          "category": "physical",
+          "type": "ice",
+          "power": 65
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Electivire",
+      "baseStats": 540,
+      "level": 50,
+      "types": [
+        "electric"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Fire Punch",
+          "category": "physical",
+          "type": "fire",
+          "power": 75
+        },
+        {
+          "name": "Giga Impact",
+          "category": "physical",
+          "type": "normal",
+          "power": 150
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

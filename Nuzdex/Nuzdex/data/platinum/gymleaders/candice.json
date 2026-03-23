@@ -1,0 +1,155 @@
+{
+  "game": "Platinum",
+  "category": "gymLeader",
+  "trainerId": "candice-gym-7",
+  "trainerName": "Candice",
+  "battleLabel": "7th Gym Leader - Snowpoint City",
+  "primaryType": "ice",
+  "levelCap": 44,
+  "party": [
+    {
+      "name": "Piloswine",
+      "baseStats": 450,
+      "level": 38,
+      "types": [
+        "ice",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Avalanche",
+          "category": "physical",
+          "type": "ice",
+          "power": 60
+        },
+        {
+          "name": "Hail",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Sneasel",
+      "baseStats": 430,
+      "level": 40,
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Ice Shard",
+          "category": "physical",
+          "type": "ice",
+          "power": 40
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Abomasnow",
+      "baseStats": 494,
+      "level": 42,
+      "types": [
+        "grass",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wood Hammer",
+          "category": "physical",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Avalanche",
+          "category": "physical",
+          "type": "ice",
+          "power": 60
+        },
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Froslass",
+      "baseStats": 480,
+      "level": 44,
+      "types": [
+        "ice",
+        "ghost"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}
