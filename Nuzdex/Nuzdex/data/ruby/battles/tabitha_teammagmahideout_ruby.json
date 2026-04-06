@@ -1,0 +1,118 @@
+{
+  "game": "Ruby",
+  "category": "evilTeam",
+  "trainerId": "tabitha-teammagmahideout",
+  "trainerName": "Tabitha",
+  "battleLabel": "Team Magma Hideout",
+  "primaryType": null,
+  "levelCap": 32,
+  "party": [
+    {
+      "name": "Numel",
+      "baseStats": 305,
+      "level": 32,
+      "types": [
+        "fire",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Magnitude",
+          "category": "physical",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Mightyena",
+      "baseStats": 420,
+      "level": 32,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Camerupt",
+      "baseStats": 460,
+      "level": 32,
+      "types": [
+        "fire",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Magnitude",
+          "category": "physical",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "game": "Sapphire",
+  "category": "evilTeam",
+  "trainerId": "archie-seafloorcavern",
+  "trainerName": "Archie",
+  "battleLabel": "Seafloor Cavern",
+  "primaryType": null,
+  "levelCap": 43,
+  "party": [
+    {
+      "name": "Mightyena",
+      "baseStats": 420,
+      "level": 41,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Crobat",
+      "baseStats": 535,
+      "level": 41,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Sharpedo",
+      "baseStats": 460,
+      "level": 43,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

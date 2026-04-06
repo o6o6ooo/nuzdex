@@ -1,0 +1,118 @@
+{
+  "game": "Ruby",
+  "category": "gymLeader",
+  "trainerId": "wattson-gym-3",
+  "trainerName": "Wattson",
+  "battleLabel": "3rd Gym Leader - Mauville City",
+  "primaryType": "electric",
+  "levelCap": 23,
+  "party": [
+    {
+      "name": "Magnemite",
+      "baseStats": 325,
+      "level": 22,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Shock",
+          "category": "special",
+          "type": "electric",
+          "power": 40
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Voltorb",
+      "baseStats": 330,
+      "level": 20,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        },
+        {
+          "name": "Spark",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        },
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Self-Destruct",
+          "category": "physical",
+          "type": "normal",
+          "power": 200
+        }
+      ]
+    },
+    {
+      "name": "Magneton",
+      "baseStats": 465,
+      "level": 23,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

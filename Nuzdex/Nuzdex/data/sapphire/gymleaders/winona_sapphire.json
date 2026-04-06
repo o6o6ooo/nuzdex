@@ -1,0 +1,155 @@
+{
+  "game": "Sapphire",
+  "category": "gymLeader",
+  "trainerId": "winona-gym-6",
+  "trainerName": "Winona",
+  "battleLabel": "6th Gym Leader - Fortree City",
+  "primaryType": "flying",
+  "levelCap": 33,
+  "party": [
+    {
+      "name": "Swellow",
+      "baseStats": 455,
+      "level": 31,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Endeavor",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Pelipper",
+      "baseStats": 440,
+      "level": 30,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Encore",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Skarmory",
+      "baseStats": 465,
+      "level": 32,
+      "types": [
+        "steel",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Fury Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Steel Wing",
+          "category": "physical",
+          "type": "steel",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Altaria",
+      "baseStats": 490,
+      "level": 33,
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Dragon Breath",
+          "category": "special",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

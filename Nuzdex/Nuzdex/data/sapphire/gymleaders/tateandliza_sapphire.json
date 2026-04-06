@@ -1,0 +1,83 @@
+{
+  "game": "Sapphire",
+  "category": "gymLeader",
+  "trainerId": "tateandliza-gym-7",
+  "trainerName": "Tate & Liza",
+  "battleLabel": "7th Gym Leader - Mossdeep City",
+  "primaryType": "psychic",
+  "levelCap": 42,
+  "party": [
+    {
+      "name": "Lunatone",
+      "baseStats": 460,
+      "level": 42,
+      "types": [
+        "rock",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Solrock",
+      "baseStats": 460,
+      "level": 42,
+      "types": [
+        "rock",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

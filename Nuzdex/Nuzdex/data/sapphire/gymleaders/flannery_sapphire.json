@@ -1,0 +1,116 @@
+{
+  "game": "Sapphire",
+  "category": "gymLeader",
+  "trainerId": "flannery-gym-4",
+  "trainerName": "Flannery",
+  "battleLabel": "4th Gym Leader - Lavaridge Town",
+  "primaryType": "fire",
+  "levelCap": 28,
+  "party": [
+    {
+      "name": "Slugma",
+      "baseStats": 250,
+      "level": 26,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 130
+        },
+        {
+          "name": "Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 30
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Slugma",
+      "baseStats": 250,
+      "level": 26,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Torkoal",
+      "baseStats": 470,
+      "level": 28,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 130
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Flail",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

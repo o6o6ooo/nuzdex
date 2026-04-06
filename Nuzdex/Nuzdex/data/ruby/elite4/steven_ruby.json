@@ -1,0 +1,227 @@
+{
+  "game": "Ruby",
+  "category": "eliteFour",
+  "trainerId": "steven-champion",
+  "trainerName": "Steven",
+  "battleLabel": "Champion",
+  "primaryType": "steel",
+  "levelCap": 58,
+  "party": [
+    {
+      "name": "Skarmory",
+      "baseStats": 465,
+      "level": 52,
+      "types": [
+        "steel",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Steel Wing",
+          "category": "physical",
+          "type": "steel",
+          "power": 70
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Spikes",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Claydol",
+      "baseStats": 500,
+      "level": 55,
+      "types": [
+        "ground",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Aggron",
+      "baseStats": 530,
+      "level": 56,
+      "types": [
+        "steel",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Dragon Claw",
+          "category": "physical",
+          "type": "dragon",
+          "power": 80
+        },
+        {
+          "name": "Thunder",
+          "category": "special",
+          "type": "electric",
+          "power": 110
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Cradily",
+      "baseStats": 495,
+      "level": 56,
+      "types": [
+        "rock",
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Armaldo",
+      "baseStats": 495,
+      "level": 56,
+      "types": [
+        "rock",
+        "bug"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Metagross",
+      "baseStats": 600,
+      "level": 58,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Meteor Mash",
+          "category": "physical",
+          "type": "steel",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    }
+  ]
+}

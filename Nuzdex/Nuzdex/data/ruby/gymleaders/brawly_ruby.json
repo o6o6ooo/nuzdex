@@ -1,0 +1,81 @@
+{
+  "game": "Ruby",
+  "category": "gymLeader",
+  "trainerId": "brawly-gym-2",
+  "trainerName": "Brawly",
+  "battleLabel": "2nd Gym Leader - Dewford Town",
+  "primaryType": "fighting",
+  "levelCap": 18,
+  "party": [
+    {
+      "name": "Machop",
+      "baseStats": 305,
+      "level": 17,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bulk Up",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Karate Chop",
+          "category": "physical",
+          "type": "fighting",
+          "power": 50
+        },
+        {
+          "name": "Seismic Toss",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Makuhita",
+      "baseStats": 237,
+      "level": 18,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bulk Up",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Knock Off",
+          "category": "physical",
+          "type": "dark",
+          "power": 65
+        },
+        {
+          "name": "Arm Thrust",
+          "category": "physical",
+          "type": "fighting",
+          "power": 15
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

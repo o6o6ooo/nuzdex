@@ -20,6 +20,10 @@ struct BossBattle: Identifiable, Decodable {
 extension GameId {
 	var dataDirectoryName: String? {
 		switch self {
+		case .ruby:
+			return "ruby"
+		case .sapphire:
+			return "sapphire"
 		case .emerald:
 			return "emerald"
 		case .platinum:

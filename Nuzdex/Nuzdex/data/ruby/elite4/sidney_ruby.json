@@ -1,0 +1,189 @@
+{
+  "game": "Ruby",
+  "category": "eliteFour",
+  "trainerId": "sidney-e1",
+  "trainerName": "Sidney",
+  "battleLabel": "Elite 4 - 1",
+  "primaryType": "dark",
+  "levelCap": 49,
+  "party": [
+    {
+      "name": "Mightyena",
+      "baseStats": 420,
+      "level": 46,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Cacturne",
+      "baseStats": 475,
+      "level": 46,
+      "types": [
+        "grass",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Needle Arm",
+          "category": "physical",
+          "type": "grass",
+          "power": 60
+        },
+        {
+          "name": "Cotton Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Shiftry",
+      "baseStats": 480,
+      "level": 48,
+      "types": [
+        "grass",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Extrasensory",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Sharpedo",
+      "baseStats": 460,
+      "level": 48,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Absol",
+      "baseStats": 465,
+      "level": 49,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Snatch",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

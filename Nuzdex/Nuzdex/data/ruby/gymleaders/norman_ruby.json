@@ -1,0 +1,116 @@
+{
+  "game": "Ruby",
+  "category": "gymLeader",
+  "trainerId": "norman-gym-5",
+  "trainerName": "Norman",
+  "battleLabel": "5th Gym Leader - Petalburg City",
+  "primaryType": "normal",
+  "levelCap": 31,
+  "party": [
+    {
+      "name": "Slaking",
+      "baseStats": 670,
+      "level": 28,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Encore",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Vigoroth",
+      "baseStats": 440,
+      "level": 30,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Encore",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Slaking",
+      "baseStats": 670,
+      "level": 31,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Focus Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 150
+        },
+        {
+          "name": "Slack Off",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

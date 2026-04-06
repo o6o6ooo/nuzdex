@@ -1,0 +1,118 @@
+{
+  "game": "Ruby",
+  "category": "evilTeam",
+  "trainerId": "tabitha-mtchimney",
+  "trainerName": "Tabitha",
+  "battleLabel": "Mt. Chimney",
+  "primaryType": null,
+  "levelCap": 20,
+  "party": [
+    {
+      "name": "Numel",
+      "baseStats": 305,
+      "level": 20,
+      "types": [
+        "fire",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        },
+        {
+          "name": "Magnitude",
+          "category": "physical",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Poochyena",
+      "baseStats": 220,
+      "level": 20,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Howl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Odor Sleuth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Numel",
+      "baseStats": 305,
+      "level": 20,
+      "types": [
+        "fire",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        },
+        {
+          "name": "Magnitude",
+          "category": "physical",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

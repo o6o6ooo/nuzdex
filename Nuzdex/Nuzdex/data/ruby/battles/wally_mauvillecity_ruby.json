@@ -1,0 +1,47 @@
+{
+  "game": "Ruby",
+  "category": "rival",
+  "trainerId": "wally-mauvillecity",
+  "trainerName": "Wally",
+  "battleLabel": "Mauville City",
+  "primaryType": null,
+  "levelCap": 17,
+  "party": [
+    {
+      "name": "Ralts",
+      "baseStats": 198,
+      "level": 17,
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Teleport",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Confusion",
+          "category": "special",
+          "type": "psychic",
+          "power": 50
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "game": "Ruby",
+  "category": "evilTeam",
+  "trainerId": "maxie-mtchimney",
+  "trainerName": "Maxie",
+  "battleLabel": "Mt. Chimney",
+  "primaryType": null,
+  "levelCap": 25,
+  "party": [
+    {
+      "name": "Mightyena",
+      "baseStats": 420,
+      "level": 24,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Odor Sleuth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Golbat",
+      "baseStats": 455,
+      "level": 24,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Astonish",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Camerupt",
+      "baseStats": 460,
+      "level": 25,
+      "types": [
+        "fire",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        },
+        {
+          "name": "Magnitude",
+          "category": "physical",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "game": "Sapphire",
+  "category": "evilTeam",
+  "trainerId": "shelly-weatherinstitute",
+  "trainerName": "Shelly",
+  "battleLabel": "Weather Institute",
+  "primaryType": null,
+  "levelCap": 28,
+  "party": [
+    {
+      "name": "Carvanha",
+      "baseStats": 305,
+      "level": 28,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Mightyena",
+      "baseStats": 420,
+      "level": 28,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Odor Sleuth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

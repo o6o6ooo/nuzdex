@@ -1,0 +1,187 @@
+{
+  "game": "Ruby",
+  "category": "eliteFour",
+  "trainerId": "phoebe-e2",
+  "trainerName": "Phoebe",
+  "battleLabel": "Elite 4 - 2",
+  "primaryType": "ghost",
+  "levelCap": 51,
+  "party": [
+    {
+      "name": "Dusclops",
+      "baseStats": 455,
+      "level": 48,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Future Sight",
+          "category": "special",
+          "type": "psychic",
+          "power": 120
+        },
+        {
+          "name": "Shadow Punch",
+          "category": "physical",
+          "type": "ghost",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Banette",
+      "baseStats": 455,
+      "level": 49,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Spite",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Banette",
+      "baseStats": 455,
+      "level": 49,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Skill Swap",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Sableye",
+      "baseStats": 380,
+      "level": 50,
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Dusclops",
+      "baseStats": 455,
+      "level": 51,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

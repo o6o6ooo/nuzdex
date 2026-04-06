@@ -1,0 +1,118 @@
+{
+  "game": "Sapphire",
+  "category": "evilTeam",
+  "trainerId": "matt-teammagmahideout",
+  "trainerName": "Matt",
+  "battleLabel": "Team Magma Hideout",
+  "primaryType": null,
+  "levelCap": 32,
+  "party": [
+    {
+      "name": "Carvanha",
+      "baseStats": 305,
+      "level": 32,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rage",
+          "category": "physical",
+          "type": "normal",
+          "power": 20
+        }
+      ]
+    },
+    {
+      "name": "Mightyena",
+      "baseStats": 420,
+      "level": 32,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Odor Sleuth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Sharpedo",
+      "baseStats": 460,
+      "level": 32,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rage",
+          "category": "physical",
+          "type": "normal",
+          "power": 20
+        }
+      ]
+    }
+  ]
+}

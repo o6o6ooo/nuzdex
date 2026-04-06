@@ -1,0 +1,630 @@
+[
+  {
+    "routeName": "Littleroot Town",
+    "pokemon": [
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile"
+    ]
+  },
+  {
+    "routeName": "Route 101",
+    "pokemon": [
+      "Poochyena",
+      "Wurmple",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Route 103",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Poochyena",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Route 102",
+    "pokemon": [
+      "Corphish",
+      "Goldeen",
+      "Lotad",
+      "Magikarp",
+      "Marill",
+      "Poochyena",
+      "Ralts",
+      "Surskit",
+      "Wurmple",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Petalburg City",
+    "pokemon": [
+      "Corphish",
+      "Goldeen",
+      "Magikarp",
+      "Marill"
+    ]
+  },
+  {
+    "routeName": "Route 104",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Taillow",
+      "Wingull",
+      "Wurmple",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Petalburg Woods",
+    "pokemon": [
+      "Cascoon",
+      "Shroomish",
+      "Silcoon",
+      "Slakoth",
+      "Taillow",
+      "Wurmple",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Rustboro City",
+    "pokemon": [
+      "Makuhita"
+    ]
+  },
+  {
+    "routeName": "Route 116",
+    "pokemon": [
+      "Nincada",
+      "Skitty",
+      "Taillow",
+      "Whismur",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Rusturf Tunnel",
+    "pokemon": [
+      "Whismur"
+    ]
+  },
+  {
+    "routeName": "Dewford Town",
+    "pokemon": [
+      "Magikarp",
+      "Tentacool",
+      "Wailmer"
+    ]
+  },
+  {
+    "routeName": "Route 106",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Granite Cave",
+    "pokemon": [
+      "Abra",
+      "Aron",
+      "Geodude",
+      "Nosepass",
+      "Sableye",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Route 107",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 109",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Slateport City",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 110",
+    "pokemon": [
+      "Electrike",
+      "Gulpin",
+      "Magikarp",
+      "Minun",
+      "Oddish",
+      "Pelipper",
+      "Plusle",
+      "Tentacool",
+      "Wailmer",
+      "Wingull",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Altering Cave",
+    "pokemon": [
+      "Aipom",
+      "Houndour",
+      "Mareep",
+      "Pineco",
+      "Shuckle",
+      "Stantler",
+      "Teddiursa",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "New Mauville",
+    "pokemon": [
+      "Electrode",
+      "Magnemite",
+      "Magneton",
+      "Voltorb"
+    ]
+  },
+  {
+    "routeName": "Route 117",
+    "pokemon": [
+      "Corphish",
+      "Goldeen",
+      "Illumise",
+      "Magikarp",
+      "Marill",
+      "Oddish",
+      "Roselia",
+      "Surskit",
+      "Volbeat",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Route 112",
+    "pokemon": [
+      "Machop",
+      "Numel"
+    ]
+  },
+  {
+    "routeName": "Route 113",
+    "pokemon": [
+      "Sandshrew",
+      "Skarmory",
+      "Spinda"
+    ]
+  },
+  {
+    "routeName": "Route 114",
+    "pokemon": [
+      "Barboach",
+      "Geodude",
+      "Goldeen",
+      "Lombre",
+      "Lotad",
+      "Magikarp",
+      "Marill",
+      "Seviper",
+      "Surskit",
+      "Swablu"
+    ]
+  },
+  {
+    "routeName": "Desert Underpass",
+    "pokemon": [
+      "Ditto",
+      "Loudred",
+      "Whismur"
+    ]
+  },
+  {
+    "routeName": "Meteor Falls",
+    "pokemon": [
+      "Bagon",
+      "Barboach",
+      "Golbat",
+      "Goldeen",
+      "Lunatone",
+      "Magikarp",
+      "Whiscash"
+    ]
+  },
+  {
+    "routeName": "Route 115",
+    "pokemon": [
+      "Jigglypuff",
+      "Magikarp",
+      "Pelipper",
+      "Swablu",
+      "Swellow",
+      "Taillow",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Jagged Pass",
+    "pokemon": [
+      "Machop",
+      "Numel",
+      "Spoink"
+    ]
+  },
+  {
+    "routeName": "Lavaridge Town",
+    "pokemon": [
+      "Wynaut"
+    ]
+  },
+  {
+    "routeName": "Fiery Path",
+    "pokemon": [
+      "Grimer",
+      "Koffing",
+      "Machop",
+      "Numel",
+      "Slugma",
+      "Torkoal"
+    ]
+  },
+  {
+    "routeName": "Mirage Tower",
+    "pokemon": [
+      "Sandshrew",
+      "Trapinch"
+    ]
+  },
+  {
+    "routeName": "Route 118",
+    "pokemon": [
+      "Carvanha",
+      "Electrike",
+      "Goldeen",
+      "Kecleon",
+      "Linoone",
+      "Magikarp",
+      "Manectric",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wingull",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Route 119",
+    "pokemon": [
+      "Castform"
+    ]
+  },
+  {
+    "routeName": "Fortree City",
+    "pokemon": [
+      "Plusle",
+      "Skitty"
+    ]
+  },
+  {
+    "routeName": "Route 121",
+    "pokemon": [
+      "Gloom",
+      "Kecleon",
+      "Linoone",
+      "Magikarp",
+      "Oddish",
+      "Pelipper",
+      "Shuppet",
+      "Tentacool",
+      "Wailmer",
+      "Wingull",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Safari Zone",
+    "pokemon": [
+      "Doduo",
+      "Girafarig",
+      "Gloom",
+      "Goldeen",
+      "Magikarp",
+      "Natu",
+      "Oddish",
+      "Pikachu",
+      "Psyduck",
+      "Seaking",
+      "Wobbuffet"
+    ]
+  },
+  {
+    "routeName": "Route 122",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Mt. Pyre",
+    "pokemon": [
+      "Chimecho",
+      "Duskull",
+      "Shuppet"
+    ]
+  },
+  {
+    "routeName": "Route 123",
+    "pokemon": [
+      "Gloom",
+      "Kecleon",
+      "Linoone",
+      "Magikarp",
+      "Oddish",
+      "Pelipper",
+      "Shuppet",
+      "Tentacool",
+      "Wailmer",
+      "Wingull",
+      "Zigzagoon"
+    ]
+  },
+  {
+    "routeName": "Lilycove City",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Staryu",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 124",
+    "pokemon": [
+      "Chinchou",
+      "Clamperl",
+      "Relicanth"
+    ]
+  },
+  {
+    "routeName": "Mossdeep City",
+    "pokemon": [
+      "Beldum"
+    ]
+  },
+  {
+    "routeName": "Route 125",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Shoal Cave",
+    "pokemon": [
+      "Golbat",
+      "Snorunt",
+      "Spheal",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Route 127",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 128",
+    "pokemon": [
+      "Corsola",
+      "Luvdisc",
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Seafloor Cavern",
+    "pokemon": [
+      "Golbat",
+      "Magikarp",
+      "Tentacool",
+      "Wailmer",
+      "Zubat"
+    ]
+  },
+  {
+    "routeName": "Route 126",
+    "pokemon": [
+      "Chinchou",
+      "Clamperl",
+      "Relicanth"
+    ]
+  },
+  {
+    "routeName": "Sootopolis City",
+    "pokemon": [
+      "Gyarados",
+      "Magikarp",
+      "Tentacool"
+    ]
+  },
+  {
+    "routeName": "Route 108",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Abandoned Ship",
+    "pokemon": [
+      "Magikarp",
+      "Tentacool",
+      "Tentacruel"
+    ]
+  },
+  {
+    "routeName": "Route 129",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wailord",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 130",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Mirage Island",
+    "pokemon": [
+      "Wynaut"
+    ]
+  },
+  {
+    "routeName": "Route 131",
+    "pokemon": [
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Pacifidlog Town",
+    "pokemon": [
+      "Corsola",
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 132",
+    "pokemon": [
+      "Horsea",
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 133",
+    "pokemon": [
+      "Horsea",
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 134",
+    "pokemon": [
+      "Horsea",
+      "Magikarp",
+      "Pelipper",
+      "Sharpedo",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Ever Grande City",
+    "pokemon": [
+      "Corsola",
+      "Luvdisc",
+      "Magikarp",
+      "Pelipper",
+      "Tentacool",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Victory Road",
+    "pokemon": [
+      "Barboach",
+      "Golbat",
+      "Goldeen",
+      "Lairon",
+      "Magikarp",
+      "Medicham",
+      "Sableye",
+      "Whiscash"
+    ]
+  }
+]
