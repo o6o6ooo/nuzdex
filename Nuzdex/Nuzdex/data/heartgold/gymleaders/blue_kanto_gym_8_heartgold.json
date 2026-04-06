@@ -1,0 +1,225 @@
+{
+  "game": "Heart Gold",
+  "category": "gymLeader",
+  "trainerId": "blue-kanto-gym-8",
+  "trainerName": "Blue",
+  "battleLabel": "Kanto Gym Leader - Viridian City",
+  "primaryType": null,
+  "levelCap": 60,
+  "party": [
+    {
+      "name": "Exeggutor",
+      "baseStats": 530,
+      "level": 55,
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Leaf Storm",
+          "category": "special",
+          "type": "grass",
+          "power": 130
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Trick Room",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "baseStats": 555,
+      "level": 58,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        },
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Extreme Speed",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Rhydon",
+      "baseStats": 485,
+      "level": 58,
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Thunder Fang",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Gyarados",
+      "baseStats": 540,
+      "level": 52,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Ice Fang",
+          "category": "physical",
+          "type": "ice",
+          "power": 65
+        },
+        {
+          "name": "Waterfall",
+          "category": "physical",
+          "type": "water",
+          "power": 80
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Return",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Machamp",
+      "baseStats": 505,
+      "level": 56,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Dynamic Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Pidgeot",
+      "baseStats": 479,
+      "level": 60,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Return",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Whirlwind",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Mirror Move",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

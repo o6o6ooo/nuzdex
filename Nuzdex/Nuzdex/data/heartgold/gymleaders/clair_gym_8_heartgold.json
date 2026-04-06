@@ -1,0 +1,153 @@
+{
+  "game": "Heart Gold",
+  "category": "gymLeader",
+  "trainerId": "clair-gym-8",
+  "trainerName": "Clair",
+  "battleLabel": "8th Gym Leader - Blackthorn City",
+  "primaryType": "dragon",
+  "levelCap": 41,
+  "party": [
+    {
+      "name": "Gyarados",
+      "baseStats": 540,
+      "level": 38,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Twister",
+          "category": "special",
+          "type": "dragon",
+          "power": 40
+        },
+        {
+          "name": "Dragon Rage",
+          "category": "special",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        }
+      ]
+    },
+    {
+      "name": "Dragonair",
+      "baseStats": 420,
+      "level": 38,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        }
+      ]
+    },
+    {
+      "name": "Dragonair",
+      "baseStats": 420,
+      "level": 38,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        }
+      ]
+    },
+    {
+      "name": "Kingdra",
+      "baseStats": 540,
+      "level": 41,
+      "types": [
+        "water",
+        "dragon"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Smokescreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 110
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        },
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        }
+      ]
+    }
+  ]
+}

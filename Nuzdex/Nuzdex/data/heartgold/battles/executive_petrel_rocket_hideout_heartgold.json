@@ -1,0 +1,117 @@
+{
+  "game": "Heart Gold",
+  "category": "evilTeam",
+  "trainerId": "executive-petrel-rocket-hideout",
+  "trainerName": "Executive Petrel",
+  "battleLabel": "Rocket Hideout",
+  "primaryType": null,
+  "levelCap": 24,
+  "party": [
+    {
+      "name": "Zubat",
+      "baseStats": 245,
+      "level": 22,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Astonish",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Koffing",
+      "baseStats": 340,
+      "level": 22,
+      "types": [
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 30
+        },
+        {
+          "name": "Smokescreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Self-Destruct",
+          "category": "physical",
+          "type": "normal",
+          "power": 200
+        }
+      ]
+    },
+    {
+      "name": "Raticate",
+      "baseStats": 413,
+      "level": 24,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Hyper Fang",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

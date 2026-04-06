@@ -1,0 +1,117 @@
+{
+  "game": "Soul Silver",
+  "category": "gymLeader",
+  "trainerId": "blaine-kanto-gym-7",
+  "trainerName": "Blaine",
+  "battleLabel": "Kanto Gym Leader - Cinnabar Island",
+  "primaryType": "fire",
+  "levelCap": 59,
+  "party": [
+    {
+      "name": "Magcargo",
+      "baseStats": 430,
+      "level": 54,
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "heldItem": "White Herb",
+      "moves": [
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 30
+        },
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 130
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Magmar",
+      "baseStats": 495,
+      "level": 54,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "White Herb",
+      "moves": [
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 130
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Rapidash",
+      "baseStats": 500,
+      "level": 59,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "White Herb",
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Bounce",
+          "category": "physical",
+          "type": "flying",
+          "power": 85
+        },
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 130
+        }
+      ]
+    }
+  ]
+}

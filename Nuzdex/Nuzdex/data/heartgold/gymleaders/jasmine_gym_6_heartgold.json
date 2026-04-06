@@ -1,0 +1,119 @@
+{
+  "game": "Heart Gold",
+  "category": "gymLeader",
+  "trainerId": "jasmine-gym-6",
+  "trainerName": "Jasmine",
+  "battleLabel": "6th Gym Leader - Olivine City",
+  "primaryType": "steel",
+  "levelCap": 35,
+  "party": [
+    {
+      "name": "Magnemite",
+      "baseStats": 325,
+      "level": 30,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Magnemite",
+      "baseStats": 325,
+      "level": 30,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Steelix",
+      "baseStats": 510,
+      "level": 35,
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Rock Throw",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        },
+        {
+          "name": "Iron Tail",
+          "category": "physical",
+          "type": "steel",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

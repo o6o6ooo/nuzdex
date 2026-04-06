@@ -1,0 +1,118 @@
+{
+  "game": "Heart Gold",
+  "category": "gymLeader",
+  "trainerId": "pryce-gym-7",
+  "trainerName": "Pryce",
+  "battleLabel": "7th Gym Leader - Mahogany Town",
+  "primaryType": "ice",
+  "levelCap": 34,
+  "party": [
+    {
+      "name": "Seel",
+      "baseStats": 325,
+      "level": 30,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Snore",
+          "category": "special",
+          "type": "normal",
+          "power": 50
+        },
+        {
+          "name": "Hail",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Icy Wind",
+          "category": "special",
+          "type": "ice",
+          "power": 55
+        },
+        {
+          "name": "Rest",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Dewgong",
+      "baseStats": 475,
+      "level": 32,
+      "types": [
+        "water",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sleep Talk",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ice Shard",
+          "category": "physical",
+          "type": "ice",
+          "power": 40
+        },
+        {
+          "name": "Aurora Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 65
+        },
+        {
+          "name": "Rest",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Piloswine",
+      "baseStats": 450,
+      "level": 34,
+      "types": [
+        "ice",
+        "ground"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Hail",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Ice Fang",
+          "category": "physical",
+          "type": "ice",
+          "power": 65
+        },
+        {
+          "name": "Mud Bomb",
+          "category": "special",
+          "type": "ground",
+          "power": 65
+        },
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        }
+      ]
+    }
+  ]
+}

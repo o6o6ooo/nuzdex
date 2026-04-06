@@ -1,0 +1,81 @@
+{
+  "game": "Heart Gold",
+  "category": "gymLeader",
+  "trainerId": "whitney-gym-3",
+  "trainerName": "Whitney",
+  "battleLabel": "3rd Gym Leader - Goldenrod City",
+  "primaryType": "normal",
+  "levelCap": 19,
+  "party": [
+    {
+      "name": "Clefairy",
+      "baseStats": 323,
+      "level": 17,
+      "types": [
+        "fairy"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Double Slap",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Mimic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Encore",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Metronome",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Miltank",
+      "baseStats": 490,
+      "level": 19,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Lum Berry",
+      "moves": [
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Stomp",
+          "category": "physical",
+          "type": "normal",
+          "power": 65
+        },
+        {
+          "name": "Milk Drink",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "game": "Soul Silver",
+  "category": "rival",
+  "trainerId": "silver-cherrygrove-city-water",
+  "trainerName": "Silver",
+  "battleLabel": "Cherrygrove City",
+  "primaryType": null,
+  "levelCap": 5,
+  "party": [
+    {
+      "name": "Chikorita",
+      "baseStats": 318,
+      "level": 5,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

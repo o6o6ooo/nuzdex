@@ -1,0 +1,82 @@
+{
+  "game": "Soul Silver",
+  "category": "evilTeam",
+  "trainerId": "executive-proton-goldenrod-radio-tower",
+  "trainerName": "Executive Proton",
+  "battleLabel": "Goldenrod Radio Tower",
+  "primaryType": null,
+  "levelCap": 33,
+  "party": [
+    {
+      "name": "Golbat",
+      "baseStats": 455,
+      "level": 28,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Leech Life",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Weezing",
+      "baseStats": 490,
+      "level": 33,
+      "types": [
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sludge",
+          "category": "special",
+          "type": "poison",
+          "power": 65
+        },
+        {
+          "name": "Double Hit",
+          "category": "physical",
+          "type": "normal",
+          "power": 35
+        },
+        {
+          "name": "Smokescreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 30
+        }
+      ]
+    }
+  ]
+}

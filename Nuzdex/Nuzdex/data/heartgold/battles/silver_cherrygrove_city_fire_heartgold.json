@@ -1,0 +1,35 @@
+{
+  "game": "Heart Gold",
+  "category": "rival",
+  "trainerId": "silver-cherrygrove-city-fire",
+  "trainerName": "Silver",
+  "battleLabel": "Cherrygrove City",
+  "primaryType": null,
+  "levelCap": 5,
+  "party": [
+    {
+      "name": "Totodile",
+      "baseStats": 314,
+      "level": 5,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Scratch",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

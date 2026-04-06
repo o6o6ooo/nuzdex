@@ -1,0 +1,187 @@
+{
+  "game": "Heart Gold",
+  "category": "eliteFour",
+  "trainerId": "bruno-e4-3",
+  "trainerName": "Bruno",
+  "battleLabel": "Elite 4 - 3",
+  "primaryType": "fighting",
+  "levelCap": 46,
+  "party": [
+    {
+      "name": "Hitmontop",
+      "baseStats": 455,
+      "level": 42,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Counter",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Dig",
+          "category": "physical",
+          "type": "ground",
+          "power": 80
+        },
+        {
+          "name": "Triple Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 10
+        }
+      ]
+    },
+    {
+      "name": "Hitmonlee",
+      "baseStats": 455,
+      "level": 42,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "High Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 130
+        },
+        {
+          "name": "Blaze Kick",
+          "category": "physical",
+          "type": "fire",
+          "power": 85
+        }
+      ]
+    },
+    {
+      "name": "Hitmonchan",
+      "baseStats": 455,
+      "level": 42,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        },
+        {
+          "name": "Fire Punch",
+          "category": "physical",
+          "type": "fire",
+          "power": 75
+        },
+        {
+          "name": "Bullet Punch",
+          "category": "physical",
+          "type": "steel",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Onix",
+      "baseStats": 385,
+      "level": 43,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Dragon Breath",
+          "category": "special",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Machamp",
+      "baseStats": 505,
+      "level": 46,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Foresight",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Revenge",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        },
+        {
+          "name": "Cross Chop",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

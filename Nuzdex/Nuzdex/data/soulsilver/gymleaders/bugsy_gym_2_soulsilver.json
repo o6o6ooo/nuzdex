@@ -1,0 +1,82 @@
+{
+  "game": "Soul Silver",
+  "category": "gymLeader",
+  "trainerId": "bugsy-gym-2",
+  "trainerName": "Bugsy",
+  "battleLabel": "2nd Gym Leader - Azalea Town",
+  "primaryType": "bug",
+  "levelCap": 17,
+  "party": [
+    {
+      "name": "Scyther",
+      "baseStats": 500,
+      "level": 17,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Kakuna",
+      "baseStats": 205,
+      "level": 15,
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        }
+      ]
+    },
+    {
+      "name": "Metapod",
+      "baseStats": 205,
+      "level": 15,
+      "types": [
+        "bug"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

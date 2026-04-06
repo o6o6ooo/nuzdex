@@ -1,0 +1,155 @@
+{
+  "game": "Heart Gold",
+  "category": "gymLeader",
+  "trainerId": "morty-gym-4",
+  "trainerName": "Morty",
+  "battleLabel": "4th Gym Leader - Ecruteak City",
+  "primaryType": "ghost",
+  "levelCap": 25,
+  "party": [
+    {
+      "name": "Gastly",
+      "baseStats": 310,
+      "level": 21,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Spite",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Haunter",
+      "baseStats": 405,
+      "level": 21,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Dream Eater",
+          "category": "special",
+          "type": "psychic",
+          "power": 100
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Nightmare",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Gengar",
+      "baseStats": 500,
+      "level": 25,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Haunter",
+      "baseStats": 405,
+      "level": 23,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Night Shade",
+          "category": "special",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

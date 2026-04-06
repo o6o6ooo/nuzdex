@@ -1,0 +1,227 @@
+{
+  "game": "Soul Silver",
+  "category": "eliteFour",
+  "trainerId": "lance-champion",
+  "trainerName": "Lance",
+  "battleLabel": "Champion",
+  "primaryType": "dragon",
+  "levelCap": 50,
+  "party": [
+    {
+      "name": "Gyarados",
+      "baseStats": 540,
+      "level": 46,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flail",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        },
+        {
+          "name": "Waterfall",
+          "category": "physical",
+          "type": "water",
+          "power": 80
+        },
+        {
+          "name": "Ice Fang",
+          "category": "physical",
+          "type": "ice",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "baseStats": 600,
+      "level": 49,
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Dragon Rush",
+          "category": "physical",
+          "type": "dragon",
+          "power": 100
+        },
+        {
+          "name": "Thunder",
+          "category": "special",
+          "type": "electric",
+          "power": 110
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "baseStats": 600,
+      "level": 49,
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Dragon Rush",
+          "category": "physical",
+          "type": "dragon",
+          "power": 100
+        },
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    },
+    {
+      "name": "Aerodactyl",
+      "baseStats": 515,
+      "level": 48,
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Thunder Fang",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Charizard",
+      "baseStats": 534,
+      "level": 48,
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shadow Claw",
+          "category": "physical",
+          "type": "ghost",
+          "power": 70
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Dragon Claw",
+          "category": "physical",
+          "type": "dragon",
+          "power": 80
+        },
+        {
+          "name": "Fire Fang",
+          "category": "physical",
+          "type": "fire",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "baseStats": 600,
+      "level": 50,
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Safeguard",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Outrage",
+          "category": "physical",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    }
+  ]
+}

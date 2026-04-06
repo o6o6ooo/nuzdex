@@ -1,0 +1,190 @@
+{
+  "game": "Soul Silver",
+  "category": "eliteFour",
+  "trainerId": "karen-e4-4",
+  "trainerName": "Karen",
+  "battleLabel": "Elite 4 - 4",
+  "primaryType": "dark",
+  "levelCap": 47,
+  "party": [
+    {
+      "name": "Umbreon",
+      "baseStats": 525,
+      "level": 42,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "name": "Vileplume",
+      "baseStats": 490,
+      "level": 42,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stun Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Acid",
+          "category": "special",
+          "type": "poison",
+          "power": 40
+        },
+        {
+          "name": "Moonlight",
+          "category": "status",
+          "type": "fairy",
+          "power": null
+        },
+        {
+          "name": "Petal Dance",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Gengar",
+      "baseStats": 500,
+      "level": 45,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Spite",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Destiny Bond",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Murkrow",
+      "baseStats": 405,
+      "level": 44,
+      "types": [
+        "dark",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pluck",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Whirlwind",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Houndoom",
+      "baseStats": 500,
+      "level": 47,
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Nasty Plot",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Dark Pulse",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

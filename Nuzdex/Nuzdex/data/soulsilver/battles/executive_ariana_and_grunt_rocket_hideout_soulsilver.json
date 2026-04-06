@@ -1,0 +1,188 @@
+{
+  "game": "Soul Silver",
+  "category": "evilTeam",
+  "trainerId": "executive-ariana-and-grunt-rocket-hideout",
+  "trainerName": "Executive Ariana & Grunt",
+  "battleLabel": "Rocket Hideout",
+  "primaryType": null,
+  "levelCap": 27,
+  "party": [
+    {
+      "name": "Arbok",
+      "baseStats": 448,
+      "level": 25,
+      "types": [
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wrap",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Glare",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Gloom",
+      "baseStats": 395,
+      "level": 25,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sweet Scent",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mega Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 40
+        },
+        {
+          "name": "Acid",
+          "category": "special",
+          "type": "poison",
+          "power": 40
+        },
+        {
+          "name": "Sleep Powder",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Murkrow",
+      "baseStats": 405,
+      "level": 27,
+      "types": [
+        "dark",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Night Shade",
+          "category": "special",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Astonish",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Drowzee",
+      "baseStats": 328,
+      "level": 18,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Disable",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Confusion",
+          "category": "special",
+          "type": "psychic",
+          "power": 50
+        },
+        {
+          "name": "Headbutt",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Poison Gas",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Grimer",
+      "baseStats": 325,
+      "level": 20,
+      "types": [
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Mud Slap",
+          "category": "special",
+          "type": "ground",
+          "power": 20
+        },
+        {
+          "name": "Minimize",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Disable",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sludge",
+          "category": "special",
+          "type": "poison",
+          "power": 65
+        }
+      ]
+    }
+  ]
+}

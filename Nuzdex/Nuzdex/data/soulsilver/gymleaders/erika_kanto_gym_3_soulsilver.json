@@ -1,0 +1,153 @@
+{
+  "game": "Soul Silver",
+  "category": "gymLeader",
+  "trainerId": "erika-kanto-gym-3",
+  "trainerName": "Erika",
+  "battleLabel": "Kanto Gym Leader - Celadon City",
+  "primaryType": "grass",
+  "levelCap": 56,
+  "party": [
+    {
+      "name": "Jumpluff",
+      "baseStats": 460,
+      "level": 51,
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Tangela",
+      "baseStats": 435,
+      "level": 52,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Wring Out",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Sleep Powder",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Victreebel",
+      "baseStats": 490,
+      "level": 56,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Leaf Storm",
+          "category": "special",
+          "type": "grass",
+          "power": 130
+        },
+        {
+          "name": "Razor Leaf",
+          "category": "physical",
+          "type": "grass",
+          "power": 55
+        }
+      ]
+    },
+    {
+      "name": "Bellossom",
+      "baseStats": 490,
+      "level": 56,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Synthesis",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "game": "Heart Gold",
+  "category": "evilTeam",
+  "trainerId": "executive-archer-goldenrod-radio-tower",
+  "trainerName": "Executive Archer",
+  "battleLabel": "Goldenrod Radio Tower",
+  "primaryType": null,
+  "levelCap": 38,
+  "party": [
+    {
+      "name": "Houndour",
+      "baseStats": 330,
+      "level": 35,
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Fire Fang",
+          "category": "physical",
+          "type": "fire",
+          "power": 65
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Koffing",
+      "baseStats": 340,
+      "level": 35,
+      "types": [
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sludge",
+          "category": "special",
+          "type": "poison",
+          "power": 65
+        },
+        {
+          "name": "Smokescreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Haze",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Houndoom",
+      "baseStats": 500,
+      "level": 38,
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Fire Fang",
+          "category": "physical",
+          "type": "fire",
+          "power": 65
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 30
+        }
+      ]
+    }
+  ]
+}

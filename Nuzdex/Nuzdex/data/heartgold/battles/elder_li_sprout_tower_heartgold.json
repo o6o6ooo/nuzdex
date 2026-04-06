@@ -1,0 +1,89 @@
+{
+  "game": "Heart Gold",
+  "category": "other",
+  "trainerId": "elder-li-sprout-tower",
+  "trainerName": "Elder Li",
+  "battleLabel": "Sprout Tower",
+  "primaryType": null,
+  "levelCap": 10,
+  "party": [
+    {
+      "name": "Bellsprout",
+      "baseStats": 300,
+      "level": 7,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Vine Whip",
+          "category": "physical",
+          "type": "grass",
+          "power": 45
+        },
+        {
+          "name": "Growth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Bellsprout",
+      "baseStats": 300,
+      "level": 7,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Vine Whip",
+          "category": "physical",
+          "type": "grass",
+          "power": 45
+        },
+        {
+          "name": "Growth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Hoothoot",
+      "baseStats": 262,
+      "level": 10,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Peck",
+          "category": "physical",
+          "type": "flying",
+          "power": 35
+        }
+      ]
+    }
+  ]
+}

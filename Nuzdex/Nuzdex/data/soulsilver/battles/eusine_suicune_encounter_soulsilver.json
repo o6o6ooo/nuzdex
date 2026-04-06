@@ -1,0 +1,117 @@
+{
+  "game": "Soul Silver",
+  "category": "other",
+  "trainerId": "eusine-suicune-encounter",
+  "trainerName": "Eusine",
+  "battleLabel": "Suicune Encounter",
+  "primaryType": null,
+  "levelCap": 27,
+  "party": [
+    {
+      "name": "Drowzee",
+      "baseStats": 328,
+      "level": 25,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Disable",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Confusion",
+          "category": "special",
+          "type": "psychic",
+          "power": 50
+        },
+        {
+          "name": "Dream Eater",
+          "category": "special",
+          "type": "psychic",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Haunter",
+      "baseStats": 405,
+      "level": 25,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Electrode",
+      "baseStats": 490,
+      "level": 27,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Thunder",
+          "category": "special",
+          "type": "electric",
+          "power": 110
+        }
+      ]
+    }
+  ]
+}

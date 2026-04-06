@@ -1,0 +1,186 @@
+{
+  "game": "Soul Silver",
+  "category": "other",
+  "trainerId": "kimono-girls-ecruteak-city-dance-hall",
+  "trainerName": "Kimono Girls",
+  "battleLabel": "Ecruteak City Dance Hall",
+  "primaryType": null,
+  "levelCap": 38,
+  "party": [
+    {
+      "name": "Umbreon",
+      "baseStats": 525,
+      "level": 38,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Dark Pulse",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Last Resort",
+          "category": "physical",
+          "type": "normal",
+          "power": 140
+        }
+      ]
+    },
+    {
+      "name": "Espeon",
+      "baseStats": 525,
+      "level": 38,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Swift",
+          "category": "special",
+          "type": "normal",
+          "power": 60
+        },
+        {
+          "name": "Psych Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Last Resort",
+          "category": "physical",
+          "type": "normal",
+          "power": 140
+        }
+      ]
+    },
+    {
+      "name": "Flareon",
+      "baseStats": 525,
+      "level": 38,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Last Resort",
+          "category": "physical",
+          "type": "normal",
+          "power": 140
+        }
+      ]
+    },
+    {
+      "name": "Jolteon",
+      "baseStats": 525,
+      "level": 38,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Last Resort",
+          "category": "physical",
+          "type": "normal",
+          "power": 140
+        }
+      ]
+    },
+    {
+      "name": "Vaporeon",
+      "baseStats": 525,
+      "level": 38,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Aurora Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 65
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Last Resort",
+          "category": "physical",
+          "type": "normal",
+          "power": 140
+        }
+      ]
+    }
+  ]
+}

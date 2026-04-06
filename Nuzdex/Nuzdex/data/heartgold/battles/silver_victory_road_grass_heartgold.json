@@ -1,0 +1,226 @@
+{
+  "game": "Heart Gold",
+  "category": "rival",
+  "trainerId": "silver-victory-road-grass",
+  "trainerName": "Silver",
+  "battleLabel": "Victory Road",
+  "primaryType": null,
+  "levelCap": 40,
+  "party": [
+    {
+      "name": "Sneasel",
+      "baseStats": 430,
+      "level": 36,
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Icy Wind",
+          "category": "special",
+          "type": "ice",
+          "power": 55
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "name": "Golbat",
+      "baseStats": 455,
+      "level": 38,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Astonish",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        }
+      ]
+    },
+    {
+      "name": "Magneton",
+      "baseStats": 465,
+      "level": 37,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Spark",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Magnet Bomb",
+          "category": "physical",
+          "type": "steel",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Kadabra",
+      "baseStats": 400,
+      "level": 37,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Disable",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Haunter",
+      "baseStats": 405,
+      "level": 37,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Typhlosion",
+      "baseStats": 534,
+      "level": 40,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Lava Plume",
+          "category": "special",
+          "type": "fire",
+          "power": 80
+        },
+        {
+          "name": "Flame Wheel",
+          "category": "physical",
+          "type": "fire",
+          "power": 60
+        },
+        {
+          "name": "Swift",
+          "category": "special",
+          "type": "normal",
+          "power": 60
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ],
+  "starterBranch": "grass"
+}

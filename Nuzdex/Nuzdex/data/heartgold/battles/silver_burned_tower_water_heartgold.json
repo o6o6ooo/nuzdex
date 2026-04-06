@@ -1,0 +1,155 @@
+{
+  "game": "Heart Gold",
+  "category": "rival",
+  "trainerId": "silver-burned-tower-water",
+  "trainerName": "Silver",
+  "battleLabel": "Burned Tower",
+  "primaryType": null,
+  "levelCap": 22,
+  "party": [
+    {
+      "name": "Gastly",
+      "baseStats": 310,
+      "level": 20,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Zubat",
+      "baseStats": 245,
+      "level": 20,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Astonish",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Magnemite",
+      "baseStats": 325,
+      "level": 18,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Shock",
+          "category": "special",
+          "type": "electric",
+          "power": 40
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Bayleef",
+      "baseStats": 405,
+      "level": 22,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Magical Leaf",
+          "category": "special",
+          "type": "grass",
+          "power": 60
+        },
+        {
+          "name": "Poison Powder",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Synthesis",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

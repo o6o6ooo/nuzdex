@@ -1,0 +1,187 @@
+{
+  "game": "Soul Silver",
+  "category": "gymLeader",
+  "trainerId": "lt-surge-kanto-gym-1",
+  "trainerName": "Lt. Surge",
+  "battleLabel": "Kanto Gym Leader - Vermilion City",
+  "primaryType": "electric",
+  "levelCap": 53,
+  "party": [
+    {
+      "name": "Raichu",
+      "baseStats": 485,
+      "level": 51,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Electrode",
+      "baseStats": 490,
+      "level": 47,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Electrode",
+      "baseStats": 490,
+      "level": 47,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Self-Destruct",
+          "category": "physical",
+          "type": "normal",
+          "power": 200
+        },
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "name": "Magneton",
+      "baseStats": 465,
+      "level": 47,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Mirror Shot",
+          "category": "special",
+          "type": "steel",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Electabuzz",
+      "baseStats": 490,
+      "level": 53,
+      "types": [
+        "electric"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Low Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

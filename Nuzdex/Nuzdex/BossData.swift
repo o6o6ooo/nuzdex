@@ -28,6 +28,10 @@ extension GameId {
 			return "diamond"
 		case .pearl:
 			return "pearl"
+		case .heartGold:
+			return "heartgold"
+		case .soulSilver:
+			return "soulsilver"
 		case .emerald:
 			return "emerald"
 		case .platinum:

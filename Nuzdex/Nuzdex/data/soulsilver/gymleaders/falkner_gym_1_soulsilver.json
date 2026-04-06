@@ -1,0 +1,65 @@
+{
+  "game": "Soul Silver",
+  "category": "gymLeader",
+  "trainerId": "falkner-gym-1",
+  "trainerName": "Falkner",
+  "battleLabel": "1st Gym Leader - Violet City",
+  "primaryType": "flying",
+  "levelCap": 13,
+  "party": [
+    {
+      "name": "Pidgey",
+      "baseStats": 251,
+      "level": 9,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Sand-Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Pidgeotto",
+      "baseStats": 349,
+      "level": 13,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        },
+        {
+          "name": "Gust",
+          "category": "special",
+          "type": "flying",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

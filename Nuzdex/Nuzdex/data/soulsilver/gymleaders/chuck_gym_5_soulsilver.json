@@ -1,0 +1,82 @@
+{
+  "game": "Soul Silver",
+  "category": "gymLeader",
+  "trainerId": "chuck-gym-5",
+  "trainerName": "Chuck",
+  "battleLabel": "5th Gym Leader - Cianwood City",
+  "primaryType": "fighting",
+  "levelCap": 31,
+  "party": [
+    {
+      "name": "Primeape",
+      "baseStats": 455,
+      "level": 29,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Focus Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 150
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Poliwrath",
+      "baseStats": 510,
+      "level": 31,
+      "types": [
+        "water",
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Focus Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 150
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        }
+      ]
+    }
+  ]
+}

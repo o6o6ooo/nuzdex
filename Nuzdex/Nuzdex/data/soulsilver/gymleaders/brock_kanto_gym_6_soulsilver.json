@@ -1,0 +1,191 @@
+{
+  "game": "Soul Silver",
+  "category": "gymLeader",
+  "trainerId": "brock-kanto-gym-6",
+  "trainerName": "Brock",
+  "battleLabel": "Kanto Gym Leader - Pewter City",
+  "primaryType": "rock",
+  "levelCap": 54,
+  "party": [
+    {
+      "name": "Graveler",
+      "baseStats": 390,
+      "level": 51,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Defense Curl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Rhyhorn",
+      "baseStats": 345,
+      "level": 51,
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Horn Drill",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Omastar",
+      "baseStats": 495,
+      "level": 53,
+      "types": [
+        "rock",
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Brine",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Spike Cannon",
+          "category": "physical",
+          "type": "normal",
+          "power": 20
+        }
+      ]
+    },
+    {
+      "name": "Onix",
+      "baseStats": 385,
+      "level": 54,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Iron Tail",
+          "category": "physical",
+          "type": "steel",
+          "power": 100
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Kabutops",
+      "baseStats": 495,
+      "level": 54,
+      "types": [
+        "rock",
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Endure",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        }
+      ]
+    }
+  ]
+}
