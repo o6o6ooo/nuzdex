@@ -1,0 +1,189 @@
+{
+  "game": "Diamond",
+  "category": "eliteFour",
+  "trainerId": "flint-e3",
+  "trainerName": "Flint",
+  "battleLabel": "Elite 4 - 3",
+  "primaryType": "fire",
+  "levelCap": 61,
+  "party": [
+    {
+      "name": "Rapidash",
+      "baseStats": 500,
+      "level": 58,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Bounce",
+          "category": "physical",
+          "type": "flying",
+          "power": 85
+        }
+      ]
+    },
+    {
+      "name": "Drifblim",
+      "baseStats": 498,
+      "level": 58,
+      "types": [
+        "ghost",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Baton Pass",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ominous Wind",
+          "category": "special",
+          "type": "ghost",
+          "power": 60
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Steelix",
+      "baseStats": 510,
+      "level": 57,
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Fire Fang",
+          "category": "physical",
+          "type": "fire",
+          "power": 65
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Lopunny",
+      "baseStats": 480,
+      "level": 57,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Charm",
+          "category": "status",
+          "type": "fairy",
+          "power": null
+        },
+        {
+          "name": "Mirror Coat",
+          "category": "special",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Fire Punch",
+          "category": "physical",
+          "type": "fire",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Infernape",
+      "baseStats": 534,
+      "level": 61,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Mach Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

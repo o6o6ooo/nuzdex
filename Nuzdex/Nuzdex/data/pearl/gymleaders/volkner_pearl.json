@@ -1,0 +1,151 @@
+{
+  "game": "Pearl",
+  "category": "gymLeader",
+  "trainerId": "volkner-gym-8",
+  "trainerName": "Volkner",
+  "battleLabel": "8th Gym Leader - Sunyshore City",
+  "primaryType": "electric",
+  "levelCap": 49,
+  "party": [
+    {
+      "name": "Raichu",
+      "baseStats": 485,
+      "level": 46,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Ambipom",
+      "baseStats": 482,
+      "level": 47,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Baton Pass",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Nasty Plot",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Agility",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Octillery",
+      "baseStats": 480,
+      "level": 47,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Octazooka",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        },
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        },
+        {
+          "name": "Bullet Seed",
+          "category": "physical",
+          "type": "grass",
+          "power": 25
+        },
+        {
+          "name": "Aurora Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Luxray",
+      "baseStats": 523,
+      "level": 49,
+      "types": [
+        "electric"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Thunder Fang",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        },
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

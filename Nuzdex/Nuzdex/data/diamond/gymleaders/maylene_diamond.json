@@ -1,0 +1,118 @@
+{
+  "game": "Diamond",
+  "category": "gymLeader",
+  "trainerId": "maylene-gym-3",
+  "trainerName": "Maylene",
+  "battleLabel": "3rd Gym Leader - Veilstone City",
+  "primaryType": "fighting",
+  "levelCap": 30,
+  "party": [
+    {
+      "name": "Meditite",
+      "baseStats": 280,
+      "level": 27,
+      "types": [
+        "fighting",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Confusion",
+          "category": "special",
+          "type": "psychic",
+          "power": 50
+        },
+        {
+          "name": "Meditate",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Drain Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Machoke",
+      "baseStats": 405,
+      "level": 27,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Foresight",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Lucario",
+      "baseStats": 525,
+      "level": 30,
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Drain Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Force Palm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        },
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Bone Rush",
+          "category": "physical",
+          "type": "ground",
+          "power": 25
+        }
+      ]
+    }
+  ]
+}

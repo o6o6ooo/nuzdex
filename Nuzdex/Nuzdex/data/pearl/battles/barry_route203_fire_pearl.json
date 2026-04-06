@@ -1,0 +1,59 @@
+{
+  "game": "Pearl",
+  "category": "rival",
+  "trainerId": "barry-route203-fire",
+  "trainerName": "Barry",
+  "battleLabel": "Route 203",
+  "primaryType": null,
+  "levelCap": 9,
+  "starterBranch": "fire",
+  "party": [
+    {
+      "name": "Starly",
+      "baseStats": 245,
+      "level": 7,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Piplup",
+      "baseStats": 314,
+      "level": 9,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pound",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

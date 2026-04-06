@@ -24,6 +24,10 @@ extension GameId {
 			return "ruby"
 		case .sapphire:
 			return "sapphire"
+		case .diamond:
+			return "diamond"
+		case .pearl:
+			return "pearl"
 		case .emerald:
 			return "emerald"
 		case .platinum:

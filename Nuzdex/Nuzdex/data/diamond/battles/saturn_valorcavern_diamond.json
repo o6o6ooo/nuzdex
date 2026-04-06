@@ -1,0 +1,118 @@
+{
+  "game": "Diamond",
+  "category": "evilTeam",
+  "trainerId": "saturn-valorcavern",
+  "trainerName": "Saturn",
+  "battleLabel": "Valor Cavern",
+  "primaryType": null,
+  "levelCap": 37,
+  "party": [
+    {
+      "name": "Kadabra",
+      "baseStats": 400,
+      "level": 35,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Embargo",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Toxicroak",
+      "baseStats": 490,
+      "level": 37,
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Revenge",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Mud Bomb",
+          "category": "special",
+          "type": "ground",
+          "power": 65
+        },
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Bronzor",
+      "baseStats": 300,
+      "level": 35,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Iron Defense",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

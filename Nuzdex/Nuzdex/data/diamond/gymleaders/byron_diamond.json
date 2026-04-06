@@ -1,0 +1,119 @@
+{
+  "game": "Diamond",
+  "category": "gymLeader",
+  "trainerId": "byron-gym-6",
+  "trainerName": "Byron",
+  "battleLabel": "6th Gym Leader - Canalave City",
+  "primaryType": "steel",
+  "levelCap": 39,
+  "party": [
+    {
+      "name": "Bronzor",
+      "baseStats": 300,
+      "level": 36,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Extrasensory",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Steelix",
+      "baseStats": 510,
+      "level": 36,
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Dragon Breath",
+          "category": "special",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Ice Fang",
+          "category": "physical",
+          "type": "ice",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Bastiodon",
+      "baseStats": 495,
+      "level": 39,
+      "types": [
+        "rock",
+        "steel"
+      ],
+      "heldItem": "Chesto Berry",
+      "moves": [
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Iron Defense",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Rest",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

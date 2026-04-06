@@ -1,0 +1,94 @@
+{
+  "game": "Pearl",
+  "category": "gymLeader",
+  "trainerId": "roark-gym-1",
+  "trainerName": "Roark",
+  "battleLabel": "1st Gym Leader - Oreburgh City",
+  "primaryType": "rock",
+  "levelCap": 14,
+  "party": [
+    {
+      "name": "Geodude",
+      "baseStats": 300,
+      "level": 12,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Throw",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        },
+        {
+          "name": "Stealth Rock",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Onix",
+      "baseStats": 385,
+      "level": 12,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Throw",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Stealth Rock",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Cranidos",
+      "baseStats": 350,
+      "level": 14,
+      "types": [
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Headbutt",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

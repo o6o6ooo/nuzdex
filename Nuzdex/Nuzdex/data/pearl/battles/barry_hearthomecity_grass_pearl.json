@@ -1,0 +1,155 @@
+{
+  "game": "Pearl",
+  "category": "rival",
+  "trainerId": "barry-hearthomecity-grass",
+  "trainerName": "Barry",
+  "battleLabel": "Hearthome City",
+  "primaryType": null,
+  "levelCap": 21,
+  "starterBranch": "grass",
+  "party": [
+    {
+      "name": "Starly",
+      "baseStats": 245,
+      "level": 19,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Endeavor",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Roselia",
+      "baseStats": 400,
+      "level": 20,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        },
+        {
+          "name": "Stun Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Mega Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 40
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Buizel",
+      "baseStats": 330,
+      "level": 20,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Monferno",
+      "baseStats": 405,
+      "level": 21,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mach Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 40
+        },
+        {
+          "name": "Flame Wheel",
+          "category": "physical",
+          "type": "fire",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

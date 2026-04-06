@@ -1,0 +1,77 @@
+{
+  "game": "Diamond",
+  "category": "evilTeam",
+  "trainerId": "jupiter-eternabuilding",
+  "trainerName": "Jupiter",
+  "battleLabel": "Eterna Building",
+  "primaryType": null,
+  "levelCap": 20,
+  "party": [
+    {
+      "name": "Zubat",
+      "baseStats": 245,
+      "level": 18,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Skuntank",
+      "baseStats": 479,
+      "level": 20,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Poison Gas",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Smokescreen",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

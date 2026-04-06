@@ -1,0 +1,117 @@
+{
+  "game": "Diamond",
+  "category": "gymLeader",
+  "trainerId": "gardenia-gym-2",
+  "trainerName": "Gardenia",
+  "battleLabel": "2nd Gym Leader - Eterna City",
+  "primaryType": "grass",
+  "levelCap": 22,
+  "party": [
+    {
+      "name": "Cherubi",
+      "baseStats": 275,
+      "level": 19,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Safeguard",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Growth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Turtwig",
+      "baseStats": 318,
+      "level": 19,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Razor Leaf",
+          "category": "physical",
+          "type": "grass",
+          "power": 55
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Withdraw",
+          "category": "status",
+          "type": "water",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Roserade",
+      "baseStats": 515,
+      "level": 22,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Magical Leaf",
+          "category": "special",
+          "type": "grass",
+          "power": 60
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Stun Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Poison Sting",
+          "category": "physical",
+          "type": "poison",
+          "power": 15
+        }
+      ]
+    }
+  ]
+}

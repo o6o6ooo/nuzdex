@@ -1,0 +1,189 @@
+{
+  "game": "Diamond",
+  "category": "eliteFour",
+  "trainerId": "bertha-e2",
+  "trainerName": "Bertha",
+  "battleLabel": "Elite 4 - 2",
+  "primaryType": "ground",
+  "levelCap": 59,
+  "party": [
+    {
+      "name": "Quagsire",
+      "baseStats": 430,
+      "level": 55,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Dig",
+          "category": "physical",
+          "type": "ground",
+          "power": 80
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Sudowoodo",
+      "baseStats": 410,
+      "level": 56,
+      "types": [
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Hammer Arm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Whiscash",
+      "baseStats": 468,
+      "level": 55,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Fissure",
+          "category": "physical",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Golem",
+      "baseStats": 495,
+      "level": 56,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Sandstorm",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Hippowdon",
+      "baseStats": 525,
+      "level": 59,
+      "types": [
+        "ground"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

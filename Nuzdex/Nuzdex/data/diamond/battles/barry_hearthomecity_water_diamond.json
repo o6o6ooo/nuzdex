@@ -1,0 +1,153 @@
+{
+  "game": "Diamond",
+  "category": "rival",
+  "trainerId": "barry-hearthomecity-water",
+  "trainerName": "Barry",
+  "battleLabel": "Hearthome City",
+  "primaryType": null,
+  "levelCap": 21,
+  "starterBranch": "water",
+  "party": [
+    {
+      "name": "Starly",
+      "baseStats": 245,
+      "level": 19,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Endeavor",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Buizel",
+      "baseStats": 330,
+      "level": 20,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Ponyta",
+      "baseStats": 410,
+      "level": 20,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Grotle",
+      "baseStats": 405,
+      "level": 21,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Withdraw",
+          "category": "status",
+          "type": "water",
+          "power": null
+        },
+        {
+          "name": "Razor Leaf",
+          "category": "physical",
+          "type": "grass",
+          "power": 55
+        },
+        {
+          "name": "Absorb",
+          "category": "special",
+          "type": "grass",
+          "power": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "game": "Pearl",
+  "category": "rival",
+  "trainerId": "barry-route218-fire",
+  "trainerName": "Barry",
+  "battleLabel": "Route 218",
+  "primaryType": null,
+  "levelCap": 35,
+  "starterBranch": "fire",
+  "party": [
+    {
+      "name": "Staravia",
+      "baseStats": 340,
+      "level": 31,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Heracross",
+      "baseStats": 500,
+      "level": 30,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Horn Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 65
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Roselia",
+      "baseStats": 400,
+      "level": 32,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Grass Whistle",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Toxic Spikes",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Ponyta",
+      "baseStats": 410,
+      "level": 32,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stomp",
+          "category": "physical",
+          "type": "normal",
+          "power": 65
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Fire Spin",
+          "category": "special",
+          "type": "fire",
+          "power": 35
+        }
+      ]
+    },
+    {
+      "name": "Prinplup",
+      "baseStats": 405,
+      "level": 35,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fury Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Bubble Beam",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        },
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}
