@@ -1,10 +1,10 @@
 {
   "game": "Black",
   "category": "gymLeader",
-  "trainerId": "chili_cress_or_cilan_1_water",
-  "trainerName": "Chili, Cress or Cilan",
+  "trainerId": "chili_1_grass",
+  "trainerName": "Chili",
   "battleLabel": "1st Gym Leader - Striaton City",
-  "primaryType": "grass",
+  "primaryType": "fire",
   "levelCap": 14,
   "party": [
     {
@@ -32,18 +32,18 @@
     },
     {
       "baseStats": 316,
-      "name": "Pansage",
+      "name": "Pansear",
       "level": 14,
       "types": [
-        "grass"
+        "fire"
       ],
       "heldItem": null,
       "moves": [
         {
-          "name": "Vine Whip",
-          "category": "physical",
-          "type": "grass",
-          "power": 45
+          "name": "Incinerate",
+          "category": "special",
+          "type": "fire",
+          "power": 60
         },
         {
           "name": "Work Up",
@@ -54,5 +54,5 @@
       ]
     }
   ],
-  "starterBranch": "water"
+  "starterBranch": "grass"
 }

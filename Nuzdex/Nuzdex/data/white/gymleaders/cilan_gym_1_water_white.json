@@ -1,10 +1,10 @@
 {
-  "game": "Black",
+  "game": "White",
   "category": "gymLeader",
-  "trainerId": "chili_cress_or_cilan_1_fire",
-  "trainerName": "Chili, Cress or Cilan",
+  "trainerId": "cilan_1_water",
+  "trainerName": "Cilan",
   "battleLabel": "1st Gym Leader - Striaton City",
-  "primaryType": "water",
+  "primaryType": "grass",
   "levelCap": 14,
   "party": [
     {
@@ -32,18 +32,18 @@
     },
     {
       "baseStats": 316,
-      "name": "Panpour",
+      "name": "Pansage",
       "level": 14,
       "types": [
-        "water"
+        "grass"
       ],
       "heldItem": null,
       "moves": [
         {
-          "name": "Water Gun",
-          "category": "special",
-          "type": "water",
-          "power": 40
+          "name": "Vine Whip",
+          "category": "physical",
+          "type": "grass",
+          "power": 45
         },
         {
           "name": "Work Up",
@@ -54,5 +54,5 @@
       ]
     }
   ],
-  "starterBranch": "fire"
+  "starterBranch": "water"
 }

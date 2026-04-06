@@ -1,10 +1,10 @@
 {
   "game": "White",
   "category": "gymLeader",
-  "trainerId": "chili_cress_or_cilan_1_grass",
-  "trainerName": "Chili, Cress or Cilan",
+  "trainerId": "cress_1_fire",
+  "trainerName": "Cress",
   "battleLabel": "1st Gym Leader - Striaton City",
-  "primaryType": "fire",
+  "primaryType": "water",
   "levelCap": 14,
   "party": [
     {
@@ -32,18 +32,18 @@
     },
     {
       "baseStats": 316,
-      "name": "Pansear",
+      "name": "Panpour",
       "level": 14,
       "types": [
-        "fire"
+        "water"
       ],
       "heldItem": null,
       "moves": [
         {
-          "name": "Incinerate",
+          "name": "Water Gun",
           "category": "special",
-          "type": "fire",
-          "power": 60
+          "type": "water",
+          "power": 40
         },
         {
           "name": "Work Up",
@@ -54,5 +54,5 @@
       ]
     }
   ],
-  "starterBranch": "grass"
+  "starterBranch": "fire"
 }

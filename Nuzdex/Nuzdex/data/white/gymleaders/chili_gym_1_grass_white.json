@@ -1,8 +1,8 @@
 {
-  "game": "Black",
+  "game": "White",
   "category": "gymLeader",
-  "trainerId": "chili_cress_or_cilan_1_grass",
-  "trainerName": "Chili, Cress or Cilan",
+  "trainerId": "chili_1_grass",
+  "trainerName": "Chili",
   "battleLabel": "1st Gym Leader - Striaton City",
   "primaryType": "fire",
   "levelCap": 14,
