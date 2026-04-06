@@ -102,7 +102,7 @@ private struct PokemonCard: View {
 		VStack(alignment: .leading, spacing: 10) {
 			HStack(alignment: .firstTextBaseline, spacing: 12) {
 				Text("\(pokemon.level)")
-					.font(.title2.weight(.semibold))
+					.font(.title2.weight(.bold))
 					.monospacedDigit()
 
 				Text(pokemon.name)
