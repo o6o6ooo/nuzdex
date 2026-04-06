@@ -107,7 +107,7 @@ private struct BattleEntryCard: View {
 						.padding(.top, 6)
 
 					Text("\(battle.levelCap)")
-						.font(.largeTitle.weight(.semibold))
+						.font(.title.weight(.bold))
 						.monospacedDigit()
 
 					VStack(alignment: .leading, spacing: 0) {
@@ -152,7 +152,7 @@ private struct BattlePokemonCard: View {
 		VStack(alignment: .leading, spacing: 10) {
 			HStack(alignment: .firstTextBaseline, spacing: 12) {
 				Text("\(pokemon.level)")
-					.font(.title.weight(.semibold))
+					.font(.title2.weight(.semibold))
 					.monospacedDigit()
 
 				Text(pokemon.name)
