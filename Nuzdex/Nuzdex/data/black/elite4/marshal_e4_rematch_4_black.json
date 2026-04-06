@@ -1,0 +1,223 @@
+{
+  "game": "Black",
+  "category": "eliteFour",
+  "trainerId": "marshal_e8_black",
+  "trainerName": "Marshal",
+  "battleLabel": "Elite 4 Round 2 - 4",
+  "primaryType": "fighting",
+  "levelCap": 73,
+  "party": [
+    {
+      "baseStats": 460,
+      "name": "Breloom",
+      "level": 71,
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Sky Uppercut",
+          "category": "physical",
+          "type": "fighting",
+          "power": 85
+        },
+        {
+          "name": "Mach Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 465,
+      "name": "Throh",
+      "level": 71,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Superpower",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Retaliate",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 465,
+      "name": "Sawk",
+      "level": 71,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        },
+        {
+          "name": "Retaliate",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Toxicroak",
+      "level": 71,
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Low Sweep",
+          "category": "physical",
+          "type": "fighting",
+          "power": 65
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Venoshock",
+          "category": "special",
+          "type": "poison",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "baseStats": 510,
+      "name": "Mienshao",
+      "level": 71,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        },
+        {
+          "name": "High Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 130
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        }
+      ]
+    },
+    {
+      "baseStats": 505,
+      "name": "Conkeldurr",
+      "level": 73,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Hammer Arm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "game": "White",
+  "category": "evilTeam",
+  "trainerId": "n_n1_white",
+  "trainerName": "N",
+  "battleLabel": "Accumula Town",
+  "primaryType": null,
+  "levelCap": 7,
+  "party": [
+    {
+      "baseStats": 281,
+      "name": "Purrloin",
+      "level": 7,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Scratch",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

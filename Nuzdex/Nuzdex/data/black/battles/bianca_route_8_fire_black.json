@@ -1,0 +1,152 @@
+{
+  "game": "Black",
+  "category": "rival",
+  "trainerId": "bianca_b5_fire",
+  "trainerName": "Bianca",
+  "battleLabel": "Route 8",
+  "primaryType": null,
+  "levelCap": 40,
+  "party": [
+    {
+      "baseStats": 500,
+      "name": "Stoutland",
+      "level": 38,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Retaliate",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 487,
+      "name": "Musharna",
+      "level": 38,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Defense Curl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Lucky Chant",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simipour",
+      "level": 38,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Scald",
+          "category": "special",
+          "type": "water",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 528,
+      "name": "Serperior",
+      "level": 40,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Coil",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Mega Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 40
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "physical",
+          "type": "grass",
+          "power": 90
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

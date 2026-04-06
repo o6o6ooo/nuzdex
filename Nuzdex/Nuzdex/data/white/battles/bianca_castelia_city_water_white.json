@@ -1,0 +1,153 @@
+{
+  "game": "White",
+  "category": "rival",
+  "trainerId": "bianca_b3_water",
+  "trainerName": "Bianca",
+  "battleLabel": "Castelia City",
+  "primaryType": null,
+  "levelCap": 20,
+  "party": [
+    {
+      "baseStats": 370,
+      "name": "Herdier",
+      "level": 18,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Odor Sleuth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Helping Hand",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 292,
+      "name": "Munna",
+      "level": 18,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Moonlight",
+          "category": "status",
+          "type": "fairy",
+          "power": null
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Imprison",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Pansage",
+      "level": 18,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Vine Whip",
+          "category": "physical",
+          "type": "grass",
+          "power": 45
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 418,
+      "name": "Pignite",
+      "level": 20,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Defense Curl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Flame Charge",
+          "category": "physical",
+          "type": "fire",
+          "power": 50
+        },
+        {
+          "name": "Arm Thrust",
+          "category": "physical",
+          "type": "fighting",
+          "power": 15
+        },
+        {
+          "name": "Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 30
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

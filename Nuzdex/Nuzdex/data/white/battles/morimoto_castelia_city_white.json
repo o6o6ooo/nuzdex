@@ -1,0 +1,222 @@
+{
+  "game": "White",
+  "category": "rival",
+  "trainerId": "morimoto_morimoto_white",
+  "trainerName": "Morimoto",
+  "battleLabel": "Castelia City",
+  "primaryType": null,
+  "levelCap": 77,
+  "party": [
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 75,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simisear",
+      "level": 75,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "petaya-berry",
+      "moves": [
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simipour",
+      "level": 75,
+      "types": [
+        "water"
+      ],
+      "heldItem": "petaya-berry",
+      "moves": [
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simisage",
+      "level": 75,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "petaya-berry",
+      "moves": [
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 425,
+      "name": "Swoobat",
+      "level": 75,
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Endeavor",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Psyshock",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 497,
+      "name": "Zebstrika",
+      "level": 77,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Giga Impact",
+          "category": "physical",
+          "type": "normal",
+          "power": 150
+        },
+        {
+          "name": "Flame Charge",
+          "category": "physical",
+          "type": "fire",
+          "power": 50
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

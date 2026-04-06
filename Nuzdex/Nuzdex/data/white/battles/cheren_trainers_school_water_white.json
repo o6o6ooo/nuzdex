@@ -1,0 +1,70 @@
+{
+  "game": "White",
+  "category": "rival",
+  "trainerId": "cheren_c2_water",
+  "trainerName": "Cheren",
+  "battleLabel": "Trainer's School",
+  "primaryType": null,
+  "levelCap": 8,
+  "party": [
+    {
+      "baseStats": 281,
+      "name": "Purrloin",
+      "level": 8,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Scratch",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Assist",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 308,
+      "name": "Snivy",
+      "level": 7,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "oran-berry",
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Vine Whip",
+          "category": "physical",
+          "type": "grass",
+          "power": 45
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

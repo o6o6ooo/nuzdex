@@ -1,0 +1,154 @@
+{
+  "game": "White",
+  "category": "evilTeam",
+  "trainerId": "n_n3_white",
+  "trainerName": "N",
+  "battleLabel": "Nimbasa City",
+  "primaryType": null,
+  "levelCap": 22,
+  "party": [
+    {
+      "baseStats": 292,
+      "name": "Sandile",
+      "level": 22,
+      "types": [
+        "ground",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Embargo",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Sand Tomb",
+          "category": "physical",
+          "type": "ground",
+          "power": 35
+        },
+        {
+          "name": "Mud Slap",
+          "category": "special",
+          "type": "ground",
+          "power": 20
+        }
+      ]
+    },
+    {
+      "baseStats": 348,
+      "name": "Scraggy",
+      "level": 22,
+      "types": [
+        "dark",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Headbutt",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Faint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 315,
+      "name": "Darumaka",
+      "level": 22,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fire Punch",
+          "category": "physical",
+          "type": "fire",
+          "power": 75
+        },
+        {
+          "name": "Headbutt",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Uproar",
+          "category": "special",
+          "type": "normal",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Sigilyph",
+      "level": 22,
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Whirlwind",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Tailwind",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "game": "Black",
+  "category": "gymLeader",
+  "trainerId": "chili_cress_or_cilan_1_grass",
+  "trainerName": "Chili, Cress or Cilan",
+  "battleLabel": "1st Gym Leader - Striaton City",
+  "primaryType": "fire",
+  "levelCap": 14,
+  "party": [
+    {
+      "baseStats": 275,
+      "name": "Lillipup",
+      "level": 12,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Pansear",
+      "level": 14,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Incinerate",
+          "category": "special",
+          "type": "fire",
+          "power": 60
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "grass"
+}

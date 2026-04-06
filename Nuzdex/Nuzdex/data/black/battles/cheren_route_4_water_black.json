@@ -1,0 +1,153 @@
+{
+  "game": "Black",
+  "category": "rival",
+  "trainerId": "cheren_c4_water",
+  "trainerName": "Cheren",
+  "battleLabel": "Route 4",
+  "primaryType": null,
+  "levelCap": 22,
+  "party": [
+    {
+      "baseStats": 264,
+      "name": "Pidove",
+      "level": 20,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 20,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Panpour",
+      "level": 20,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Water Sport",
+          "category": "status",
+          "type": "water",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 413,
+      "name": "Servine",
+      "level": 22,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Leaf Tornado",
+          "category": "special",
+          "type": "grass",
+          "power": 65
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Growth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Wrap",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

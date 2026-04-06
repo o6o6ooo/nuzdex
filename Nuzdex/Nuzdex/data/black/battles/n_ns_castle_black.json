@@ -1,0 +1,224 @@
+{
+  "game": "Black",
+  "category": "evilTeam",
+  "trainerId": "n_n5a_black",
+  "trainerName": "N",
+  "battleLabel": "N's Castle",
+  "primaryType": null,
+  "levelCap": 52,
+  "party": [
+    {
+      "baseStats": 680,
+      "name": "Zekrom",
+      "level": 52,
+      "types": [
+        "dragon",
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fusion Bolt",
+          "category": "physical",
+          "type": "electric",
+          "power": 100
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Giga Impact",
+          "category": "physical",
+          "type": "normal",
+          "power": 150
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 520,
+      "name": "Klinklang",
+      "level": 50,
+      "types": [
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Metal Sound",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Hyper Beam",
+          "category": "special",
+          "type": "normal",
+          "power": 150
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 510,
+      "name": "Zoroark",
+      "level": 50,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Retaliate",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 495,
+      "name": "Carracosta",
+      "level": 50,
+      "types": [
+        "water",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Waterfall",
+          "category": "physical",
+          "type": "water",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 567,
+      "name": "Archeops",
+      "level": 50,
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Dragon Claw",
+          "category": "physical",
+          "type": "dragon",
+          "power": 80
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 535,
+      "name": "Vanilluxe",
+      "level": 50,
+      "types": [
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Hail",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Frost Breath",
+          "category": "special",
+          "type": "ice",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

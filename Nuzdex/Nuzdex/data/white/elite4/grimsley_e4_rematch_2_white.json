@@ -1,0 +1,226 @@
+{
+  "game": "White",
+  "category": "eliteFour",
+  "trainerId": "grimsley_e6_white",
+  "trainerName": "Grimsley",
+  "battleLabel": "Elite 4 Round 2 - 2",
+  "primaryType": "dark",
+  "levelCap": 73,
+  "party": [
+    {
+      "baseStats": 460,
+      "name": "Sharpedo",
+      "level": 71,
+      "types": [
+        "water",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Waterfall",
+          "category": "physical",
+          "type": "water",
+          "power": 80
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 488,
+      "name": "Scrafty",
+      "level": 71,
+      "types": [
+        "dark",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        },
+        {
+          "name": "Head Smash",
+          "category": "physical",
+          "type": "rock",
+          "power": 150
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "baseStats": 519,
+      "name": "Krookodile",
+      "level": 71,
+      "types": [
+        "ground",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Outrage",
+          "category": "physical",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Foul Play",
+          "category": "physical",
+          "type": "dark",
+          "power": 95
+        },
+        {
+          "name": "Smack Down",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 71,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Drapion",
+      "level": 71,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Poison Fang",
+          "category": "physical",
+          "type": "poison",
+          "power": 50
+        },
+        {
+          "name": "Fire Fang",
+          "category": "physical",
+          "type": "fire",
+          "power": 65
+        },
+        {
+          "name": "Thunder Fang",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Bisharp",
+      "level": 73,
+      "types": [
+        "dark",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Guillotine",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

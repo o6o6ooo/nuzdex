@@ -1,0 +1,119 @@
+{
+  "game": "Black",
+  "category": "gymLeader",
+  "trainerId": "burgh_3_black",
+  "trainerName": "Burgh",
+  "battleLabel": "3rd Gym Leader - Castelia City",
+  "primaryType": "bug",
+  "levelCap": 23,
+  "party": [
+    {
+      "baseStats": 360,
+      "name": "Whirlipede",
+      "level": 21,
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Poison Tail",
+          "category": "physical",
+          "type": "poison",
+          "power": 50
+        },
+        {
+          "name": "Struggle Bug",
+          "category": "special",
+          "type": "bug",
+          "power": 50
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 325,
+      "name": "Dwebble",
+      "level": 21,
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Smack Down",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        },
+        {
+          "name": "Struggle Bug",
+          "category": "special",
+          "type": "bug",
+          "power": 50
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Faint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Leavanny",
+      "level": 23,
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Razor Leaf",
+          "category": "physical",
+          "type": "grass",
+          "power": 55
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "String Shot",
+          "category": "status",
+          "type": "bug",
+          "power": null
+        },
+        {
+          "name": "Struggle Bug",
+          "category": "special",
+          "type": "bug",
+          "power": 50
+        }
+      ]
+    }
+  ]
+}

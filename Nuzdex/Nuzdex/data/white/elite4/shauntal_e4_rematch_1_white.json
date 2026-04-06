@@ -1,0 +1,226 @@
+{
+  "game": "White",
+  "category": "eliteFour",
+  "trainerId": "shauntal_e5_white",
+  "trainerName": "Shauntal",
+  "battleLabel": "Elite 4 Round 2 - 1",
+  "primaryType": "ghost",
+  "levelCap": 73,
+  "party": [
+    {
+      "baseStats": 483,
+      "name": "Cofagrigus",
+      "level": 71,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 480,
+      "name": "Jellicent",
+      "level": 71,
+      "types": [
+        "water",
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sludge Wave",
+          "category": "special",
+          "type": "poison",
+          "power": 95
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 110
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 483,
+      "name": "Golurk",
+      "level": 71,
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Hammer Arm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Shadow Punch",
+          "category": "physical",
+          "type": "ghost",
+          "power": 60
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 480,
+      "name": "Froslass",
+      "level": 71,
+      "types": [
+        "ice",
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Ice Shard",
+          "category": "physical",
+          "type": "ice",
+          "power": 40
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Drifblim",
+      "level": 71,
+      "types": [
+        "ghost",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder",
+          "category": "special",
+          "type": "electric",
+          "power": 110
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 520,
+      "name": "Chandelure",
+      "level": 73,
+      "types": [
+        "ghost",
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        }
+      ]
+    }
+  ]
+}

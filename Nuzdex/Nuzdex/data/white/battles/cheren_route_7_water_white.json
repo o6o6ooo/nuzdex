@@ -1,0 +1,153 @@
+{
+  "game": "White",
+  "category": "rival",
+  "trainerId": "cheren_c55_water",
+  "trainerName": "Cheren",
+  "battleLabel": "Route 7",
+  "primaryType": null,
+  "levelCap": 35,
+  "party": [
+    {
+      "baseStats": 488,
+      "name": "Unfezant",
+      "level": 33,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "scope-lens",
+      "moves": [
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 33,
+      "types": [
+        "dark"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Hone Claws",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simipour",
+      "level": 33,
+      "types": [
+        "water"
+      ],
+      "heldItem": "mystic-water",
+      "moves": [
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Scald",
+          "category": "special",
+          "type": "water",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 413,
+      "name": "Servine",
+      "level": 35,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "leftovers",
+      "moves": [
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Mega Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 40
+        },
+        {
+          "name": "Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "physical",
+          "type": "grass",
+          "power": 90
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

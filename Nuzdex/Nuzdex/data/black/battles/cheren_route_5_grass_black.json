@@ -1,0 +1,154 @@
+{
+  "game": "Black",
+  "category": "rival",
+  "trainerId": "cheren_c5_grass",
+  "trainerName": "Cheren",
+  "battleLabel": "Route 5",
+  "primaryType": null,
+  "levelCap": 26,
+  "party": [
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 24,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 358,
+      "name": "Tranquill",
+      "level": 24,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Pansage",
+      "level": 24,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "miracle-seed",
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Seed Bomb",
+          "category": "physical",
+          "type": "grass",
+          "power": 80
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 418,
+      "name": "Pignite",
+      "level": 26,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Flame Charge",
+          "category": "physical",
+          "type": "fire",
+          "power": 50
+        },
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        },
+        {
+          "name": "Arm Thrust",
+          "category": "physical",
+          "type": "fighting",
+          "power": 15
+        },
+        {
+          "name": "Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 30
+        }
+      ]
+    }
+  ],
+  "starterBranch": "grass"
+}

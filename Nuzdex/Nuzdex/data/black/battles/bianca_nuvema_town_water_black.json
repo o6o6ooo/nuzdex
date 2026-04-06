@@ -1,0 +1,35 @@
+{
+  "game": "Black",
+  "category": "rival",
+  "trainerId": "bianca_b1_water",
+  "trainerName": "Bianca",
+  "battleLabel": "Nuvema Town",
+  "primaryType": null,
+  "levelCap": 5,
+  "party": [
+    {
+      "baseStats": 308,
+      "name": "Tepig",
+      "level": 5,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

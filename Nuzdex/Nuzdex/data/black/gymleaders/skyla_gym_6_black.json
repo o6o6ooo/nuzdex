@@ -1,0 +1,119 @@
+{
+  "game": "Black",
+  "category": "gymLeader",
+  "trainerId": "skyla_6_black",
+  "trainerName": "Skyla",
+  "battleLabel": "6th Gym Leader - Mistralton City",
+  "primaryType": "flying",
+  "levelCap": 35,
+  "party": [
+    {
+      "baseStats": 425,
+      "name": "Swoobat",
+      "level": 33,
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Heart Stamp",
+          "category": "physical",
+          "type": "psychic",
+          "power": 60
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 488,
+      "name": "Unfezant",
+      "level": 33,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Razor Wind",
+          "category": "special",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 473,
+      "name": "Swanna",
+      "level": 35,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Aqua Ring",
+          "category": "status",
+          "type": "water",
+          "power": null
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Bubble Beam",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        }
+      ]
+    }
+  ]
+}

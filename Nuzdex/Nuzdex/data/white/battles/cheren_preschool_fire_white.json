@@ -1,0 +1,82 @@
+{
+  "game": "White",
+  "category": "rival",
+  "trainerId": "cheren_c3_fire",
+  "trainerName": "Cheren",
+  "battleLabel": "Preschool",
+  "primaryType": null,
+  "levelCap": 14,
+  "party": [
+    {
+      "baseStats": 281,
+      "name": "Purrloin",
+      "level": 12,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Assist",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 308,
+      "name": "Oshawott",
+      "level": 14,
+      "types": [
+        "water"
+      ],
+      "heldItem": "oran-berry",
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Water Sport",
+          "category": "status",
+          "type": "water",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

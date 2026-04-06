@@ -1,0 +1,153 @@
+{
+  "game": "Black",
+  "category": "rival",
+  "trainerId": "cheren_c6_fire",
+  "trainerName": "Cheren",
+  "battleLabel": "Route 10",
+  "primaryType": null,
+  "levelCap": 45,
+  "party": [
+    {
+      "baseStats": 488,
+      "name": "Unfezant",
+      "level": 43,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "scope-lens",
+      "moves": [
+        {
+          "name": "Razor Wind",
+          "category": "special",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 43,
+      "types": [
+        "dark"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simisear",
+      "level": 43,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "charcoal",
+      "moves": [
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Flame Burst",
+          "category": "special",
+          "type": "fire",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 528,
+      "name": "Samurott",
+      "level": 45,
+      "types": [
+        "water"
+      ],
+      "heldItem": "leftovers",
+      "moves": [
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Encore",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

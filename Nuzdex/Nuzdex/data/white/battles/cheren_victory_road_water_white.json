@@ -1,0 +1,223 @@
+{
+  "game": "White",
+  "category": "rival",
+  "trainerId": "cheren_c7_water",
+  "trainerName": "Cheren",
+  "battleLabel": "Victory Road",
+  "primaryType": null,
+  "levelCap": 67,
+  "party": [
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 65,
+      "types": [
+        "dark"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Shadow Claw",
+          "category": "physical",
+          "type": "ghost",
+          "power": 70
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 488,
+      "name": "Unfezant",
+      "level": 65,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "scope-lens",
+      "moves": [
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 515,
+      "name": "Gigalith",
+      "level": 65,
+      "types": [
+        "rock"
+      ],
+      "heldItem": "leftovers",
+      "moves": [
+        {
+          "name": "Giga Impact",
+          "category": "physical",
+          "type": "normal",
+          "power": 150
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Stealth Rock",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 540,
+      "name": "Haxorus",
+      "level": 65,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": "dragon-gem",
+      "moves": [
+        {
+          "name": "Outrage",
+          "category": "physical",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simipour",
+      "level": 65,
+      "types": [
+        "water"
+      ],
+      "heldItem": "mystic-water",
+      "moves": [
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 528,
+      "name": "Serperior",
+      "level": 67,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "focus-sash",
+      "moves": [
+        {
+          "name": "Leaf Storm",
+          "category": "special",
+          "type": "grass",
+          "power": 130
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "physical",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Coil",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

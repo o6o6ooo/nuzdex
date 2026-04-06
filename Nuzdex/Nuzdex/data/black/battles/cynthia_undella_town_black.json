@@ -1,0 +1,225 @@
+{
+  "game": "Black",
+  "category": "rival",
+  "trainerId": "cynthia_cc_black",
+  "trainerName": "Cynthia",
+  "battleLabel": "Undella Town",
+  "primaryType": null,
+  "levelCap": 77,
+  "party": [
+    {
+      "baseStats": 485,
+      "name": "Spiritomb",
+      "level": 75,
+      "types": [
+        "ghost",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 515,
+      "name": "Eelektross",
+      "level": 75,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Dragon Claw",
+          "category": "physical",
+          "type": "dragon",
+          "power": 80
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 540,
+      "name": "Milotic",
+      "level": 75,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 110
+        },
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Bulldoze",
+          "category": "physical",
+          "type": "ground",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 510,
+      "name": "Braviary",
+      "level": 75,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Shadow Claw",
+          "category": "physical",
+          "type": "ghost",
+          "power": 70
+        },
+        {
+          "name": "Crush Claw",
+          "category": "physical",
+          "type": "normal",
+          "power": 75
+        },
+        {
+          "name": "Retaliate",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 525,
+      "name": "Lucario",
+      "level": 75,
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Extreme Speed",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 600,
+      "name": "Garchomp",
+      "level": 77,
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Dragon Rush",
+          "category": "physical",
+          "type": "dragon",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

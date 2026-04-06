@@ -1,0 +1,224 @@
+{
+  "game": "Black",
+  "category": "evilTeam",
+  "trainerId": "ghetsis_gh_black",
+  "trainerName": "Ghetsis",
+  "battleLabel": "N's Castle",
+  "primaryType": null,
+  "levelCap": 54,
+  "party": [
+    {
+      "baseStats": 483,
+      "name": "Cofagrigus",
+      "level": 52,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Bouffalant",
+      "level": 52,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Head Charge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 509,
+      "name": "Seismitoad",
+      "level": 52,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Muddy Water",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Rain Dance",
+          "category": "status",
+          "type": "water",
+          "power": null
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Sludge Wave",
+          "category": "special",
+          "type": "poison",
+          "power": 95
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Bisharp",
+      "level": 52,
+      "types": [
+        "dark",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Metal Burst",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 515,
+      "name": "Eelektross",
+      "level": 52,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 600,
+      "name": "Hydreigon",
+      "level": 54,
+      "types": [
+        "dark",
+        "dragon"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        },
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        }
+      ]
+    }
+  ]
+}

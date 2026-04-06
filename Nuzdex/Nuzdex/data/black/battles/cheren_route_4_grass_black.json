@@ -1,0 +1,154 @@
+{
+  "game": "Black",
+  "category": "rival",
+  "trainerId": "cheren_c4_grass",
+  "trainerName": "Cheren",
+  "battleLabel": "Route 4",
+  "primaryType": null,
+  "levelCap": 22,
+  "party": [
+    {
+      "baseStats": 264,
+      "name": "Pidove",
+      "level": 20,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 20,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Pansage",
+      "level": 20,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Vine Whip",
+          "category": "physical",
+          "type": "grass",
+          "power": 45
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 418,
+      "name": "Pignite",
+      "level": 22,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Flame Charge",
+          "category": "physical",
+          "type": "fire",
+          "power": 50
+        },
+        {
+          "name": "Defense Curl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Arm Thrust",
+          "category": "physical",
+          "type": "fighting",
+          "power": 15
+        },
+        {
+          "name": "Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 30
+        }
+      ]
+    }
+  ],
+  "starterBranch": "grass"
+}

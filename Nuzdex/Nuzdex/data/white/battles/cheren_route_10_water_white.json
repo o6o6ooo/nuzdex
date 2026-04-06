@@ -1,0 +1,153 @@
+{
+  "game": "White",
+  "category": "rival",
+  "trainerId": "cheren_c6_water",
+  "trainerName": "Cheren",
+  "battleLabel": "Route 10",
+  "primaryType": null,
+  "levelCap": 45,
+  "party": [
+    {
+      "baseStats": 488,
+      "name": "Unfezant",
+      "level": 43,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "scope-lens",
+      "moves": [
+        {
+          "name": "Razor Wind",
+          "category": "special",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 43,
+      "types": [
+        "dark"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simipour",
+      "level": 43,
+      "types": [
+        "water"
+      ],
+      "heldItem": "mystic-water",
+      "moves": [
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Scald",
+          "category": "special",
+          "type": "water",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 528,
+      "name": "Serperior",
+      "level": 45,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "leftovers",
+      "moves": [
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "physical",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Coil",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

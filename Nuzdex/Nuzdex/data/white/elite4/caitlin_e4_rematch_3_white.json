@@ -1,0 +1,224 @@
+{
+  "game": "White",
+  "category": "eliteFour",
+  "trainerId": "caitlin_e7_white",
+  "trainerName": "Caitlin",
+  "battleLabel": "Elite 4 Round 2 - 3",
+  "primaryType": "psychic",
+  "levelCap": 73,
+  "party": [
+    {
+      "baseStats": 487,
+      "name": "Musharna",
+      "level": 71,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Dream Eater",
+          "category": "special",
+          "type": "psychic",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Sigilyph",
+      "level": 71,
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Reuniclus",
+      "level": 71,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Thunder",
+          "category": "special",
+          "type": "electric",
+          "power": 110
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Gothitelle",
+      "level": 71,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flatter",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Bronzong",
+      "level": 71,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        },
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 600,
+      "name": "Metagross",
+      "level": 73,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bullet Punch",
+          "category": "physical",
+          "type": "steel",
+          "power": 40
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Giga Impact",
+          "category": "physical",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    }
+  ]
+}

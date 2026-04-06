@@ -1,0 +1,117 @@
+{
+  "game": "White",
+  "category": "evilTeam",
+  "trainerId": "n_n2_white",
+  "trainerName": "N",
+  "battleLabel": "Nacrene City",
+  "primaryType": null,
+  "levelCap": 13,
+  "party": [
+    {
+      "baseStats": 264,
+      "name": "Pidove",
+      "level": 13,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Gust",
+          "category": "special",
+          "type": "flying",
+          "power": 40
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 305,
+      "name": "Timburr",
+      "level": 13,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Low Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Bide",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 294,
+      "name": "Tympole",
+      "level": 13,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bubble Beam",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Round",
+          "category": "special",
+          "type": "normal",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

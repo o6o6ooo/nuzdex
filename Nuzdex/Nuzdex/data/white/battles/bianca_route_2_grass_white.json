@@ -1,0 +1,70 @@
+{
+  "game": "White",
+  "category": "rival",
+  "trainerId": "bianca_b2_grass",
+  "trainerName": "Bianca",
+  "battleLabel": "Route 2",
+  "primaryType": null,
+  "levelCap": 7,
+  "party": [
+    {
+      "baseStats": 275,
+      "name": "Lillipup",
+      "level": 6,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Odor Sleuth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 308,
+      "name": "Oshawott",
+      "level": 7,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        }
+      ]
+    }
+  ],
+  "starterBranch": "grass"
+}

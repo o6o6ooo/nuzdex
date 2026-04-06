@@ -1,0 +1,152 @@
+{
+  "game": "Black",
+  "category": "rival",
+  "trainerId": "bianca_b3_fire",
+  "trainerName": "Bianca",
+  "battleLabel": "Castelia City",
+  "primaryType": null,
+  "levelCap": 20,
+  "party": [
+    {
+      "baseStats": 370,
+      "name": "Herdier",
+      "level": 18,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Odor Sleuth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Helping Hand",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 292,
+      "name": "Munna",
+      "level": 18,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Moonlight",
+          "category": "status",
+          "type": "fairy",
+          "power": null
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Imprison",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Panpour",
+      "level": 18,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Water Sport",
+          "category": "status",
+          "type": "water",
+          "power": null
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 413,
+      "name": "Servine",
+      "level": 20,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wrap",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Growth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Leaf Tornado",
+          "category": "special",
+          "type": "grass",
+          "power": 65
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

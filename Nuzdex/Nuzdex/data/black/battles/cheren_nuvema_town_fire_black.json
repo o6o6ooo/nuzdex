@@ -1,0 +1,35 @@
+{
+  "game": "Black",
+  "category": "rival",
+  "trainerId": "cheren_c1_fire",
+  "trainerName": "Cheren",
+  "battleLabel": "Nuvema Town",
+  "primaryType": null,
+  "levelCap": 5,
+  "party": [
+    {
+      "baseStats": 308,
+      "name": "Oshawott",
+      "level": 5,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

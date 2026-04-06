@@ -1,0 +1,119 @@
+{
+  "game": "Black",
+  "category": "gymLeader",
+  "trainerId": "clay_5_black",
+  "trainerName": "Clay",
+  "battleLabel": "5th Gym Leader - Driftveil City",
+  "primaryType": "ground",
+  "levelCap": 31,
+  "party": [
+    {
+      "baseStats": 351,
+      "name": "Krokorok",
+      "level": 29,
+      "types": [
+        "ground",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Bulldoze",
+          "category": "physical",
+          "type": "ground",
+          "power": 60
+        },
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 384,
+      "name": "Palpitoad",
+      "level": 29,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Aqua Ring",
+          "category": "status",
+          "type": "water",
+          "power": null
+        },
+        {
+          "name": "Bulldoze",
+          "category": "physical",
+          "type": "ground",
+          "power": 60
+        },
+        {
+          "name": "Muddy Water",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Bubble Beam",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "baseStats": 508,
+      "name": "Excadrill",
+      "level": 31,
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Hone Claws",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Bulldoze",
+          "category": "physical",
+          "type": "ground",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

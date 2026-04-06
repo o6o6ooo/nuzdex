@@ -1,0 +1,151 @@
+{
+  "game": "Black",
+  "category": "eliteFour",
+  "trainerId": "marshal_e4_black",
+  "trainerName": "Marshal",
+  "battleLabel": "Elite 4 - 4",
+  "primaryType": "fighting",
+  "levelCap": 50,
+  "party": [
+    {
+      "baseStats": 465,
+      "name": "Throh",
+      "level": 48,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        },
+        {
+          "name": "Bulldoze",
+          "category": "physical",
+          "type": "ground",
+          "power": 60
+        },
+        {
+          "name": "Storm Throw",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 465,
+      "name": "Sawk",
+      "level": 48,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Karate Chop",
+          "category": "physical",
+          "type": "fighting",
+          "power": 50
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Retaliate",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 505,
+      "name": "Conkeldurr",
+      "level": 48,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Hammer Arm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Retaliate",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 510,
+      "name": "Mienshao",
+      "level": 50,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        },
+        {
+          "name": "Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Retaliate",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    }
+  ]
+}

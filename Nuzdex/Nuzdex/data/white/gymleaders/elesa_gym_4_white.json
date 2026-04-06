@@ -1,0 +1,118 @@
+{
+  "game": "White",
+  "category": "gymLeader",
+  "trainerId": "elesa_4_white",
+  "trainerName": "Elesa",
+  "battleLabel": "4th Gym Leader - Nimbasa City",
+  "primaryType": "electric",
+  "levelCap": 27,
+  "party": [
+    {
+      "baseStats": 428,
+      "name": "Emolga",
+      "level": 25,
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Volt Switch",
+          "category": "special",
+          "type": "electric",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 428,
+      "name": "Emolga",
+      "level": 25,
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Volt Switch",
+          "category": "special",
+          "type": "electric",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 497,
+      "name": "Zebstrika",
+      "level": 27,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flame Charge",
+          "category": "physical",
+          "type": "fire",
+          "power": 50
+        },
+        {
+          "name": "Spark",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        },
+        {
+          "name": "Volt Switch",
+          "category": "special",
+          "type": "electric",
+          "power": 70
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

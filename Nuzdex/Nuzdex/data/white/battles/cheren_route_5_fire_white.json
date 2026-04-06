@@ -1,0 +1,153 @@
+{
+  "game": "White",
+  "category": "rival",
+  "trainerId": "cheren_c5_fire",
+  "trainerName": "Cheren",
+  "battleLabel": "Route 5",
+  "primaryType": null,
+  "levelCap": 26,
+  "party": [
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 24,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 358,
+      "name": "Tranquill",
+      "level": 24,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Pansear",
+      "level": 24,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "charcoal",
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Flame Burst",
+          "category": "special",
+          "type": "fire",
+          "power": 70
+        },
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 413,
+      "name": "Dewott",
+      "level": 26,
+      "types": [
+        "water"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Fury Cutter",
+          "category": "physical",
+          "type": "bug",
+          "power": 40
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Razor Shell",
+          "category": "physical",
+          "type": "water",
+          "power": 75
+        },
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

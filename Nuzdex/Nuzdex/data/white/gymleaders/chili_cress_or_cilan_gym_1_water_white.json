@@ -1,0 +1,58 @@
+{
+  "game": "White",
+  "category": "gymLeader",
+  "trainerId": "chili_cress_or_cilan_1_water",
+  "trainerName": "Chili, Cress or Cilan",
+  "battleLabel": "1st Gym Leader - Striaton City",
+  "primaryType": "grass",
+  "levelCap": 14,
+  "party": [
+    {
+      "baseStats": 275,
+      "name": "Lillipup",
+      "level": 12,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Pansage",
+      "level": 14,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Vine Whip",
+          "category": "physical",
+          "type": "grass",
+          "power": 45
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

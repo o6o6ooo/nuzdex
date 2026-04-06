@@ -1,0 +1,719 @@
+[
+  {
+    "routeName": "Route 1",
+    "pokemon": [
+      "Audino",
+      "Basculin",
+      "Farfetch'd",
+      "Feebas",
+      "Herdier",
+      "Lillipup",
+      "Milotic",
+      "Patrat",
+      "Scraggy",
+      "Watchog"
+    ]
+  },
+  {
+    "routeName": "Route 2",
+    "pokemon": [
+      "Audino",
+      "Lillipup",
+      "Patrat",
+      "Purrloin",
+      "Wynaut"
+    ]
+  },
+  {
+    "routeName": "Route 3",
+    "pokemon": [
+      "Audino",
+      "Basculin",
+      "Blitzle",
+      "Goldeen",
+      "Lillipup",
+      "Patrat",
+      "Pidove",
+      "Purrloin",
+      "Seaking",
+      "Volbeat"
+    ]
+  },
+  {
+    "routeName": "Route 4",
+    "pokemon": [
+      "Alomomola",
+      "Clamperl",
+      "Darumaka",
+      "Frillish",
+      "Hippopotas",
+      "Huntail",
+      "Jellicent",
+      "Kingler",
+      "Krabby",
+      "Luvdisc",
+      "Relicanth",
+      "Sandile",
+      "Scraggy"
+    ]
+  },
+  {
+    "routeName": "Route 5",
+    "pokemon": [
+      "Audino",
+      "Cinccino",
+      "Emolga",
+      "Gothita",
+      "Liepard",
+      "Minccino",
+      "Smeargle",
+      "Trubbish"
+    ]
+  },
+  {
+    "routeName": "Route 6",
+    "pokemon": [
+      "Audino",
+      "Basculin",
+      "Deerling",
+      "Emolga",
+      "Foongus",
+      "Karrablast",
+      "Leavanny",
+      "Plusle",
+      "Politoed",
+      "Poliwag",
+      "Poliwhirl",
+      "Swadloon",
+      "Tranquill",
+      "Unfezant",
+      "Vanillite"
+    ]
+  },
+  {
+    "routeName": "Route 7",
+    "pokemon": [
+      "Audino",
+      "Cubchoo",
+      "Deerling",
+      "Emolga",
+      "Foongus",
+      "Sentret",
+      "Tranquill",
+      "Unfezant",
+      "Watchog",
+      "Zebstrika"
+    ]
+  },
+  {
+    "routeName": "Route 8",
+    "pokemon": [
+      "Barboach",
+      "Croagunk",
+      "Palpitoad",
+      "Seismitoad",
+      "Shelmet",
+      "Stunfisk",
+      "Whiscash"
+    ]
+  },
+  {
+    "routeName": "Route 9",
+    "pokemon": [
+      "Audino",
+      "Cinccino",
+      "Emolga",
+      "Garbodor",
+      "Gothitelle",
+      "Gothorita",
+      "Houndour",
+      "Liepard",
+      "Minccino",
+      "Pawniard"
+    ]
+  },
+  {
+    "routeName": "Route 10",
+    "pokemon": [
+      "Amoonguss",
+      "Audino",
+      "Bouffalant",
+      "Emolga",
+      "Foongus",
+      "Herdier",
+      "Sawk",
+      "Stoutland",
+      "Throh",
+      "Tyrogue",
+      "Vullaby"
+    ]
+  },
+  {
+    "routeName": "Route 11",
+    "pokemon": [
+      "Amoonguss",
+      "Audino",
+      "Basculin",
+      "Bisharp",
+      "Buizel",
+      "Emolga",
+      "Floatzel",
+      "Gligar",
+      "Gliscor",
+      "Goldeen",
+      "Golduck",
+      "Karrablast",
+      "Mandibuzz",
+      "Pawniard",
+      "Seaking",
+      "Seviper",
+      "Shroomish",
+      "Vullaby",
+      "Zangoose"
+    ]
+  },
+  {
+    "routeName": "Route 12",
+    "pokemon": [
+      "Audino",
+      "Beedrill",
+      "Cherrim",
+      "Combee",
+      "Doduo",
+      "Dunsparce",
+      "Emolga",
+      "Heracross",
+      "Kakuna",
+      "Pinsir",
+      "Rapidash",
+      "Sunflora",
+      "Sunkern",
+      "Tranquill",
+      "Unfezant",
+      "Vespiquen"
+    ]
+  },
+  {
+    "routeName": "Route 13",
+    "pokemon": [
+      "Absol",
+      "Audino",
+      "Cloyster",
+      "Corsola",
+      "Crobat",
+      "Drifblim",
+      "Golbat",
+      "Kingler",
+      "Krabby",
+      "Lunatone",
+      "Luvdisc",
+      "Pelipper",
+      "Shellder",
+      "Shuppet",
+      "Solrock",
+      "Starmie",
+      "Staryu",
+      "Swellow",
+      "Tangela",
+      "Tangrowth",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Route 14",
+    "pokemon": [
+      "Altaria",
+      "Audino",
+      "Basculin",
+      "Beheeyem",
+      "Buizel",
+      "Drifblim",
+      "Floatzel",
+      "Goldeen",
+      "Golduck",
+      "Jigglypuff",
+      "Mienfoo",
+      "Mienshao",
+      "Seaking",
+      "Shuckle",
+      "Tropius",
+      "Wigglytuff",
+      "Yanma"
+    ]
+  },
+  {
+    "routeName": "Route 15",
+    "pokemon": [
+      "Audino",
+      "Emolga",
+      "Fearow",
+      "Gligar",
+      "Gliscor",
+      "Kangaskhan",
+      "Mankey",
+      "Marowak",
+      "Pupitar",
+      "Rotom",
+      "Sawk",
+      "Throh",
+      "Tyranitar",
+      "Watchog"
+    ]
+  },
+  {
+    "routeName": "Route 16",
+    "pokemon": [
+      "Audino",
+      "Cinccino",
+      "Emolga",
+      "Gothita",
+      "Liepard",
+      "Minccino",
+      "Pineco",
+      "Trubbish"
+    ]
+  },
+  {
+    "routeName": "Route 17",
+    "pokemon": [
+      "Alomomola",
+      "Finneon",
+      "Frillish",
+      "Horsea",
+      "Jellicent"
+    ]
+  },
+  {
+    "routeName": "Route 18",
+    "pokemon": [
+      "Alomomola",
+      "Audino",
+      "Chinchou",
+      "Crustle",
+      "Dwebble",
+      "Exeggcute",
+      "Finneon",
+      "Frillish",
+      "Horsea",
+      "Jellicent",
+      "Larvesta",
+      "Sawk",
+      "Scraggy",
+      "Throh",
+      "Watchog"
+    ]
+  },
+  {
+    "routeName": "Abundant Shrine",
+    "pokemon": [
+      "Audino",
+      "Basculin",
+      "Bronzong",
+      "Chimecho",
+      "Cottonee",
+      "Emolga",
+      "Goldeen",
+      "Honchkrow",
+      "Landorus",
+      "Murkrow",
+      "Ninetales",
+      "Noctowl",
+      "Seaking",
+      "Slowbro",
+      "Slowking",
+      "Slowpoke",
+      "Stantler",
+      "Vulpix",
+      "Whimsicott"
+    ]
+  },
+  {
+    "routeName": "Castelia City",
+    "pokemon": [
+      "Zorua"
+    ]
+  },
+  {
+    "routeName": "Celestial Tower",
+    "pokemon": [
+      "Elgyem",
+      "Litwick"
+    ]
+  },
+  {
+    "routeName": "Chargestone Cave",
+    "pokemon": [
+      "Boldore",
+      "Drilbur",
+      "Ferroseed",
+      "Joltik",
+      "Klink",
+      "Tynamo"
+    ]
+  },
+  {
+    "routeName": "Cold Storage",
+    "pokemon": [
+      "Audino",
+      "Cinccino",
+      "Herdier",
+      "Minccino",
+      "Stoutland",
+      "Timburr",
+      "Vanillite"
+    ]
+  },
+  {
+    "routeName": "Desert Resort",
+    "pokemon": [
+      "Darmanitan",
+      "Darumaka",
+      "Dwebble",
+      "Maractus",
+      "Sandile",
+      "Scraggy",
+      "Sigilyph"
+    ]
+  },
+  {
+    "routeName": "Dragonspiral Tower",
+    "pokemon": [
+      "Audino",
+      "Basculin",
+      "Beartic",
+      "Cubchoo",
+      "Deerling",
+      "Dragonair",
+      "Dragonite",
+      "Dratini",
+      "Druddigon",
+      "Emolga",
+      "Golett",
+      "Mienfoo",
+      "Reshiram",
+      "Sawsbuck",
+      "Tranquill",
+      "Unfezant",
+      "Vanillish",
+      "Vanillite"
+    ]
+  },
+  {
+    "routeName": "Dreamyard",
+    "pokemon": [
+      "Ariados",
+      "Audino",
+      "Kricketune",
+      "Ledian",
+      "Liepard",
+      "Munna",
+      "Musharna",
+      "Panpour",
+      "Pansage",
+      "Pansear",
+      "Patrat",
+      "Purrloin",
+      "Raticate",
+      "Venomoth",
+      "Watchog"
+    ]
+  },
+  {
+    "routeName": "Driftveil City",
+    "pokemon": [
+      "Alomomola",
+      "Basculin",
+      "Chinchou",
+      "Frillish",
+      "Jellicent",
+      "Kingler",
+      "Krabby",
+      "Lanturn",
+      "Luvdisc"
+    ]
+  },
+  {
+    "routeName": "Driftveil Drawbridge",
+    "pokemon": [
+      "Ducklett"
+    ]
+  },
+  {
+    "routeName": "Iccirus City",
+    "pokemon": [
+      "Barboach",
+      "Palpitoad",
+      "Seismitoad",
+      "Shelmet",
+      "Stunfisk",
+      "Whiscash"
+    ]
+  },
+  {
+    "routeName": "Liberty Garden",
+    "pokemon": [
+      "Victini"
+    ]
+  },
+  {
+    "routeName": "Lostlorn Forest",
+    "pokemon": [
+      "Audino",
+      "Basculin",
+      "Cottonee",
+      "Emolga",
+      "Goldeen",
+      "Leavanny",
+      "Panpour",
+      "Pansage",
+      "Pansear",
+      "Seaking",
+      "Swadloon",
+      "Tranquill",
+      "Unfezant",
+      "Venipede",
+      "Whimsicott",
+      "Zoroark"
+    ]
+  },
+  {
+    "routeName": "Marvelous Bridge",
+    "pokemon": [
+      "Magikarp",
+      "Swanna"
+    ]
+  },
+  {
+    "routeName": "Mistralton Cave",
+    "pokemon": [
+      "Axew",
+      "Boldore",
+      "Cobalion",
+      "Drilbur",
+      "Woobat"
+    ]
+  },
+  {
+    "routeName": "Moor of Icirrus",
+    "pokemon": [
+      "Barboach",
+      "Palpitoad",
+      "Seismitoad",
+      "Shelmet",
+      "Stunfisk",
+      "Whiscash"
+    ]
+  },
+  {
+    "routeName": "Nacrene City",
+    "pokemon": [
+      "Aerodactyl",
+      "Anorith",
+      "Archen",
+      "Cranidos",
+      "Kabuto",
+      "Lileep",
+      "Omanyte",
+      "Petilil",
+      "Shieldon",
+      "Tirtouga"
+    ]
+  },
+  {
+    "routeName": "P2 Laboratory",
+    "pokemon": [
+      "Alomomola",
+      "Finneon",
+      "Frillish",
+      "Herdier",
+      "Horsea",
+      "Jellicent",
+      "Kingdra",
+      "Klink",
+      "Lumineon",
+      "Qwilfish",
+      "Scraggy",
+      "Seadra",
+      "Watchog"
+    ]
+  },
+  {
+    "routeName": "Pinwheel Forest",
+    "pokemon": [
+      "Audino",
+      "Basculin",
+      "Cottonee",
+      "Goldeen",
+      "Panpour",
+      "Pansage",
+      "Pansear",
+      "Pidove",
+      "Sawk",
+      "Seaking",
+      "Sewaddle",
+      "Swadloon",
+      "Throh",
+      "Timburr",
+      "Tranquill",
+      "Tympole",
+      "Venipede",
+      "Virizion",
+      "Whimsicott",
+      "Whirlipede"
+    ]
+  },
+  {
+    "routeName": "Relic Castle",
+    "pokemon": [
+      "Claydol",
+      "Cofagrigus",
+      "Krokorok",
+      "Onix",
+      "Sandile",
+      "Sandslash",
+      "Volcarona",
+      "Yamask"
+    ]
+  },
+  {
+    "routeName": "Striaton City",
+    "pokemon": [
+      "Basculin",
+      "Goldeen",
+      "Seaking"
+    ]
+  },
+  {
+    "routeName": "Twist Mountain",
+    "pokemon": [
+      "Boldore",
+      "Cryogonal",
+      "Cubchoo",
+      "Drilbur",
+      "Gurdurr",
+      "Woobat"
+    ]
+  },
+  {
+    "routeName": "Undella Bay",
+    "pokemon": [
+      "Cloyster",
+      "Luvdisc",
+      "Mantine",
+      "Mantyke",
+      "Octillery",
+      "Pelipper",
+      "Remoraid",
+      "Sealeo",
+      "Shellder",
+      "Spheal",
+      "Wailmer",
+      "Wailord",
+      "Walrein",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Undella Town",
+    "pokemon": [
+      "Cloyster",
+      "Corsola",
+      "Luvdisc",
+      "Mantine",
+      "Mantyke",
+      "Munchlax",
+      "Octillery",
+      "Pelipper",
+      "Remoraid",
+      "Shellder",
+      "Wailmer",
+      "Wingull"
+    ]
+  },
+  {
+    "routeName": "Victory Road",
+    "pokemon": [
+      "Basculin",
+      "Boldore",
+      "Deino",
+      "Durant",
+      "Excadrill",
+      "Fraxure",
+      "Heatmor",
+      "Mienfoo",
+      "Poliwag",
+      "Poliwhirl",
+      "Poliwrath",
+      "Terrakion",
+      "Vullaby",
+      "Woobat"
+    ]
+  },
+  {
+    "routeName": "Village Bridge",
+    "pokemon": [
+      "Audino",
+      "Basculin",
+      "Bibarel",
+      "Carvanha",
+      "Emolga",
+      "Golduck",
+      "Lapras",
+      "Mandibuzz",
+      "Seviper",
+      "Sharpedo",
+      "Vullaby",
+      "Zangoose"
+    ]
+  },
+  {
+    "routeName": "Wellspring Cave",
+    "pokemon": [
+      "Basculin",
+      "Drilbur",
+      "Poliwag",
+      "Poliwhirl",
+      "Poliwrath",
+      "Roggenrola",
+      "Woobat"
+    ]
+  },
+  {
+    "routeName": "White Forest",
+    "pokemon": [
+      "Abra",
+      "Aron",
+      "Azurill",
+      "Bagon",
+      "Bellsprout",
+      "Budew",
+      "Corphish",
+      "Elekid",
+      "Gastly",
+      "Happiny",
+      "Hoppip",
+      "Lotad",
+      "Machop",
+      "Magby",
+      "Magnemite",
+      "Mareep",
+      "Nidoran-F",
+      "Nidoran-M",
+      "Oddish",
+      "Pidgey",
+      "Porygon",
+      "Ralts",
+      "Rhyhorn",
+      "Seedot",
+      "Shinx",
+      "Slakoth",
+      "Starly",
+      "Surskit",
+      "Togepi",
+      "Trapinch",
+      "Whismur",
+      "Wooper",
+      "Wurmple"
+    ]
+  }
+]

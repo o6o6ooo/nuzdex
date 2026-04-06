@@ -1,0 +1,153 @@
+{
+  "game": "White",
+  "category": "evilTeam",
+  "trainerId": "n_n4_white",
+  "trainerName": "N",
+  "battleLabel": "Chargestone Cave",
+  "primaryType": null,
+  "levelCap": 28,
+  "party": [
+    {
+      "baseStats": 390,
+      "name": "Boldore",
+      "level": 28,
+      "types": [
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Mud Slap",
+          "category": "special",
+          "type": "ground",
+          "power": 20
+        },
+        {
+          "name": "Iron Defense",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Smack Down",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        },
+        {
+          "name": "Power Gem",
+          "category": "special",
+          "type": "rock",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 305,
+      "name": "Ferroseed",
+      "level": 28,
+      "types": [
+        "grass",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pin Missile",
+          "category": "physical",
+          "type": "bug",
+          "power": 25
+        },
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Iron Defense",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 319,
+      "name": "Joltik",
+      "level": 28,
+      "types": [
+        "bug",
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Electroweb",
+          "category": "special",
+          "type": "electric",
+          "power": 55
+        },
+        {
+          "name": "Bug Bite",
+          "category": "physical",
+          "type": "bug",
+          "power": 60
+        },
+        {
+          "name": "Gastro Acid",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 300,
+      "name": "Klink",
+      "level": 28,
+      "types": [
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Gear Grind",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Bind",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Thunder Shock",
+          "category": "special",
+          "type": "electric",
+          "power": 40
+        },
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        }
+      ]
+    }
+  ]
+}

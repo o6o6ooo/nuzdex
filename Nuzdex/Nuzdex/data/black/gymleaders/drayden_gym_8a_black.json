@@ -1,0 +1,116 @@
+{
+  "game": "Black",
+  "category": "gymLeader",
+  "trainerId": "drayden_8a_black",
+  "trainerName": "Drayden",
+  "battleLabel": "8th Gym Leader - Opelucid City",
+  "primaryType": "dragon",
+  "levelCap": 43,
+  "party": [
+    {
+      "baseStats": 410,
+      "name": "Fraxure",
+      "level": 41,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Dragon Rage",
+          "category": "special",
+          "type": "dragon",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 485,
+      "name": "Druddigon",
+      "level": 41,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Revenge",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        },
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Chip Away",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 540,
+      "name": "Haxorus",
+      "level": 43,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

@@ -32,6 +32,10 @@ extension GameId {
 			return "heartgold"
 		case .soulSilver:
 			return "soulsilver"
+		case .black:
+			return "black"
+		case .white:
+			return "white"
 		case .emerald:
 			return "emerald"
 		case .platinum:
