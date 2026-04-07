@@ -18,10 +18,10 @@ struct BossesView: View {
 					)
 					.padding(.top, topContentInset + 24)
 			} else {
-				LazyVStack(spacing: 16) {
-					ForEach(battles) { battle in
-						BossBattleCard(battle: battle)
-					}
+				LazyVStack(alignment: .leading, spacing: 20) {
+					BossBattleSection(title: "Gym Leaders", battles: gymLeaderBattles)
+
+					BossBattleSection(title: "Elite 4", battles: eliteFourBattles)
 				}
 				.padding(.top, topContentInset)
 				.padding(.horizontal, 14)
@@ -34,6 +34,43 @@ struct BossesView: View {
 
 	private func load() {
 		battles = BossDataStore.battles(for: game)
+	}
+
+	private var gymLeaderBattles: [BossBattle] {
+		battles
+			.filter { $0.category == .gymLeader }
+			.sorted(by: bossSectionSort)
+	}
+
+	private var eliteFourBattles: [BossBattle] {
+		battles
+			.filter { $0.category == .eliteFour }
+			.sorted(by: bossSectionSort)
+	}
+
+	private func bossSectionSort(lhs: BossBattle, rhs: BossBattle) -> Bool {
+		if lhs.levelCap != rhs.levelCap { return lhs.levelCap < rhs.levelCap }
+		if lhs.battleLabel != rhs.battleLabel { return lhs.battleLabel < rhs.battleLabel }
+		return lhs.trainerName < rhs.trainerName
+	}
+}
+
+private struct BossBattleSection: View {
+	let title: String
+	let battles: [BossBattle]
+
+	var body: some View {
+		if !battles.isEmpty {
+			VStack(alignment: .leading, spacing: 12) {
+				Text(title)
+					.font(.headline)
+
+				ForEach(battles) { battle in
+					BossBattleCard(battle: battle)
+				}
+			}
+			.frame(maxWidth: .infinity, alignment: .leading)
+		}
 	}
 }
 

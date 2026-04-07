@@ -50,8 +50,6 @@ extension GameId {
 			return "firered"
 		case .leafGreen:
 			return "leafgreen"
-		default:
-			return nil
 		}
 	}
 
