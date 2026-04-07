@@ -1,0 +1,46 @@
+{
+  "game": "White 2",
+  "category": "rival",
+  "trainerId": "nishino_gf2_white2",
+  "trainerName": "Nishino",
+  "battleLabel": "",
+  "primaryType": null,
+  "levelCap": 16,
+  "party": [
+    {
+      "baseStats": 323,
+      "name": "Clefairy",
+      "level": 16,
+      "types": [
+        "fairy"
+      ],
+      "heldItem": "leftovers",
+      "moves": [
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Double Slap",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Follow Me",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Encore",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

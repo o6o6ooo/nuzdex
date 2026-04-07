@@ -1,0 +1,225 @@
+{
+  "game": "Black 2",
+  "category": "evilTeam",
+  "trainerId": "ghetsis_ghetsis_black2",
+  "trainerName": "Ghetsis",
+  "battleLabel": "Giant Chasm",
+  "primaryType": null,
+  "levelCap": 52,
+  "party": [
+    {
+      "baseStats": 483,
+      "name": "Cofagrigus",
+      "level": 50,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": "leftovers",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 509,
+      "name": "Seismitoad",
+      "level": 50,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Muddy Water",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Drain Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Sludge Wave",
+          "category": "special",
+          "type": "poison",
+          "power": 95
+        }
+      ]
+    },
+    {
+      "baseStats": 515,
+      "name": "Eelektross",
+      "level": 50,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Drapion",
+      "level": 50,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Poison Fang",
+          "category": "physical",
+          "type": "poison",
+          "power": 50
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Toxicroak",
+      "level": 50,
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 600,
+      "name": "Hydreigon",
+      "level": 52,
+      "types": [
+        "dark",
+        "dragon"
+      ],
+      "heldItem": "life-orb",
+      "moves": [
+        {
+          "name": "Dragon Rush",
+          "category": "physical",
+          "type": "dragon",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Frustration",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

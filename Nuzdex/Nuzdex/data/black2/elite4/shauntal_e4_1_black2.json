@@ -1,0 +1,154 @@
+{
+  "game": "Black 2",
+  "category": "eliteFour",
+  "trainerId": "shauntal_e1n_black2",
+  "trainerName": "Shauntal",
+  "battleLabel": "Elite 4 - 1",
+  "primaryType": "ghost",
+  "levelCap": 58,
+  "party": [
+    {
+      "baseStats": 483,
+      "name": "Cofagrigus",
+      "level": 56,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Drifblim",
+      "level": 56,
+      "types": [
+        "ghost",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 483,
+      "name": "Golurk",
+      "level": 56,
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Heavy Slam",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Shadow Punch",
+          "category": "physical",
+          "type": "ghost",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 520,
+      "name": "Chandelure",
+      "level": 58,
+      "types": [
+        "ghost",
+        "fire"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

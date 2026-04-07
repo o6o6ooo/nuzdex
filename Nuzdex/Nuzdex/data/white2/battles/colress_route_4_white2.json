@@ -1,0 +1,70 @@
+{
+  "game": "White 2",
+  "category": "evilTeam",
+  "trainerId": "colress_col1_white2",
+  "trainerName": "Colress",
+  "battleLabel": "Route 4",
+  "primaryType": "steel",
+  "levelCap": 23,
+  "party": [
+    {
+      "baseStats": 325,
+      "name": "Magnemite",
+      "level": 21,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Spark",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        },
+        {
+          "name": "Magnet Bomb",
+          "category": "physical",
+          "type": "steel",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 300,
+      "name": "Klink",
+      "level": 23,
+      "types": [
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Charge",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Thunder Shock",
+          "category": "special",
+          "type": "electric",
+          "power": 40
+        },
+        {
+          "name": "Gear Grind",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        }
+      ]
+    }
+  ]
+}

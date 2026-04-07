@@ -1,0 +1,152 @@
+{
+  "game": "Black 2",
+  "category": "eliteFour",
+  "trainerId": "caitlin_e3n_black2",
+  "trainerName": "Caitlin",
+  "battleLabel": "Elite 4 - 3",
+  "primaryType": "psychic",
+  "levelCap": 58,
+  "party": [
+    {
+      "baseStats": 487,
+      "name": "Musharna",
+      "level": 56,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Dream Eater",
+          "category": "special",
+          "type": "psychic",
+          "power": 100
+        },
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Sigilyph",
+      "level": 56,
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Reuniclus",
+      "level": 56,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Gothitelle",
+      "level": 58,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

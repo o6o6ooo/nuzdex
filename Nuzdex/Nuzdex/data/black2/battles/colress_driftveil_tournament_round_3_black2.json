@@ -1,0 +1,117 @@
+{
+  "game": "Black 2",
+  "category": "rival",
+  "trainerId": "colress_col2_black2",
+  "trainerName": "Colress",
+  "battleLabel": "Driftveil Tournament Round 3",
+  "primaryType": "steel",
+  "levelCap": 25,
+  "party": [
+    {
+      "baseStats": 465,
+      "name": "Magneton",
+      "level": 25,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Thunder Shock",
+          "category": "special",
+          "type": "electric",
+          "power": 40
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mirror Shot",
+          "category": "special",
+          "type": "steel",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "baseStats": 335,
+      "name": "Elgyem",
+      "level": 25,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Headbutt",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Heal Block",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 300,
+      "name": "Klink",
+      "level": 25,
+      "types": [
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Charge",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Thunder Shock",
+          "category": "special",
+          "type": "electric",
+          "power": 40
+        },
+        {
+          "name": "Gear Grind",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Bind",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        }
+      ]
+    }
+  ]
+}

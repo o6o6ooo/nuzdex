@@ -1,0 +1,118 @@
+{
+  "game": "White 2",
+  "category": "evilTeam",
+  "trainerId": "shadow_shad_white2",
+  "trainerName": "Shadow",
+  "battleLabel": "Opelucid City",
+  "primaryType": null,
+  "levelCap": 48,
+  "party": [
+    {
+      "baseStats": 340,
+      "name": "Pawniard",
+      "level": 46,
+      "types": [
+        "dark",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Faint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 340,
+      "name": "Pawniard",
+      "level": 46,
+      "types": [
+        "dark",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Faint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Scary Face",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 465,
+      "name": "Absol",
+      "level": 48,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Future Sight",
+          "category": "special",
+          "type": "psychic",
+          "power": 120
+        }
+      ]
+    }
+  ]
+}

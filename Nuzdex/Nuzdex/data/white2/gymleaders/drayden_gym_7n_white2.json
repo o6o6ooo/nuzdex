@@ -1,0 +1,117 @@
+{
+  "game": "White 2",
+  "category": "gymLeader",
+  "trainerId": "drayden_7n_white2",
+  "trainerName": "Drayden",
+  "battleLabel": "7th Gym Leader - Opelucid City",
+  "primaryType": "dragon",
+  "levelCap": 48,
+  "party": [
+    {
+      "baseStats": 485,
+      "name": "Druddigon",
+      "level": 46,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Revenge",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 520,
+      "name": "Flygon",
+      "level": 46,
+      "types": [
+        "ground",
+        "dragon"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Earth Power",
+          "category": "special",
+          "type": "ground",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 540,
+      "name": "Haxorus",
+      "level": 48,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

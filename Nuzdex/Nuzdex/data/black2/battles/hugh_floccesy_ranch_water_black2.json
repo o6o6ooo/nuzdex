@@ -1,0 +1,35 @@
+{
+  "game": "Black 2",
+  "category": "rival",
+  "trainerId": "hugh_r2_water",
+  "trainerName": "Hugh",
+  "battleLabel": "Floccesy Ranch",
+  "primaryType": null,
+  "levelCap": 8,
+  "party": [
+    {
+      "baseStats": 308,
+      "name": "Snivy",
+      "level": 8,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

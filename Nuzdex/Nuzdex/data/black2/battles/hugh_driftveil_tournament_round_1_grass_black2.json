@@ -1,0 +1,119 @@
+{
+  "game": "Black 2",
+  "category": "rival",
+  "trainerId": "hugh_r3_grass",
+  "trainerName": "Hugh",
+  "battleLabel": "Driftveil Tournament Round 1",
+  "primaryType": null,
+  "levelCap": 25,
+  "party": [
+    {
+      "baseStats": 358,
+      "name": "Tranquill",
+      "level": 25,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        },
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 418,
+      "name": "Pignite",
+      "level": 25,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 30
+        },
+        {
+          "name": "Heat Crash",
+          "category": "physical",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simipour",
+      "level": 25,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Scald",
+          "category": "special",
+          "type": "water",
+          "power": 80
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    }
+  ],
+  "starterBranch": "grass"
+}

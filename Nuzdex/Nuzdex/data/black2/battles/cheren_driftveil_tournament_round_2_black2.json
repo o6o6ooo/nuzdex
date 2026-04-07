@@ -1,0 +1,116 @@
+{
+  "game": "Black 2",
+  "category": "rival",
+  "trainerId": "cheren_ch_black2",
+  "trainerName": "Cheren",
+  "battleLabel": "Driftveil Tournament Round 2",
+  "primaryType": "normal",
+  "levelCap": 25,
+  "party": [
+    {
+      "baseStats": 500,
+      "name": "Stoutland",
+      "level": 25,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Odor Sleuth",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 470,
+      "name": "Cinccino",
+      "level": 25,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sing",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Wake-Up Slap",
+          "category": "physical",
+          "type": "fighting",
+          "power": 70
+        },
+        {
+          "name": "Bullet Seed",
+          "category": "physical",
+          "type": "grass",
+          "power": 25
+        }
+      ]
+    },
+    {
+      "baseStats": 420,
+      "name": "Watchog",
+      "level": 25,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

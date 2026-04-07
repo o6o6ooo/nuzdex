@@ -1,0 +1,225 @@
+{
+  "game": "Black 2",
+  "category": "eliteFour",
+  "trainerId": "iris_cn_black2",
+  "trainerName": "Iris",
+  "battleLabel": "Champion",
+  "primaryType": null,
+  "levelCap": 59,
+  "party": [
+    {
+      "baseStats": 600,
+      "name": "Hydreigon",
+      "level": 57,
+      "types": [
+        "dark",
+        "dragon"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 485,
+      "name": "Druddigon",
+      "level": 57,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": "life-orb",
+      "moves": [
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "baseStats": 530,
+      "name": "Aggron",
+      "level": 57,
+      "types": [
+        "steel",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Autotomize",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 567,
+      "name": "Archeops",
+      "level": 57,
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Dragon Claw",
+          "category": "physical",
+          "type": "dragon",
+          "power": 80
+        },
+        {
+          "name": "Endeavor",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 535,
+      "name": "Lapras",
+      "level": 57,
+      "types": [
+        "water",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Sing",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 540,
+      "name": "Haxorus",
+      "level": 59,
+      "types": [
+        "dragon"
+      ],
+      "heldItem": "focus-sash",
+      "moves": [
+        {
+          "name": "Dual Chop",
+          "category": "physical",
+          "type": "dragon",
+          "power": 40
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

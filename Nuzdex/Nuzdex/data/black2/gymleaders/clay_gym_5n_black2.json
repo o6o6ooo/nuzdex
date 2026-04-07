@@ -1,0 +1,118 @@
+{
+  "game": "Black 2",
+  "category": "gymLeader",
+  "trainerId": "clay_5n_black2",
+  "trainerName": "Clay",
+  "battleLabel": "5th Gym Leader - Driftveil City",
+  "primaryType": "ground",
+  "levelCap": 33,
+  "party": [
+    {
+      "baseStats": 351,
+      "name": "Krokorok",
+      "level": 31,
+      "types": [
+        "ground",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Sand Tomb",
+          "category": "physical",
+          "type": "ground",
+          "power": 35
+        },
+        {
+          "name": "Bulldoze",
+          "category": "physical",
+          "type": "ground",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 450,
+      "name": "Sandslash",
+      "level": 31,
+      "types": [
+        "ground"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bulldoze",
+          "category": "physical",
+          "type": "ground",
+          "power": 60
+        },
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        },
+        {
+          "name": "Crush Claw",
+          "category": "physical",
+          "type": "normal",
+          "power": 75
+        },
+        {
+          "name": "Fury Cutter",
+          "category": "physical",
+          "type": "bug",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 508,
+      "name": "Excadrill",
+      "level": 33,
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Bulldoze",
+          "category": "physical",
+          "type": "ground",
+          "power": 60
+        },
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        }
+      ]
+    }
+  ]
+}

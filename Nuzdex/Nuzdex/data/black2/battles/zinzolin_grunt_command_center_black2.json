@@ -1,0 +1,223 @@
+{
+  "game": "Black 2",
+  "category": "evilTeam",
+  "trainerId": "zinzolin_grunt_zinz3_black2",
+  "trainerName": "Zinzolin & grunt",
+  "battleLabel": "Command Center",
+  "primaryType": null,
+  "levelCap": 50,
+  "party": [
+    {
+      "baseStats": 515,
+      "name": "Cryogonal",
+      "level": 48,
+      "types": [
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 515,
+      "name": "Cryogonal",
+      "level": 48,
+      "types": [
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 510,
+      "name": "Weavile",
+      "level": 50,
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Ice Shard",
+          "category": "physical",
+          "type": "ice",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 45,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 420,
+      "name": "Watchog",
+      "level": 45,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Hyper Fang",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Baton Pass",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 485,
+      "name": "Scolipede",
+      "level": 45,
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Steamroller",
+          "category": "physical",
+          "type": "bug",
+          "power": 65
+        },
+        {
+          "name": "Agility",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Baton Pass",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

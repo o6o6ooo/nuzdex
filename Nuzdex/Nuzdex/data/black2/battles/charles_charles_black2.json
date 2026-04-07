@@ -1,0 +1,119 @@
+{
+  "game": "Black 2",
+  "category": "rival",
+  "trainerId": "charles_charles_black2",
+  "trainerName": "Charles",
+  "battleLabel": "",
+  "primaryType": null,
+  "levelCap": 26,
+  "party": [
+    {
+      "baseStats": 490,
+      "name": "Sigilyph",
+      "level": 26,
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Whirlwind",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 401,
+      "name": "Archen",
+      "level": 26,
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pluck",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Agility",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Quick Guard",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 355,
+      "name": "Tirtouga",
+      "level": 26,
+      "types": [
+        "water",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wide Guard",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

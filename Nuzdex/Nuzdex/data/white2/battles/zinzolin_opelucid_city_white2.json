@@ -1,0 +1,117 @@
+{
+  "game": "White 2",
+  "category": "evilTeam",
+  "trainerId": "zinzolin_zinz2_white2",
+  "trainerName": "Zinzolin",
+  "battleLabel": "Opelucid City",
+  "primaryType": null,
+  "levelCap": 48,
+  "party": [
+    {
+      "baseStats": 515,
+      "name": "Cryogonal",
+      "level": 46,
+      "types": [
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 515,
+      "name": "Cryogonal",
+      "level": 46,
+      "types": [
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 510,
+      "name": "Weavile",
+      "level": 48,
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Ice Shard",
+          "category": "physical",
+          "type": "ice",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

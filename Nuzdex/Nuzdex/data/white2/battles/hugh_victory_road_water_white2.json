@@ -1,0 +1,153 @@
+{
+  "game": "White 2",
+  "category": "rival",
+  "trainerId": "hugh_r5_water",
+  "trainerName": "Hugh",
+  "battleLabel": "Victory Road",
+  "primaryType": null,
+  "levelCap": 57,
+  "party": [
+    {
+      "baseStats": 488,
+      "name": "Unfezant",
+      "level": 55,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "scope-lens",
+      "moves": [
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Bouffalant",
+      "level": 55,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Head Charge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simisear",
+      "level": 55,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "charcoal",
+      "moves": [
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 528,
+      "name": "Serperior",
+      "level": 57,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "miracle-seed",
+      "moves": [
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "physical",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Dragon Tail",
+          "category": "physical",
+          "type": "dragon",
+          "power": 60
+        },
+        {
+          "name": "Coil",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

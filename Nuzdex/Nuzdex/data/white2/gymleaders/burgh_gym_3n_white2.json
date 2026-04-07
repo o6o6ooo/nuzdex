@@ -1,0 +1,119 @@
+{
+  "game": "White 2",
+  "category": "gymLeader",
+  "trainerId": "burgh_3n_white2",
+  "trainerName": "Burgh",
+  "battleLabel": "3rd Gym Leader - Castelia City",
+  "primaryType": "bug",
+  "levelCap": 24,
+  "party": [
+    {
+      "baseStats": 325,
+      "name": "Dwebble",
+      "level": 22,
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Polish",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Smack Down",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        },
+        {
+          "name": "Faint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Struggle Bug",
+          "category": "special",
+          "type": "bug",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 380,
+      "name": "Swadloon",
+      "level": 22,
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "String Shot",
+          "category": "status",
+          "type": "bug",
+          "power": null
+        },
+        {
+          "name": "Struggle Bug",
+          "category": "special",
+          "type": "bug",
+          "power": 50
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Razor Leaf",
+          "category": "physical",
+          "type": "grass",
+          "power": 55
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Leavanny",
+      "level": 24,
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Cut",
+          "category": "physical",
+          "type": "normal",
+          "power": 50
+        },
+        {
+          "name": "Razor Leaf",
+          "category": "physical",
+          "type": "grass",
+          "power": 55
+        },
+        {
+          "name": "String Shot",
+          "category": "status",
+          "type": "bug",
+          "power": null
+        },
+        {
+          "name": "Struggle Bug",
+          "category": "special",
+          "type": "bug",
+          "power": 50
+        }
+      ]
+    }
+  ]
+}

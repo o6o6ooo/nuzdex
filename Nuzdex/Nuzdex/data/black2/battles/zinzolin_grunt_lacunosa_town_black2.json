@@ -1,0 +1,153 @@
+{
+  "game": "Black 2",
+  "category": "evilTeam",
+  "trainerId": "zinzolin_grunt_zinz1_black2",
+  "trainerName": "Zinzolin & Grunt",
+  "battleLabel": "Lacunosa Town",
+  "primaryType": null,
+  "levelCap": 44,
+  "party": [
+    {
+      "baseStats": 515,
+      "name": "Cryogonal",
+      "level": 42,
+      "types": [
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 430,
+      "name": "Sneasel",
+      "level": 44,
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Snatch",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Punishment",
+          "category": "physical",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 455,
+      "name": "Golbat",
+      "level": 39,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Mean Look",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Poison Fang",
+          "category": "physical",
+          "type": "poison",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 474,
+      "name": "Garbodor",
+      "level": 39,
+      "types": [
+        "poison"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Clear Smog",
+          "category": "special",
+          "type": "poison",
+          "power": 50
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        }
+      ]
+    }
+  ]
+}

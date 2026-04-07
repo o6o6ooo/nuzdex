@@ -1,0 +1,69 @@
+{
+  "game": "White 2",
+  "category": "gymLeader",
+  "trainerId": "cheren_1n_white2",
+  "trainerName": "Cheren",
+  "battleLabel": "1st Gym Leader - Aspertia City",
+  "primaryType": "normal",
+  "levelCap": 13,
+  "party": [
+    {
+      "baseStats": 255,
+      "name": "Patrat",
+      "level": 11,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 275,
+      "name": "Lillipup",
+      "level": 13,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Work Up",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Bite",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

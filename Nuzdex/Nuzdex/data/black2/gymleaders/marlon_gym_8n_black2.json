@@ -1,0 +1,118 @@
+{
+  "game": "Black 2",
+  "category": "gymLeader",
+  "trainerId": "marlon_8n_black2",
+  "trainerName": "Marlon",
+  "battleLabel": "8th Gym Leader - Humilau City",
+  "primaryType": "water",
+  "levelCap": 51,
+  "party": [
+    {
+      "baseStats": 495,
+      "name": "Carracosta",
+      "level": 49,
+      "types": [
+        "water",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Smack Down",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        },
+        {
+          "name": "Shell Smash",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Scald",
+          "category": "special",
+          "type": "water",
+          "power": 80
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Wailord",
+      "level": 49,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Scald",
+          "category": "special",
+          "type": "water",
+          "power": 80
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        },
+        {
+          "name": "Bounce",
+          "category": "physical",
+          "type": "flying",
+          "power": 85
+        }
+      ]
+    },
+    {
+      "baseStats": 480,
+      "name": "Jellicent",
+      "level": 51,
+      "types": [
+        "water",
+        "ghost"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Brine",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        },
+        {
+          "name": "Scald",
+          "category": "special",
+          "type": "water",
+          "power": 80
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ominous Wind",
+          "category": "special",
+          "type": "ghost",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

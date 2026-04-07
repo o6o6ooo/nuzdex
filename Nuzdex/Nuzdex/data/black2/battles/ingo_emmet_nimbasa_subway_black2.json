@@ -1,0 +1,81 @@
+{
+  "game": "Black 2",
+  "category": "rival",
+  "trainerId": "ingo_emmet_subway_black2",
+  "trainerName": "Ingo & Emmet",
+  "battleLabel": "Nimbasa Subway",
+  "primaryType": null,
+  "levelCap": 26,
+  "party": [
+    {
+      "baseStats": 405,
+      "name": "Gurdurr",
+      "level": 26,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wake-Up Slap",
+          "category": "physical",
+          "type": "fighting",
+          "power": 70
+        },
+        {
+          "name": "Low Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Rock Throw",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        },
+        {
+          "name": "Chip Away",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 390,
+      "name": "Boldore",
+      "level": 26,
+      "types": [
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Iron Defense",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Mud Slap",
+          "category": "special",
+          "type": "ground",
+          "power": 20
+        },
+        {
+          "name": "Power Gem",
+          "category": "special",
+          "type": "rock",
+          "power": 80
+        },
+        {
+          "name": "Smack Down",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        }
+      ]
+    }
+  ]
+}

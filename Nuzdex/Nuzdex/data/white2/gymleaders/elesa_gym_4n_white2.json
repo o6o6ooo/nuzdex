@@ -1,0 +1,105 @@
+{
+  "game": "White 2",
+  "category": "gymLeader",
+  "trainerId": "elesa_4n_white2",
+  "trainerName": "Elesa",
+  "battleLabel": "4th Gym Leader - Nimbasa City",
+  "primaryType": "electric",
+  "levelCap": 30,
+  "party": [
+    {
+      "baseStats": 428,
+      "name": "Emolga",
+      "level": 28,
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Volt Switch",
+          "category": "special",
+          "type": "electric",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "baseStats": 365,
+      "name": "Flaaffy",
+      "level": 28,
+      "types": [
+        "electric"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Volt Switch",
+          "category": "special",
+          "type": "electric",
+          "power": 70
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 497,
+      "name": "Zebstrika",
+      "level": 30,
+      "types": [
+        "electric"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Volt Switch",
+          "category": "special",
+          "type": "electric",
+          "power": 70
+        },
+        {
+          "name": "Pursuit",
+          "category": "physical",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Flame Charge",
+          "category": "physical",
+          "type": "fire",
+          "power": 50
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

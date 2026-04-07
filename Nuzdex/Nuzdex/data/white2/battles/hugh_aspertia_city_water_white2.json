@@ -1,0 +1,35 @@
+{
+  "game": "White 2",
+  "category": "rival",
+  "trainerId": "hugh_r1_water",
+  "trainerName": "Hugh",
+  "battleLabel": "Aspertia City",
+  "primaryType": null,
+  "levelCap": 5,
+  "party": [
+    {
+      "baseStats": 308,
+      "name": "Snivy",
+      "level": 5,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

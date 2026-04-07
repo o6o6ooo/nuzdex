@@ -1,0 +1,119 @@
+{
+  "game": "White 2",
+  "category": "gymLeader",
+  "trainerId": "skyla_6n_white2",
+  "trainerName": "Skyla",
+  "battleLabel": "6th Gym Leader - Mistralton City",
+  "primaryType": "flying",
+  "levelCap": 39,
+  "party": [
+    {
+      "baseStats": 425,
+      "name": "Swoobat",
+      "level": 37,
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Heart Stamp",
+          "category": "physical",
+          "type": "psychic",
+          "power": 60
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Acrobatics",
+          "category": "physical",
+          "type": "flying",
+          "power": 55
+        },
+        {
+          "name": "Assurance",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 465,
+      "name": "Skarmory",
+      "level": 37,
+      "types": [
+        "steel",
+        "flying"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Steel Wing",
+          "category": "physical",
+          "type": "steel",
+          "power": 70
+        },
+        {
+          "name": "Fury Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Agility",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 473,
+      "name": "Swanna",
+      "level": 39,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        },
+        {
+          "name": "Feather Dance",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Bubble Beam",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "game": "White 2",
+  "category": "rival",
+  "trainerId": "morimoto_gf1_white2",
+  "trainerName": "Morimoto",
+  "battleLabel": "",
+  "primaryType": null,
+  "levelCap": 14,
+  "party": [
+    {
+      "baseStats": 316,
+      "name": "Pansage",
+      "level": 14,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "oran-berry",
+      "moves": [
+        {
+          "name": "Vine Whip",
+          "category": "physical",
+          "type": "grass",
+          "power": 45
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Pansear",
+      "level": 14,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "oran-berry",
+      "moves": [
+        {
+          "name": "Incinerate",
+          "category": "special",
+          "type": "fire",
+          "power": 60
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 316,
+      "name": "Panpour",
+      "level": 14,
+      "types": [
+        "water"
+      ],
+      "heldItem": "oran-berry",
+      "moves": [
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    }
+  ]
+}

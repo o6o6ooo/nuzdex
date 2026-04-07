@@ -1,0 +1,189 @@
+{
+  "game": "White 2",
+  "category": "evilTeam",
+  "trainerId": "colress_col3_white2",
+  "trainerName": "Colress",
+  "battleLabel": "Control Room",
+  "primaryType": "steel",
+  "levelCap": 52,
+  "party": [
+    {
+      "baseStats": 465,
+      "name": "Magneton",
+      "level": 50,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": "eviolite",
+      "moves": [
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Volt Switch",
+          "category": "special",
+          "type": "electric",
+          "power": 70
+        },
+        {
+          "name": "Tri Attack",
+          "category": "special",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 485,
+      "name": "Beheeyem",
+      "level": 50,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 420,
+      "name": "Metang",
+      "level": 50,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Meteor Mash",
+          "category": "physical",
+          "type": "steel",
+          "power": 90
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Agility",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 535,
+      "name": "Magnezone",
+      "level": 50,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Discharge",
+          "category": "special",
+          "type": "electric",
+          "power": 80
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Explosion",
+          "category": "physical",
+          "type": "normal",
+          "power": 250
+        }
+      ]
+    },
+    {
+      "baseStats": 520,
+      "name": "Klinklang",
+      "level": 52,
+      "types": [
+        "steel"
+      ],
+      "heldItem": "air-balloon",
+      "moves": [
+        {
+          "name": "Shift Gear",
+          "category": "status",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Gear Grind",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Giga Impact",
+          "category": "physical",
+          "type": "normal",
+          "power": 150
+        }
+      ]
+    }
+  ]
+}

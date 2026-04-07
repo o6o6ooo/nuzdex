@@ -36,6 +36,10 @@ extension GameId {
 			return "black"
 		case .white:
 			return "white"
+		case .black2:
+			return "black2"
+		case .white2:
+			return "white2"
 		case .emerald:
 			return "emerald"
 		case .platinum:

@@ -1,0 +1,154 @@
+{
+  "game": "White 2",
+  "category": "eliteFour",
+  "trainerId": "grimsley_e2n_white2",
+  "trainerName": "Grimsley",
+  "battleLabel": "Elite 4 - 2",
+  "primaryType": "dark",
+  "levelCap": 58,
+  "party": [
+    {
+      "baseStats": 446,
+      "name": "Liepard",
+      "level": 56,
+      "types": [
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 488,
+      "name": "Scrafty",
+      "level": 56,
+      "types": [
+        "dark",
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "baseStats": 519,
+      "name": "Krookodile",
+      "level": 56,
+      "types": [
+        "ground",
+        "dark"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Dragon Claw",
+          "category": "physical",
+          "type": "dragon",
+          "power": 80
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "baseStats": 490,
+      "name": "Bisharp",
+      "level": 58,
+      "types": [
+        "dark",
+        "steel"
+      ],
+      "heldItem": "sitrus-berry",
+      "moves": [
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "game": "White 2",
+  "category": "rival",
+  "trainerId": "hugh_r4_fire",
+  "trainerName": "Hugh",
+  "battleLabel": "Undella Town",
+  "primaryType": null,
+  "levelCap": 41,
+  "party": [
+    {
+      "baseStats": 488,
+      "name": "Unfezant",
+      "level": 39,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "scope-lens",
+      "moves": [
+        {
+          "name": "Taunt",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Razor Wind",
+          "category": "special",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 498,
+      "name": "Simisage",
+      "level": 39,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "miracle-seed",
+      "moves": [
+        {
+          "name": "Seed Bomb",
+          "category": "physical",
+          "type": "grass",
+          "power": 80
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Lick",
+          "category": "physical",
+          "type": "ghost",
+          "power": 30
+        },
+        {
+          "name": "Fury Swipes",
+          "category": "physical",
+          "type": "normal",
+          "power": 18
+        }
+      ]
+    },
+    {
+      "baseStats": 528,
+      "name": "Samurott",
+      "level": 41,
+      "types": [
+        "water"
+      ],
+      "heldItem": "mystic-water",
+      "moves": [
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Encore",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Revenge",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        },
+        {
+          "name": "Slash",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}
