@@ -1,0 +1,189 @@
+{
+  "game": "Fire Red",
+  "category": "rival",
+  "trainerId": "blue-silphco-fire",
+  "trainerName": "Blue",
+  "battleLabel": "Silph Co.",
+  "levelCap": 40,
+  "primaryType": null,
+  "starterBranch": "fire",
+  "party": [
+    {
+      "baseStats": 479,
+      "name": "Pidgeot",
+      "level": 37,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Feather Dance",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Whirlwind",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 325,
+      "name": "Exeggcute",
+      "level": 35,
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Confusion",
+          "category": "special",
+          "type": "psychic",
+          "power": 50
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Stun Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 350,
+      "name": "Growlithe",
+      "level": 38,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Roar",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Alakazam",
+      "level": 35,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Future Sight",
+          "category": "special",
+          "type": "psychic",
+          "power": 120
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 530,
+      "name": "Blastoise",
+      "level": 40,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Bubble",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Bite",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

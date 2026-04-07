@@ -1,0 +1,129 @@
+{
+  "game": "Fire Red",
+  "category": "rival",
+  "trainerId": "blue-ceruleancity-grass",
+  "trainerName": "Blue",
+  "battleLabel": "Cerulean City",
+  "levelCap": 18,
+  "primaryType": null,
+  "starterBranch": "grass",
+  "party": [
+    {
+      "baseStats": 349,
+      "name": "Pidgeotto",
+      "level": 17,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Gust",
+          "category": "physical",
+          "type": "flying",
+          "power": 40
+        },
+        {
+          "name": "Sand Attack",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 310,
+      "name": "Abra",
+      "level": 15,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Teleport",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 253,
+      "name": "Rattata",
+      "level": 15,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Tail Whip",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 309,
+      "name": "Charmander",
+      "level": 18,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        },
+        {
+          "name": "Scratch",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Metal Claw",
+          "category": "physical",
+          "type": "steel",
+          "power": 50
+        }
+      ]
+    }
+  ]
+}

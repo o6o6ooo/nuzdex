@@ -1,0 +1,225 @@
+{
+  "game": "Fire Red",
+  "category": "rival",
+  "trainerId": "blue-route22_2-fire",
+  "trainerName": "Blue",
+  "battleLabel": "Route 22 - 2",
+  "levelCap": 53,
+  "primaryType": null,
+  "starterBranch": "fire",
+  "party": [
+    {
+      "baseStats": 479,
+      "name": "Pidgeot",
+      "level": 47,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Feather Dance",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        },
+        {
+          "name": "Gust",
+          "category": "physical",
+          "type": "flying",
+          "power": 40
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "baseStats": 345,
+      "name": "Rhyhorn",
+      "level": 45,
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rock Blast",
+          "category": "physical",
+          "type": "rock",
+          "power": 25
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Fury Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 15
+        },
+        {
+          "name": "Horn Drill",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 325,
+      "name": "Exeggcute",
+      "level": 45,
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Poison Powder",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Sleep Powder",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Stun Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 350,
+      "name": "Growlithe",
+      "level": 45,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Flame Wheel",
+          "category": "special",
+          "type": "fire",
+          "power": 60
+        },
+        {
+          "name": "Take Down",
+          "category": "physical",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Agility",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 500,
+      "name": "Alakazam",
+      "level": 47,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Future Sight",
+          "category": "special",
+          "type": "psychic",
+          "power": 120
+        },
+        {
+          "name": "Disable",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 530,
+      "name": "Blastoise",
+      "level": 53,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Rain Dance",
+          "category": "status",
+          "type": "water",
+          "power": null
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 40
+        },
+        {
+          "name": "Rapid Spin",
+          "category": "physical",
+          "type": "normal",
+          "power": 50
+        },
+        {
+          "name": "Bite",
+          "category": "special",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}
