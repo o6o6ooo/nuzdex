@@ -17,6 +17,9 @@ struct RoutesView: View {
 		var entries: [RouteIndexEntry] = []
 		for route in routes {
 			let label = route.indexKey
+			if shouldHideIndexLabel(label) {
+				continue
+			}
 			if seen.insert(label).inserted {
 				entries.append(RouteIndexEntry(label: label, targetId: route.id))
 			}
@@ -75,6 +78,13 @@ struct RoutesView: View {
 
 	private func load() {
 		routes = RouteDataStore.routes(for: game)
+	}
+
+	private func shouldHideIndexLabel(_ label: String) -> Bool {
+		guard game == .heartGold || game == .soulSilver else { return false }
+		guard let number = Int(label) else { return false }
+		if number == 1 { return false }
+		return number % 5 != 0
 	}
 }
 
