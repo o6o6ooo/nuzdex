@@ -1,0 +1,227 @@
+{
+  "game": "Renegade Platinum",
+  "category": "rival",
+  "trainerId": "barry-canalave-city-water",
+  "trainerName": "Barry",
+  "battleLabel": "Canalave City",
+  "primaryType": null,
+  "levelCap": 49,
+  "party": [
+    {
+      "name": "Staraptor",
+      "baseStats": 485,
+      "level": 48,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Heracross",
+      "baseStats": 500,
+      "level": 48,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "baseStats": 540,
+      "level": 48,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Slack Off",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Azumarill",
+      "baseStats": 450,
+      "level": 48,
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "baseStats": 555,
+      "level": 48,
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Extreme Speed",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Torterra",
+      "baseStats": 535,
+      "level": 49,
+      "types": [
+        "grass",
+        "ground"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Wood Hammer",
+          "category": "physical",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Iron Head",
+          "category": "physical",
+          "type": "steel",
+          "power": 80
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

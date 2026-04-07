@@ -1,0 +1,227 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "bertha-e4-2-d",
+  "trainerName": "Bertha - D",
+  "battleLabel": "Elite 4 - 2",
+  "primaryType": "ground",
+  "levelCap": 73,
+  "party": [
+    {
+      "name": "Tyranitar",
+      "baseStats": 600,
+      "level": 72,
+      "types": [
+        "rock",
+        "dark"
+      ],
+      "heldItem": "Choice Scarf",
+      "moves": [
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Fire Punch",
+          "category": "physical",
+          "type": "fire",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Quagsire",
+      "baseStats": 450,
+      "level": 72,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Mamoswine",
+      "baseStats": 530,
+      "level": 72,
+      "types": [
+        "ice",
+        "ground"
+      ],
+      "heldItem": "Passho Berry",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Icicle Crash",
+          "category": "physical",
+          "type": "ice",
+          "power": 85
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Ice Shard",
+          "category": "physical",
+          "type": "ice",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Dugtrio",
+      "baseStats": 425,
+      "level": 72,
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Torterra",
+      "baseStats": 535,
+      "level": 72,
+      "types": [
+        "grass",
+        "ground"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Wood Hammer",
+          "category": "physical",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Rhyperior",
+      "baseStats": 535,
+      "level": 73,
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "other",
+  "trainerId": "arcade-star-dahlia",
+  "trainerName": "Arcade Star Dahlia",
+  "battleLabel": "Sunyshore City",
+  "primaryType": null,
+  "levelCap": 63,
+  "party": [
+    {
+      "name": "Blaziken",
+      "baseStats": 535,
+      "level": 63,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Baton Pass",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "High Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 130
+        },
+        {
+          "name": "Blaze Kick",
+          "category": "physical",
+          "type": "fire",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Dusknoir",
+      "baseStats": 525,
+      "level": 63,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": "Lum Berry",
+      "moves": [
+        {
+          "name": "Shadow Punch",
+          "category": "physical",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        },
+        {
+          "name": "Drain Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Medicham",
+      "baseStats": 450,
+      "level": 63,
+      "types": [
+        "fighting",
+        "psychic"
+      ],
+      "heldItem": "Choice Scarf",
+      "moves": [
+        {
+          "name": "High Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 130
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        },
+        {
+          "name": "Fire Punch",
+          "category": "physical",
+          "type": "fire",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Togekiss",
+      "baseStats": 545,
+      "level": 63,
+      "types": [
+        "fairy",
+        "flying"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Hurricane",
+          "category": "special",
+          "type": "flying",
+          "power": 110
+        },
+        {
+          "name": "Moonblast",
+          "category": "special",
+          "type": "fairy",
+          "power": 95
+        },
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Ludicolo",
+      "baseStats": 480,
+      "level": 63,
+      "types": [
+        "water",
+        "grass"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 110
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Zapdos",
+      "baseStats": 580,
+      "level": 63,
+      "types": [
+        "fighting",
+        "flying"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Heat Wave",
+          "category": "special",
+          "type": "fire",
+          "power": 95
+        },
+        {
+          "name": "Drill Peck",
+          "category": "physical",
+          "type": "flying",
+          "power": 80
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "flint-e4-3-a",
+  "trainerName": "Flint - A",
+  "battleLabel": "Elite 4 - 3",
+  "primaryType": "fire",
+  "levelCap": 74,
+  "party": [
+    {
+      "name": "Ninetales",
+      "baseStats": 505,
+      "level": 73,
+      "types": [
+        "fire",
+        "fairy"
+      ],
+      "heldItem": "White Herb",
+      "moves": [
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 130
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Moonblast",
+          "category": "special",
+          "type": "fairy",
+          "power": 95
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Houndoom",
+      "baseStats": 500,
+      "level": 73,
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "heldItem": "Choice Scarf",
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Dark Pulse",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Flareon",
+      "baseStats": 525,
+      "level": 73,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 100
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Rapidash",
+      "baseStats": 500,
+      "level": 73,
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "heldItem": "Power Herb",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 100
+        },
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Drill Run",
+          "category": "physical",
+          "type": "ground",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Infernape",
+      "baseStats": 535,
+      "level": 73,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Magmortar",
+      "baseStats": 540,
+      "level": 74,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        }
+      ]
+    }
+  ]
+}

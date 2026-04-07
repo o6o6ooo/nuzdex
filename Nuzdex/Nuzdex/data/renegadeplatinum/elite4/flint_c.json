@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "flint-e4-3-c",
+  "trainerName": "Flint - C",
+  "battleLabel": "Elite 4 - 3",
+  "primaryType": "fire",
+  "levelCap": 74,
+  "party": [
+    {
+      "name": "Ninetales",
+      "baseStats": 505,
+      "level": 73,
+      "types": [
+        "fire",
+        "fairy"
+      ],
+      "heldItem": "White Herb",
+      "moves": [
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 130
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Moonblast",
+          "category": "special",
+          "type": "fairy",
+          "power": 95
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "baseStats": 555,
+      "level": 73,
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Extreme Speed",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Magcargo",
+      "baseStats": 500,
+      "level": 73,
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Earth Power",
+          "category": "special",
+          "type": "ground",
+          "power": 90
+        },
+        {
+          "name": "Power Gem",
+          "category": "special",
+          "type": "rock",
+          "power": 80
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Lopunny",
+      "baseStats": 500,
+      "level": 73,
+      "types": [
+        "normal",
+        "fighting"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "High Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 130
+        },
+        {
+          "name": "Mega Kick",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Blaze Kick",
+          "category": "physical",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Charizard",
+      "baseStats": 535,
+      "level": 73,
+      "types": [
+        "fire",
+        "dragon"
+      ],
+      "heldItem": "Choice Specs",
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Dragon Pulse",
+          "category": "special",
+          "type": "dragon",
+          "power": 85
+        },
+        {
+          "name": "Hurricane",
+          "category": "special",
+          "type": "flying",
+          "power": 110
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Magmortar",
+      "baseStats": 540,
+      "level": 74,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        }
+      ]
+    }
+  ]
+}

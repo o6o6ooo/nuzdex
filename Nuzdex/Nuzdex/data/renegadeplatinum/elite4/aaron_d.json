@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "aaron-e4-1-d",
+  "trainerName": "Aaron - D",
+  "battleLabel": "Elite 4 - 1",
+  "primaryType": "bug",
+  "levelCap": 72,
+  "party": [
+    {
+      "name": "Scyther",
+      "baseStats": 500,
+      "level": 71,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Bug Bite",
+          "category": "physical",
+          "type": "bug",
+          "power": 60
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Yanmega",
+      "baseStats": 515,
+      "level": 71,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Hurricane",
+          "category": "special",
+          "type": "flying",
+          "power": 110
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Pinsir",
+      "baseStats": 500,
+      "level": 71,
+      "types": [
+        "bug"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Scizor",
+      "baseStats": 500,
+      "level": 71,
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Bug Bite",
+          "category": "physical",
+          "type": "bug",
+          "power": 60
+        },
+        {
+          "name": "Iron Head",
+          "category": "physical",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Bullet Punch",
+          "category": "physical",
+          "type": "steel",
+          "power": 40
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Flygon",
+      "baseStats": 600,
+      "level": 71,
+      "types": [
+        "bug",
+        "dragon"
+      ],
+      "heldItem": "White Herb",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Draco Meteor",
+          "category": "special",
+          "type": "dragon",
+          "power": 130
+        },
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Earth Power",
+          "category": "special",
+          "type": "ground",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Drapion",
+      "baseStats": 500,
+      "level": 72,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Cross Poison",
+          "category": "physical",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

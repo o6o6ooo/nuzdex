@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "lucian-e4-4-d",
+  "trainerName": "Lucian - D",
+  "battleLabel": "Elite 4 - 4",
+  "primaryType": "psychic",
+  "levelCap": 75,
+  "party": [
+    {
+      "name": "Alakazam",
+      "baseStats": 500,
+      "level": 74,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Counter",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Gardevoir",
+      "baseStats": 518,
+      "level": 74,
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Moonblast",
+          "category": "special",
+          "type": "fairy",
+          "power": 95
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Exeggutor",
+      "baseStats": 530,
+      "level": 74,
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "heldItem": "Occa Berry",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Sleep Powder",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Starmie",
+      "baseStats": 520,
+      "level": 74,
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 110
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Metagross",
+      "baseStats": 600,
+      "level": 74,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Meteor Mash",
+          "category": "physical",
+          "type": "steel",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Explosion",
+          "category": "physical",
+          "type": "normal",
+          "power": 250
+        }
+      ]
+    },
+    {
+      "name": "Gallade",
+      "baseStats": 518,
+      "level": 75,
+      "types": [
+        "psychic",
+        "fighting"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Psycho Cut",
+          "category": "physical",
+          "type": "psychic",
+          "power": 70
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "physical",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    }
+  ]
+}

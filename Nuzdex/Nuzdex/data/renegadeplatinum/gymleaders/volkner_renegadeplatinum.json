@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "gymLeader",
+  "trainerId": "volkner",
+  "trainerName": "Volkner",
+  "battleLabel": "8th Gym Leader - Sunyshore City",
+  "primaryType": "electric",
+  "levelCap": 62,
+  "party": [
+    {
+      "name": "Jolteon",
+      "baseStats": 525,
+      "level": 61,
+      "types": [
+        "electric"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Raichu",
+      "baseStats": 495,
+      "level": 61,
+      "types": [
+        "electric",
+        "psychic"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Rotom Wash",
+      "baseStats": 520,
+      "level": 61,
+      "types": [
+        "electric",
+        "water"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 110
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Rotom Heat",
+      "baseStats": 520,
+      "level": 61,
+      "types": [
+        "electric",
+        "fire"
+      ],
+      "heldItem": "White Herb",
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Overheat",
+          "category": "special",
+          "type": "fire",
+          "power": 130
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Luxray",
+      "baseStats": 523,
+      "level": 61,
+      "types": [
+        "electric",
+        "dark"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Ice Fang",
+          "category": "physical",
+          "type": "ice",
+          "power": 65
+        },
+        {
+          "name": "Fire Fang",
+          "category": "physical",
+          "type": "fire",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Electivire",
+      "baseStats": 540,
+      "level": 62,
+      "types": [
+        "electric",
+        "fighting"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 100
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

@@ -44,6 +44,8 @@ extension GameId {
 			return "emerald"
 		case .platinum:
 			return "platinum"
+		case .renegadePlatinum:
+			return "renegadeplatinum"
 		case .fireRed:
 			return "firered"
 		case .leafGreen:

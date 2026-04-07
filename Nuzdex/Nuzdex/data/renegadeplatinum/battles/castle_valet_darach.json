@@ -1,0 +1,225 @@
+{
+  "game": "Renegade Platinum",
+  "category": "other",
+  "trainerId": "castle-valet-darach",
+  "trainerName": "Castle Valet Darach",
+  "battleLabel": "Pal Park",
+  "primaryType": null,
+  "levelCap": 48,
+  "party": [
+    {
+      "name": "Gallade",
+      "baseStats": 518,
+      "level": 48,
+      "types": [
+        "psychic",
+        "fighting"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Psycho Cut",
+          "category": "physical",
+          "type": "psychic",
+          "power": 70
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "physical",
+          "type": "grass",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Empoleon",
+      "baseStats": 535,
+      "level": 48,
+      "types": [
+        "water",
+        "steel"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 110
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "baseStats": 500,
+      "level": 48,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Metagross",
+      "baseStats": 600,
+      "level": 48,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Meteor Mash",
+          "category": "physical",
+          "type": "steel",
+          "power": 90
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Hammer Arm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Staraptor",
+      "baseStats": 485,
+      "level": 48,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "Kings Rock",
+      "moves": [
+        {
+          "name": "Return",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Entei",
+      "baseStats": 580,
+      "level": 48,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "Shuca Berry",
+      "moves": [
+        {
+          "name": "Sacred Fire",
+          "category": "physical",
+          "type": "fire",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Extreme Speed",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Iron Head",
+          "category": "physical",
+          "type": "steel",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

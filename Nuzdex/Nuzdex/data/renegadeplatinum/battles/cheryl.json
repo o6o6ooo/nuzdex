@@ -1,0 +1,152 @@
+{
+  "game": "Renegade Platinum",
+  "category": "other",
+  "trainerId": "cheryl",
+  "trainerName": "Cheryl",
+  "battleLabel": "Eterna Forest",
+  "primaryType": null,
+  "levelCap": 20,
+  "party": [
+    {
+      "name": "Drifloon",
+      "baseStats": 348,
+      "level": 19,
+      "types": [
+        "ghost",
+        "flying"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Ominous Wind",
+          "category": "special",
+          "type": "ghost",
+          "power": 60
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Swift",
+          "category": "special",
+          "type": "normal",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Makuhita",
+      "baseStats": 237,
+      "level": 19,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Knock Off",
+          "category": "physical",
+          "type": "dark",
+          "power": 65
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Bullet Punch",
+          "category": "physical",
+          "type": "steel",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Wailmer",
+      "baseStats": 400,
+      "level": 19,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Mist",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Rollout",
+          "category": "physical",
+          "type": "rock",
+          "power": 30
+        }
+      ]
+    },
+    {
+      "name": "Chansey",
+      "baseStats": 450,
+      "level": 20,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Hyper Voice",
+          "category": "special",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Soft-Boiled",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        }
+      ]
+    }
+  ]
+}

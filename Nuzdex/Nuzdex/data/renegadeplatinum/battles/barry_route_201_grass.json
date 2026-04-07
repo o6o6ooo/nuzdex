@@ -1,0 +1,35 @@
+{
+  "game": "Renegade Platinum",
+  "category": "rival",
+  "trainerId": "barry-route-201-grass",
+  "trainerName": "Barry",
+  "battleLabel": "Route 201",
+  "primaryType": null,
+  "levelCap": 5,
+  "party": [
+    {
+      "name": "Chimchar",
+      "baseStats": 309,
+      "level": 5,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Scratch",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "grass"
+}

@@ -1,0 +1,154 @@
+{
+  "game": "Renegade Platinum",
+  "category": "evilTeam",
+  "trainerId": "mars-valley-windworks",
+  "trainerName": "Mars",
+  "battleLabel": "Valley Windworks",
+  "primaryType": null,
+  "levelCap": 19,
+  "party": [
+    {
+      "name": "Zubat",
+      "baseStats": 245,
+      "level": 18,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Poison Fang",
+          "category": "physical",
+          "type": "poison",
+          "power": 65
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Bronzor",
+      "baseStats": 300,
+      "level": 18,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Extrasensory",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Yanma",
+      "baseStats": 390,
+      "level": 18,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Silver Wind",
+          "category": "special",
+          "type": "bug",
+          "power": 60
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Sonic Boom",
+          "category": "special",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Purugly",
+      "baseStats": 495,
+      "level": 19,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "game": "Renegade Platinum",
+  "category": "evilTeam",
+  "trainerId": "mars-and-jupiter-spear-pillar",
+  "trainerName": "Mars & Jupiter",
+  "battleLabel": "Spear Pillar",
+  "primaryType": null,
+  "levelCap": 58,
+  "party": [
+    {
+      "name": "Crobat",
+      "baseStats": 535,
+      "level": 57,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Yanmega",
+      "baseStats": 515,
+      "level": 57,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Hurricane",
+          "category": "special",
+          "type": "flying",
+          "power": 110
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Bronzong",
+      "baseStats": 500,
+      "level": 57,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Stealth Rock",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Electivire",
+      "baseStats": 540,
+      "level": 57,
+      "types": [
+        "electric",
+        "fighting"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        },
+        {
+          "name": "Cross Chop",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Fire Punch",
+          "category": "physical",
+          "type": "fire",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Kangaskhan",
+      "baseStats": 490,
+      "level": 57,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Hammer Arm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Purugly",
+      "baseStats": 495,
+      "level": 58,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Crobat",
+      "baseStats": 535,
+      "level": 57,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": "Bright Powder",
+      "moves": [
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Sableye",
+      "baseStats": 450,
+      "level": 57,
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Shadow Claw",
+          "category": "physical",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Bronzong",
+      "baseStats": 500,
+      "level": 57,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Tangrowth",
+      "baseStats": 535,
+      "level": 57,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "Big Root",
+      "moves": [
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Focus Blast",
+          "category": "special",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Gastrodon",
+      "baseStats": 475,
+      "level": 57,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Muddy Water",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Earth Power",
+          "category": "special",
+          "type": "ground",
+          "power": 90
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Skuntank",
+      "baseStats": 495,
+      "level": 58,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Gunk Shot",
+          "category": "physical",
+          "type": "poison",
+          "power": 120
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

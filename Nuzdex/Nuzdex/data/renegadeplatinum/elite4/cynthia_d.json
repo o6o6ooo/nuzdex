@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "cynthia-e4-champion-d",
+  "trainerName": "Cynthia - D",
+  "battleLabel": "Champion",
+  "primaryType": null,
+  "levelCap": 78,
+  "party": [
+    {
+      "name": "Clefable",
+      "baseStats": 483,
+      "level": 77,
+      "types": [
+        "fairy"
+      ],
+      "heldItem": "Light Clay",
+      "moves": [
+        {
+          "name": "Moonblast",
+          "category": "special",
+          "type": "fairy",
+          "power": 95
+        },
+        {
+          "name": "Soft-Boiled",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Roserade",
+      "baseStats": 515,
+      "level": 77,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": "Choice Scarf",
+      "moves": [
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Mismagius",
+      "baseStats": 495,
+      "level": 77,
+      "types": [
+        "ghost",
+        "fairy"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Moonblast",
+          "category": "special",
+          "type": "fairy",
+          "power": 95
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Lopunny",
+      "baseStats": 500,
+      "level": 77,
+      "types": [
+        "normal",
+        "fighting"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "High Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 130
+        },
+        {
+          "name": "Mega Kick",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Milotic",
+      "baseStats": 540,
+      "level": 77,
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 110
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Rest",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Sleep Talk",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Garchomp",
+      "baseStats": 600,
+      "level": 78,
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "heldItem": "Yache Berry",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Outrage",
+          "category": "physical",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

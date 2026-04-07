@@ -1,0 +1,153 @@
+{
+  "game": "Renegade Platinum",
+  "category": "other",
+  "trainerId": "mira",
+  "trainerName": "Mira",
+  "battleLabel": "Wayward Cave",
+  "primaryType": null,
+  "levelCap": 28,
+  "party": [
+    {
+      "name": "Togetic",
+      "baseStats": 405,
+      "level": 27,
+      "types": [
+        "fairy",
+        "flying"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        },
+        {
+          "name": "Air Cutter",
+          "category": "special",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Soft-Boiled",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Sweet Kiss",
+          "category": "status",
+          "type": "fairy",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Haunter",
+      "baseStats": 405,
+      "level": 27,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": "Spell Tag",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Porygon2",
+      "baseStats": 515,
+      "level": 27,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Tri Attack",
+          "category": "special",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Charge Beam",
+          "category": "special",
+          "type": "electric",
+          "power": 50
+        },
+        {
+          "name": "Signal Beam",
+          "category": "special",
+          "type": "bug",
+          "power": 75
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Kadabra",
+      "baseStats": 400,
+      "level": 28,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Psybeam",
+          "category": "special",
+          "type": "psychic",
+          "power": 65
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        },
+        {
+          "name": "Recover",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "game": "Renegade Platinum",
+  "category": "other",
+  "trainerId": "riley",
+  "trainerName": "Riley",
+  "battleLabel": "Iron Island",
+  "primaryType": null,
+  "levelCap": 50,
+  "party": [
+    {
+      "name": "Absol",
+      "baseStats": 485,
+      "level": 49,
+      "types": [
+        "dark"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Psycho Cut",
+          "category": "physical",
+          "type": "psychic",
+          "power": 70
+        },
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Ursaring",
+      "baseStats": 500,
+      "level": 49,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Flame Orb",
+      "moves": [
+        {
+          "name": "Strength",
+          "category": "physical",
+          "type": "normal",
+          "power": 100
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Metagross",
+      "baseStats": 600,
+      "level": 49,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Liechi Berry",
+      "moves": [
+        {
+          "name": "Meteor Mash",
+          "category": "physical",
+          "type": "steel",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Agility",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Salamence",
+      "baseStats": 600,
+      "level": 49,
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "heldItem": "Power Herb",
+      "moves": [
+        {
+          "name": "Dragon Rush",
+          "category": "physical",
+          "type": "dragon",
+          "power": 100
+        },
+        {
+          "name": "Fly",
+          "category": "physical",
+          "type": "flying",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Slaking",
+      "baseStats": 670,
+      "level": 49,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Hammer Arm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Slack Off",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Lucario",
+      "baseStats": 525,
+      "level": 50,
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "High Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 130
+        },
+        {
+          "name": "Meteor Mash",
+          "category": "physical",
+          "type": "steel",
+          "power": 90
+        },
+        {
+          "name": "Blaze Kick",
+          "category": "physical",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Bullet Punch",
+          "category": "physical",
+          "type": "steel",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

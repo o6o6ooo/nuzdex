@@ -1,0 +1,224 @@
+{
+  "game": "Renegade Platinum",
+  "category": "rival",
+  "trainerId": "lucas-route-224-water",
+  "trainerName": "Lucas",
+  "battleLabel": "Route 224",
+  "primaryType": null,
+  "levelCap": 70,
+  "party": [
+    {
+      "name": "Alakazam",
+      "baseStats": 500,
+      "level": 69,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        },
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Mamoswine",
+      "baseStats": 530,
+      "level": 69,
+      "types": [
+        "ice",
+        "ground"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Icicle Crash",
+          "category": "physical",
+          "type": "ice",
+          "power": 85
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Superpower",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Granbull",
+      "baseStats": 450,
+      "level": 69,
+      "types": [
+        "fairy"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Lickilicky",
+      "baseStats": 515,
+      "level": 69,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Hammer Arm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Jolteon",
+      "baseStats": 525,
+      "level": 69,
+      "types": [
+        "electric"
+      ],
+      "heldItem": "Shuca Berry",
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Infernape",
+      "baseStats": 535,
+      "level": 70,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Blast Burn",
+          "category": "special",
+          "type": "fire",
+          "power": 150
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

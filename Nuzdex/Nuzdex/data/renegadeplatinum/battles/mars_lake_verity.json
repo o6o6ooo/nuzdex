@@ -1,0 +1,189 @@
+{
+  "game": "Renegade Platinum",
+  "category": "evilTeam",
+  "trainerId": "mars-lake-verity",
+  "trainerName": "Mars",
+  "battleLabel": "Lake Verity",
+  "primaryType": null,
+  "levelCap": 53,
+  "party": [
+    {
+      "name": "Crobat",
+      "baseStats": 535,
+      "level": 52,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": "Bright Powder",
+      "moves": [
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Yanmega",
+      "baseStats": 515,
+      "level": 52,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Detect",
+          "category": "status",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Bronzong",
+      "baseStats": 500,
+      "level": 52,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Stealth Rock",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        },
+        {
+          "name": "Explosion",
+          "category": "physical",
+          "type": "normal",
+          "power": 250
+        }
+      ]
+    },
+    {
+      "name": "Kangaskhan",
+      "baseStats": 490,
+      "level": 52,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Hammer Arm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Purugly",
+      "baseStats": 495,
+      "level": 53,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

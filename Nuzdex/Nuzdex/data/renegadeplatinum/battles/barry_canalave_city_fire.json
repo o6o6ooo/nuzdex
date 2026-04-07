@@ -1,0 +1,227 @@
+{
+  "game": "Renegade Platinum",
+  "category": "rival",
+  "trainerId": "barry-canalave-city-fire",
+  "trainerName": "Barry",
+  "battleLabel": "Canalave City",
+  "primaryType": null,
+  "levelCap": 49,
+  "party": [
+    {
+      "name": "Staraptor",
+      "baseStats": 485,
+      "level": 48,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Heracross",
+      "baseStats": 500,
+      "level": 48,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "baseStats": 540,
+      "level": 48,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Slack Off",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "baseStats": 555,
+      "level": 48,
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Extreme Speed",
+          "category": "physical",
+          "type": "normal",
+          "power": 80
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Breloom",
+      "baseStats": 460,
+      "level": 48,
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Bullet Seed",
+          "category": "physical",
+          "type": "grass",
+          "power": 25
+        },
+        {
+          "name": "Force Palm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        },
+        {
+          "name": "Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        }
+      ]
+    },
+    {
+      "name": "Infernape",
+      "baseStats": 535,
+      "level": 49,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

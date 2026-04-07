@@ -1,0 +1,227 @@
+{
+  "game": "Renegade Platinum",
+  "category": "gymLeader",
+  "trainerId": "byron",
+  "trainerName": "Byron",
+  "battleLabel": "6th Gym Leader - Canalave City",
+  "primaryType": "steel",
+  "levelCap": 53,
+  "party": [
+    {
+      "name": "Bronzong",
+      "baseStats": 500,
+      "level": 52,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Light Clay",
+      "moves": [
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Stealth Rock",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Magnezone",
+      "baseStats": 535,
+      "level": 52,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Signal Beam",
+          "category": "special",
+          "type": "bug",
+          "power": 75
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Steelix",
+      "baseStats": 520,
+      "level": 52,
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Explosion",
+          "category": "physical",
+          "type": "normal",
+          "power": 250
+        }
+      ]
+    },
+    {
+      "name": "Forretress",
+      "baseStats": 465,
+      "level": 52,
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Spikes",
+          "category": "status",
+          "type": "ground",
+          "power": null
+        },
+        {
+          "name": "Toxic Spikes",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Explosion",
+          "category": "physical",
+          "type": "normal",
+          "power": 250
+        }
+      ]
+    },
+    {
+      "name": "Aggron",
+      "baseStats": 530,
+      "level": 52,
+      "types": [
+        "steel",
+        "rock"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Head Smash",
+          "category": "physical",
+          "type": "rock",
+          "power": 150
+        },
+        {
+          "name": "Iron Head",
+          "category": "physical",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Low Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Bastiodon",
+      "baseStats": 495,
+      "level": 53,
+      "types": [
+        "rock",
+        "steel"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Iron Head",
+          "category": "physical",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Metal Burst",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

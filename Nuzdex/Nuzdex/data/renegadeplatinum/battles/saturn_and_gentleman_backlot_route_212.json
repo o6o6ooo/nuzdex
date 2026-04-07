@@ -1,0 +1,225 @@
+{
+  "game": "Renegade Platinum",
+  "category": "evilTeam",
+  "trainerId": "saturn-and-gentleman-backlot-route-212",
+  "trainerName": "Saturn & Gentleman Backlot",
+  "battleLabel": "Route 212",
+  "primaryType": null,
+  "levelCap": 34,
+  "party": [
+    {
+      "name": "Bronzong",
+      "baseStats": 500,
+      "level": 33,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Gyro Ball",
+          "category": "physical",
+          "type": "steel",
+          "power": null
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Octillery",
+      "baseStats": 480,
+      "level": 33,
+      "types": [
+        "water"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Octazooka",
+          "category": "special",
+          "type": "water",
+          "power": 65
+        },
+        {
+          "name": "Signal Beam",
+          "category": "special",
+          "type": "bug",
+          "power": 75
+        },
+        {
+          "name": "Ice Beam",
+          "category": "special",
+          "type": "ice",
+          "power": 90
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Toxicroak",
+      "baseStats": 490,
+      "level": 34,
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Drain Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Vacuum Wave",
+          "category": "special",
+          "type": "fighting",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Wigglytuff",
+      "baseStats": 485,
+      "level": 33,
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "heldItem": "Zoom Lens",
+      "moves": [
+        {
+          "name": "Moonblast",
+          "category": "special",
+          "type": "fairy",
+          "power": 95
+        },
+        {
+          "name": "Hyper Voice",
+          "category": "special",
+          "type": "normal",
+          "power": 90
+        },
+        {
+          "name": "Sing",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Raichu",
+      "baseStats": 495,
+      "level": 33,
+      "types": [
+        "electric",
+        "psychic"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Teeter Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Espeon",
+      "baseStats": 525,
+      "level": 33,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Power Gem",
+          "category": "special",
+          "type": "rock",
+          "power": 80
+        },
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "gymLeader",
+  "trainerId": "maylene",
+  "trainerName": "Maylene",
+  "battleLabel": "4th Gym Leader - Veilstone City",
+  "primaryType": "fighting",
+  "levelCap": 39,
+  "party": [
+    {
+      "name": "Medicham",
+      "baseStats": 450,
+      "level": 38,
+      "types": [
+        "fighting",
+        "psychic"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "High Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 130
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Machamp",
+      "baseStats": 505,
+      "level": 38,
+      "types": [
+        "fighting"
+      ],
+      "heldItem": "Toxic Orb",
+      "moves": [
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Payback",
+          "category": "physical",
+          "type": "dark",
+          "power": 50
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Infernape",
+      "baseStats": 535,
+      "level": 38,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        },
+        {
+          "name": "Fire Punch",
+          "category": "physical",
+          "type": "fire",
+          "power": 75
+        },
+        {
+          "name": "Mach Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Toxicroak",
+      "baseStats": 490,
+      "level": 38,
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "heldItem": "Big Root",
+      "moves": [
+        {
+          "name": "Drain Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Gallade",
+      "baseStats": 518,
+      "level": 38,
+      "types": [
+        "psychic",
+        "fighting"
+      ],
+      "heldItem": "Light Clay",
+      "moves": [
+        {
+          "name": "Drain Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Lucario",
+      "baseStats": 525,
+      "level": 39,
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Dark Pulse",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Agility",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

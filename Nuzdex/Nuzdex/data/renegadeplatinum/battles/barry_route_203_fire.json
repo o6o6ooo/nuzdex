@@ -1,0 +1,106 @@
+{
+  "game": "Renegade Platinum",
+  "category": "rival",
+  "trainerId": "barry-route-203-fire",
+  "trainerName": "Barry",
+  "battleLabel": "Route 203",
+  "primaryType": null,
+  "levelCap": 11,
+  "party": [
+    {
+      "name": "Starly",
+      "baseStats": 245,
+      "level": 10,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Munchlax",
+      "baseStats": 390,
+      "level": 10,
+      "types": [
+        "normal"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Metronome",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Rock Tomb",
+          "category": "physical",
+          "type": "rock",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Piplup",
+      "baseStats": 314,
+      "level": 11,
+      "types": [
+        "water"
+      ],
+      "heldItem": "Oran Berry",
+      "moves": [
+        {
+          "name": "Water Pulse",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        },
+        {
+          "name": "Pound",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Peck",
+          "category": "physical",
+          "type": "flying",
+          "power": 35
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

@@ -1,0 +1,225 @@
+{
+  "game": "Renegade Platinum",
+  "category": "gymLeader",
+  "trainerId": "fantina",
+  "trainerName": "Fantina",
+  "battleLabel": "3rd Gym Leader - Hearthome City",
+  "primaryType": "ghost",
+  "levelCap": 33,
+  "party": [
+    {
+      "name": "Drifblim",
+      "baseStats": 498,
+      "level": 32,
+      "types": [
+        "ghost",
+        "flying"
+      ],
+      "heldItem": "Starf Berry",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Baton Pass",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Dusclops",
+      "baseStats": 455,
+      "level": 32,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Shadow Punch",
+          "category": "physical",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Pain Split",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Banette",
+      "baseStats": 475,
+      "level": 32,
+      "types": [
+        "ghost"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Shadow Claw",
+          "category": "physical",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Sucker Punch",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Disable",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Spiritomb",
+      "baseStats": 485,
+      "level": 32,
+      "types": [
+        "ghost",
+        "dark"
+      ],
+      "heldItem": "Zoom Lens",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Dark Pulse",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Disable",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Gengar",
+      "baseStats": 500,
+      "level": 32,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Mismagius",
+      "baseStats": 495,
+      "level": 33,
+      "types": [
+        "ghost",
+        "fairy"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Power Gem",
+          "category": "special",
+          "type": "rock",
+          "power": 80
+        },
+        {
+          "name": "Calm Mind",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

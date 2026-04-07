@@ -1,0 +1,35 @@
+{
+  "game": "Renegade Platinum",
+  "category": "rival",
+  "trainerId": "barry-route-201-fire",
+  "trainerName": "Barry",
+  "battleLabel": "Route 201",
+  "primaryType": null,
+  "levelCap": 5,
+  "party": [
+    {
+      "name": "Piplup",
+      "baseStats": 314,
+      "level": 5,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pound",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

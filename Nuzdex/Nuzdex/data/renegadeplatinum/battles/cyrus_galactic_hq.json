@@ -1,0 +1,191 @@
+{
+  "game": "Renegade Platinum",
+  "category": "evilTeam",
+  "trainerId": "cyrus-galactic-hq",
+  "trainerName": "Cyrus",
+  "battleLabel": "Galactic HQ",
+  "primaryType": null,
+  "levelCap": 58,
+  "party": [
+    {
+      "name": "Crobat",
+      "baseStats": 535,
+      "level": 57,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        },
+        {
+          "name": "Cross Poison",
+          "category": "physical",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Zen Headbutt",
+          "category": "physical",
+          "type": "psychic",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Honchkrow",
+      "baseStats": 505,
+      "level": 57,
+      "types": [
+        "dark",
+        "flying"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Heat Wave",
+          "category": "special",
+          "type": "fire",
+          "power": 95
+        }
+      ]
+    },
+    {
+      "name": "Houndoom",
+      "baseStats": 500,
+      "level": 57,
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Dark Pulse",
+          "category": "special",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Nasty Plot",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Magnezone",
+      "baseStats": 535,
+      "level": 57,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Signal Beam",
+          "category": "special",
+          "type": "bug",
+          "power": 75
+        },
+        {
+          "name": "Mirror Coat",
+          "category": "special",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Weavile",
+      "baseStats": 510,
+      "level": 58,
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Icicle Crash",
+          "category": "physical",
+          "type": "ice",
+          "power": 85
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}

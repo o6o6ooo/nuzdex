@@ -1,0 +1,227 @@
+{
+  "game": "Renegade Platinum",
+  "category": "rival",
+  "trainerId": "barry-victory-road-fire",
+  "trainerName": "Barry",
+  "battleLabel": "Victory Road",
+  "primaryType": null,
+  "levelCap": 71,
+  "party": [
+    {
+      "name": "Staraptor",
+      "baseStats": 485,
+      "level": 70,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "Choice Scarf",
+      "moves": [
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Heracross",
+      "baseStats": 500,
+      "level": 70,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "heldItem": "Toxic Orb",
+      "moves": [
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "baseStats": 540,
+      "level": 70,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Slack Off",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "baseStats": 555,
+      "level": 70,
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Breloom",
+      "baseStats": 460,
+      "level": 70,
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Bullet Seed",
+          "category": "physical",
+          "type": "grass",
+          "power": 25
+        },
+        {
+          "name": "Force Palm",
+          "category": "physical",
+          "type": "fighting",
+          "power": 60
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Infernape",
+      "baseStats": 535,
+      "level": 71,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    }
+  ],
+  "starterBranch": "fire"
+}

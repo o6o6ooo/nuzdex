@@ -1,0 +1,225 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "bertha-e4-2-a",
+  "trainerName": "Bertha - A",
+  "battleLabel": "Elite 4 - 2",
+  "primaryType": "ground",
+  "levelCap": 73,
+  "party": [
+    {
+      "name": "Hippowdon",
+      "baseStats": 525,
+      "level": 72,
+      "types": [
+        "ground"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Stealth Rock",
+          "category": "status",
+          "type": "rock",
+          "power": null
+        },
+        {
+          "name": "Slack Off",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Whiscash",
+      "baseStats": 468,
+      "level": 72,
+      "types": [
+        "water",
+        "ground"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Bounce",
+          "category": "physical",
+          "type": "flying",
+          "power": 85
+        },
+        {
+          "name": "Dragon Dance",
+          "category": "status",
+          "type": "dragon",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Gliscor",
+      "baseStats": 510,
+      "level": 72,
+      "types": [
+        "ground",
+        "flying"
+      ],
+      "heldItem": "Toxic Orb",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Golem",
+      "baseStats": 495,
+      "level": 72,
+      "types": [
+        "rock",
+        "electric"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Explosion",
+          "category": "physical",
+          "type": "normal",
+          "power": 250
+        }
+      ]
+    },
+    {
+      "name": "Donphan",
+      "baseStats": 500,
+      "level": 72,
+      "types": [
+        "ground"
+      ],
+      "heldItem": "Rindo Berry",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Head Smash",
+          "category": "physical",
+          "type": "rock",
+          "power": 150
+        },
+        {
+          "name": "Superpower",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Rhyperior",
+      "baseStats": 535,
+      "level": 73,
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Ice Punch",
+          "category": "physical",
+          "type": "ice",
+          "power": 75
+        }
+      ]
+    }
+  ]
+}

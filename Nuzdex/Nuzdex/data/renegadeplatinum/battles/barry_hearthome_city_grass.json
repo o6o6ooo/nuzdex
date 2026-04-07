@@ -1,0 +1,155 @@
+{
+  "game": "Renegade Platinum",
+  "category": "rival",
+  "trainerId": "barry-hearthome-city-grass",
+  "trainerName": "Barry",
+  "battleLabel": "Hearthome City",
+  "primaryType": null,
+  "levelCap": 33,
+  "party": [
+    {
+      "name": "Staravia",
+      "baseStats": 340,
+      "level": 32,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Facade",
+          "category": "physical",
+          "type": "normal",
+          "power": 70
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Endeavor",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Heracross",
+      "baseStats": 500,
+      "level": 32,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "heldItem": "Coba Berry",
+      "moves": [
+        {
+          "name": "Bug Bite",
+          "category": "physical",
+          "type": "bug",
+          "power": 60
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Knock Off",
+          "category": "physical",
+          "type": "dark",
+          "power": 65
+        }
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "baseStats": 540,
+      "level": 32,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Rock Slide",
+          "category": "physical",
+          "type": "rock",
+          "power": 75
+        }
+      ]
+    },
+    {
+      "name": "Monferno",
+      "baseStats": 405,
+      "level": 33,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Low Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": null
+        },
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ],
+  "starterBranch": "grass"
+}

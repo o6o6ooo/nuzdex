@@ -1,0 +1,227 @@
+{
+  "game": "Renegade Platinum",
+  "category": "rival",
+  "trainerId": "barry-pastoria-city-water",
+  "trainerName": "Barry",
+  "battleLabel": "Pastoria City",
+  "primaryType": null,
+  "levelCap": 42,
+  "party": [
+    {
+      "name": "Staraptor",
+      "baseStats": 485,
+      "level": 41,
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Double-Edge",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Roost",
+          "category": "status",
+          "type": "flying",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Heracross",
+      "baseStats": 500,
+      "level": 41,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "heldItem": "Coba Berry",
+      "moves": [
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Brick Break",
+          "category": "physical",
+          "type": "fighting",
+          "power": 75
+        },
+        {
+          "name": "Bullet Seed",
+          "category": "physical",
+          "type": "grass",
+          "power": 25
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "baseStats": 540,
+      "level": 41,
+      "types": [
+        "normal"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Rest",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Sleep Talk",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Azumarill",
+      "baseStats": 450,
+      "level": 41,
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Play Rough",
+          "category": "physical",
+          "type": "fairy",
+          "power": 90
+        },
+        {
+          "name": "Body Slam",
+          "category": "physical",
+          "type": "normal",
+          "power": 85
+        },
+        {
+          "name": "Aqua Jet",
+          "category": "physical",
+          "type": "water",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "baseStats": 555,
+      "level": 41,
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Heat Wave",
+          "category": "special",
+          "type": "fire",
+          "power": 95
+        },
+        {
+          "name": "Thunder Fang",
+          "category": "physical",
+          "type": "electric",
+          "power": 65
+        },
+        {
+          "name": "Outrage",
+          "category": "physical",
+          "type": "dragon",
+          "power": 120
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Torterra",
+      "baseStats": 535,
+      "level": 42,
+      "types": [
+        "grass",
+        "ground"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Seed Bomb",
+          "category": "physical",
+          "type": "grass",
+          "power": 80
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Iron Head",
+          "category": "physical",
+          "type": "steel",
+          "power": 80
+        }
+      ]
+    }
+  ],
+  "starterBranch": "water"
+}

@@ -1,0 +1,227 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "aaron-e4-1-c",
+  "trainerName": "Aaron - C",
+  "battleLabel": "Elite 4 - 1",
+  "primaryType": "bug",
+  "levelCap": 72,
+  "party": [
+    {
+      "name": "Masquerain",
+      "baseStats": 480,
+      "level": 71,
+      "types": [
+        "bug",
+        "water"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Hydro Pump",
+          "category": "special",
+          "type": "water",
+          "power": 110
+        },
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Hurricane",
+          "category": "special",
+          "type": "flying",
+          "power": 110
+        },
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        }
+      ]
+    },
+    {
+      "name": "Beautifly",
+      "baseStats": 450,
+      "level": 71,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Hurricane",
+          "category": "special",
+          "type": "flying",
+          "power": 110
+        },
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Heracross",
+      "baseStats": 500,
+      "level": 71,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "heldItem": "Toxic Orb",
+      "moves": [
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Scizor",
+      "baseStats": 500,
+      "level": 71,
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Bug Bite",
+          "category": "physical",
+          "type": "bug",
+          "power": 60
+        },
+        {
+          "name": "Iron Head",
+          "category": "physical",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Bullet Punch",
+          "category": "physical",
+          "type": "steel",
+          "power": 40
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Dustox",
+      "baseStats": 450,
+      "level": 71,
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "heldItem": "Light Clay",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Moonlight",
+          "category": "status",
+          "type": "fairy",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Drapion",
+      "baseStats": 500,
+      "level": 72,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Cross Poison",
+          "category": "physical",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

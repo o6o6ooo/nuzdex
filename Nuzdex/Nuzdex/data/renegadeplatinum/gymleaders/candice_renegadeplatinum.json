@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "gymLeader",
+  "trainerId": "candice",
+  "trainerName": "Candice",
+  "battleLabel": "7th Gym Leader - Snowpoint City",
+  "primaryType": "ice",
+  "levelCap": 56,
+  "party": [
+    {
+      "name": "Abomasnow",
+      "baseStats": 494,
+      "level": 55,
+      "types": [
+        "grass",
+        "ice"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Wood Hammer",
+          "category": "physical",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Ice Shard",
+          "category": "physical",
+          "type": "ice",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Weavile",
+      "baseStats": 510,
+      "level": 55,
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        },
+        {
+          "name": "Icicle Crash",
+          "category": "physical",
+          "type": "ice",
+          "power": 85
+        },
+        {
+          "name": "Aerial Ace",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Glaceon",
+      "baseStats": 525,
+      "level": 55,
+      "types": [
+        "ice"
+      ],
+      "heldItem": "Bright Powder",
+      "moves": [
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Earth Power",
+          "category": "special",
+          "type": "ground",
+          "power": 90
+        },
+        {
+          "name": "Double Team",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Walrein",
+      "baseStats": 530,
+      "level": 55,
+      "types": [
+        "ice",
+        "water"
+      ],
+      "heldItem": "Chople Berry",
+      "moves": [
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Surf",
+          "category": "special",
+          "type": "water",
+          "power": 90
+        },
+        {
+          "name": "Yawn",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Aqua Ring",
+          "category": "status",
+          "type": "water",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Mamoswine",
+      "baseStats": 530,
+      "level": 55,
+      "types": [
+        "ice",
+        "ground"
+      ],
+      "heldItem": "Passho Berry",
+      "moves": [
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Avalanche",
+          "category": "physical",
+          "type": "ice",
+          "power": 60
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Ice Shard",
+          "category": "physical",
+          "type": "ice",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Froslass",
+      "baseStats": 500,
+      "level": 56,
+      "types": [
+        "ice",
+        "ghost"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Attract",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

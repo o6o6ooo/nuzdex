@@ -1,0 +1,155 @@
+{
+  "game": "Renegade Platinum",
+  "category": "evilTeam",
+  "trainerId": "cyrus-celestic-town",
+  "trainerName": "Cyrus",
+  "battleLabel": "Celestic Town",
+  "primaryType": null,
+  "levelCap": 46,
+  "party": [
+    {
+      "name": "Crobat",
+      "baseStats": 535,
+      "level": 45,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Honchkrow",
+      "baseStats": 505,
+      "level": 45,
+      "types": [
+        "dark",
+        "flying"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Brave Bird",
+          "category": "physical",
+          "type": "flying",
+          "power": 120
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Swagger",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Magnezone",
+      "baseStats": 535,
+      "level": 45,
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Thunder Wave",
+          "category": "status",
+          "type": "electric",
+          "power": null
+        },
+        {
+          "name": "Mirror Coat",
+          "category": "special",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Weavile",
+      "baseStats": 510,
+      "level": 46,
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Feint Attack",
+          "category": "physical",
+          "type": "dark",
+          "power": 60
+        },
+        {
+          "name": "Icicle Crash",
+          "category": "physical",
+          "type": "ice",
+          "power": 85
+        },
+        {
+          "name": "Ice Shard",
+          "category": "physical",
+          "type": "ice",
+          "power": 40
+        },
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

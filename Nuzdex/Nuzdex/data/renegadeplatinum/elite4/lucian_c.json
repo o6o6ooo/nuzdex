@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "lucian-e4-4-c",
+  "trainerName": "Lucian - C",
+  "battleLabel": "Elite 4 - 4",
+  "primaryType": "psychic",
+  "levelCap": 75,
+  "party": [
+    {
+      "name": "Hypno",
+      "baseStats": 483,
+      "level": 74,
+      "types": [
+        "psychic"
+      ],
+      "heldItem": "Light Clay",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Reflect",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Light Screen",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Slowbro",
+      "baseStats": 490,
+      "level": 74,
+      "types": [
+        "poison",
+        "psychic"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Scald",
+          "category": "special",
+          "type": "water",
+          "power": 80
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Slack Off",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Gardevoir",
+      "baseStats": 518,
+      "level": 74,
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Moonblast",
+          "category": "special",
+          "type": "fairy",
+          "power": 95
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Jynx",
+      "baseStats": 465,
+      "level": 74,
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "heldItem": "White Herb",
+      "moves": [
+        {
+          "name": "Psycho Boost",
+          "category": "special",
+          "type": "psychic",
+          "power": 140
+        },
+        {
+          "name": "Blizzard",
+          "category": "special",
+          "type": "ice",
+          "power": 110
+        },
+        {
+          "name": "Petal Dance",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        },
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Bronzong",
+      "baseStats": 500,
+      "level": 74,
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "heldItem": "Occa Berry",
+      "moves": [
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Flash Cannon",
+          "category": "special",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Hypnosis",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Gallade",
+      "baseStats": 518,
+      "level": 75,
+      "types": [
+        "psychic",
+        "fighting"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Psycho Cut",
+          "category": "physical",
+          "type": "psychic",
+          "power": 70
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "physical",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    }
+  ]
+}

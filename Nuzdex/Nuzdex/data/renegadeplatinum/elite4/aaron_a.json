@@ -1,0 +1,227 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "aaron-e4-1-a",
+  "trainerName": "Aaron - A",
+  "battleLabel": "Elite 4 - 1",
+  "primaryType": "bug",
+  "levelCap": 72,
+  "party": [
+    {
+      "name": "Yanmega",
+      "baseStats": 515,
+      "level": 71,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Hurricane",
+          "category": "special",
+          "type": "flying",
+          "power": 110
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Scizor",
+      "baseStats": 500,
+      "level": 71,
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Bug Bite",
+          "category": "physical",
+          "type": "bug",
+          "power": 60
+        },
+        {
+          "name": "Iron Head",
+          "category": "physical",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Bullet Punch",
+          "category": "physical",
+          "type": "steel",
+          "power": 40
+        },
+        {
+          "name": "U-turn",
+          "category": "physical",
+          "type": "bug",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Heracross",
+      "baseStats": 500,
+      "level": 71,
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "heldItem": "Choice Scarf",
+      "moves": [
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        }
+      ]
+    },
+    {
+      "name": "Vespiquen",
+      "baseStats": 474,
+      "level": 71,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Attack Order",
+          "category": "physical",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Defend Order",
+          "category": "status",
+          "type": "bug",
+          "power": null
+        },
+        {
+          "name": "Heal Order",
+          "category": "status",
+          "type": "bug",
+          "power": null
+        },
+        {
+          "name": "Hurricane",
+          "category": "special",
+          "type": "flying",
+          "power": 110
+        }
+      ]
+    },
+    {
+      "name": "Armaldo",
+      "baseStats": 495,
+      "level": 71,
+      "types": [
+        "rock",
+        "bug"
+      ],
+      "heldItem": "Choice Band",
+      "moves": [
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Stone Edge",
+          "category": "physical",
+          "type": "rock",
+          "power": 100
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Aqua Tail",
+          "category": "physical",
+          "type": "water",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Drapion",
+      "baseStats": 500,
+      "level": 72,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Cross Poison",
+          "category": "physical",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        }
+      ]
+    }
+  ]
+}

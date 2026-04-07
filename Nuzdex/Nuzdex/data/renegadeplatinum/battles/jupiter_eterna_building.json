@@ -1,0 +1,154 @@
+{
+  "game": "Renegade Platinum",
+  "category": "evilTeam",
+  "trainerId": "jupiter-eterna-building",
+  "trainerName": "Jupiter",
+  "battleLabel": "Eterna Building",
+  "primaryType": null,
+  "levelCap": 27,
+  "party": [
+    {
+      "name": "Golbat",
+      "baseStats": 455,
+      "level": 26,
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Leech Life",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Confuse Ray",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Sableye",
+      "baseStats": 450,
+      "level": 26,
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Fake Out",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Shadow Claw",
+          "category": "physical",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Knock Off",
+          "category": "physical",
+          "type": "dark",
+          "power": 65
+        },
+        {
+          "name": "Shadow Sneak",
+          "category": "physical",
+          "type": "ghost",
+          "power": 40
+        }
+      ]
+    },
+    {
+      "name": "Tangela",
+      "baseStats": 435,
+      "level": 26,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Giga Drain",
+          "category": "special",
+          "type": "grass",
+          "power": 75
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Sleep Powder",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Skuntank",
+      "baseStats": 495,
+      "level": 27,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Poison Jab",
+          "category": "physical",
+          "type": "poison",
+          "power": 80
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Focus Energy",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Torment",
+          "category": "status",
+          "type": "dark",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "game": "Renegade Platinum",
+  "category": "other",
+  "trainerId": "aaron",
+  "trainerName": "Aaron",
+  "battleLabel": "Route 208",
+  "primaryType": "bug",
+  "levelCap": 32,
+  "party": [
+    {
+      "name": "Dustox",
+      "baseStats": 450,
+      "level": 31,
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Toxic",
+          "category": "status",
+          "type": "poison",
+          "power": null
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Moonlight",
+          "category": "status",
+          "type": "fairy",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Beautifly",
+      "baseStats": 450,
+      "level": 31,
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Air Slash",
+          "category": "special",
+          "type": "flying",
+          "power": 75
+        },
+        {
+          "name": "Energy Ball",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "name": "Venomoth",
+      "baseStats": 450,
+      "level": 31,
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "heldItem": "Wise Glasses",
+      "moves": [
+        {
+          "name": "Bug Buzz",
+          "category": "special",
+          "type": "bug",
+          "power": 90
+        },
+        {
+          "name": "Psychic",
+          "category": "special",
+          "type": "psychic",
+          "power": 90
+        },
+        {
+          "name": "Sludge Bomb",
+          "category": "special",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "Sleep Powder",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Scizor",
+      "baseStats": 500,
+      "level": 31,
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Bullet Punch",
+          "category": "physical",
+          "type": "steel",
+          "power": 40
+        },
+        {
+          "name": "Iron Head",
+          "category": "physical",
+          "type": "steel",
+          "power": 80
+        },
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Drapion",
+      "baseStats": 500,
+      "level": 32,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "heldItem": "Scope Lens",
+      "moves": [
+        {
+          "name": "Cross Poison",
+          "category": "physical",
+          "type": "poison",
+          "power": 90
+        },
+        {
+          "name": "X-Scissor",
+          "category": "physical",
+          "type": "bug",
+          "power": 80
+        },
+        {
+          "name": "Night Slash",
+          "category": "physical",
+          "type": "dark",
+          "power": 70
+        },
+        {
+          "name": "Swords Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "game": "Renegade Platinum",
+  "category": "eliteFour",
+  "trainerId": "flint-e4-3-b",
+  "trainerName": "Flint - B",
+  "battleLabel": "Elite 4 - 3",
+  "primaryType": "fire",
+  "levelCap": 74,
+  "party": [
+    {
+      "name": "Rapidash",
+      "baseStats": 500,
+      "level": 73,
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "heldItem": "Heat Rock",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Wild Charge",
+          "category": "physical",
+          "type": "electric",
+          "power": 100
+        },
+        {
+          "name": "Megahorn",
+          "category": "physical",
+          "type": "bug",
+          "power": 120
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Lopunny",
+      "baseStats": 500,
+      "level": 73,
+      "types": [
+        "normal",
+        "fighting"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "High Jump Kick",
+          "category": "physical",
+          "type": "fighting",
+          "power": 130
+        },
+        {
+          "name": "Mega Kick",
+          "category": "physical",
+          "type": "normal",
+          "power": 120
+        },
+        {
+          "name": "Blaze Kick",
+          "category": "physical",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Drifblim",
+      "baseStats": 498,
+      "level": 73,
+      "types": [
+        "ghost",
+        "flying"
+      ],
+      "heldItem": "Wacan Berry",
+      "moves": [
+        {
+          "name": "Shadow Ball",
+          "category": "special",
+          "type": "ghost",
+          "power": 80
+        },
+        {
+          "name": "Hurricane",
+          "category": "special",
+          "type": "flying",
+          "power": 110
+        },
+        {
+          "name": "Flamethrower",
+          "category": "special",
+          "type": "fire",
+          "power": 90
+        },
+        {
+          "name": "Will-O-Wisp",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Steelix",
+      "baseStats": 520,
+      "level": 73,
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Iron Tail",
+          "category": "physical",
+          "type": "steel",
+          "power": 100
+        },
+        {
+          "name": "Earthquake",
+          "category": "physical",
+          "type": "ground",
+          "power": 100
+        },
+        {
+          "name": "Fire Fang",
+          "category": "physical",
+          "type": "fire",
+          "power": 65
+        },
+        {
+          "name": "Crunch",
+          "category": "physical",
+          "type": "dark",
+          "power": 80
+        }
+      ]
+    },
+    {
+      "name": "Infernape",
+      "baseStats": 535,
+      "level": 73,
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "heldItem": "Expert Belt",
+      "moves": [
+        {
+          "name": "Flare Blitz",
+          "category": "physical",
+          "type": "fire",
+          "power": 120
+        },
+        {
+          "name": "Close Combat",
+          "category": "physical",
+          "type": "fighting",
+          "power": 120
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Gunk Shot",
+          "category": "physical",
+          "type": "poison",
+          "power": 120
+        }
+      ]
+    },
+    {
+      "name": "Magmortar",
+      "baseStats": 540,
+      "level": 74,
+      "types": [
+        "fire"
+      ],
+      "heldItem": "Life Orb",
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "category": "special",
+          "type": "fire",
+          "power": 110
+        },
+        {
+          "name": "Thunderbolt",
+          "category": "special",
+          "type": "electric",
+          "power": 90
+        },
+        {
+          "name": "Aura Sphere",
+          "category": "special",
+          "type": "fighting",
+          "power": 80
+        },
+        {
+          "name": "Solar Beam",
+          "category": "special",
+          "type": "grass",
+          "power": 120
+        }
+      ]
+    }
+  ]
+}

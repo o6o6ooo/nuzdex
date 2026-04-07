@@ -1,0 +1,223 @@
+{
+  "game": "Renegade Platinum",
+  "category": "gymLeader",
+  "trainerId": "gardenia",
+  "trainerName": "Gardenia",
+  "battleLabel": "2nd Gym Leader - Eterna City",
+  "primaryType": "grass",
+  "levelCap": 26,
+  "party": [
+    {
+      "name": "Bellossom",
+      "baseStats": 490,
+      "level": 25,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "Wide Lens",
+      "moves": [
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Teeter Dance",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        },
+        {
+          "name": "Stun Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Tangela",
+      "baseStats": 435,
+      "level": 25,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "Coba Berry",
+      "moves": [
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Shock Wave",
+          "category": "special",
+          "type": "electric",
+          "power": 60
+        },
+        {
+          "name": "Ancient Power",
+          "category": "special",
+          "type": "rock",
+          "power": 60
+        },
+        {
+          "name": "Stun Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Cherrim",
+      "baseStats": 465,
+      "level": 25,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "Focus Sash",
+      "moves": [
+        {
+          "name": "Grass Knot",
+          "category": "special",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Sunny Day",
+          "category": "status",
+          "type": "fire",
+          "power": null
+        },
+        {
+          "name": "Weather Ball",
+          "category": "special",
+          "type": "normal",
+          "power": 50
+        },
+        {
+          "name": "Morning Sun",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Grotle",
+      "baseStats": 405,
+      "level": 25,
+      "types": [
+        "grass"
+      ],
+      "heldItem": "Leftovers",
+      "moves": [
+        {
+          "name": "Seed Bomb",
+          "category": "physical",
+          "type": "grass",
+          "power": 80
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Leech Seed",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        },
+        {
+          "name": "Bulldoze",
+          "category": "physical",
+          "type": "ground",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "name": "Breloom",
+      "baseStats": 460,
+      "level": 25,
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "heldItem": "Muscle Band",
+      "moves": [
+        {
+          "name": "Bullet Seed",
+          "category": "physical",
+          "type": "grass",
+          "power": 25
+        },
+        {
+          "name": "Mach Punch",
+          "category": "physical",
+          "type": "fighting",
+          "power": 40
+        },
+        {
+          "name": "Thunder Punch",
+          "category": "physical",
+          "type": "electric",
+          "power": 75
+        },
+        {
+          "name": "Spore",
+          "category": "status",
+          "type": "grass",
+          "power": null
+        }
+      ]
+    },
+    {
+      "name": "Roserade",
+      "baseStats": 515,
+      "level": 26,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "heldItem": "Sitrus Berry",
+      "moves": [
+        {
+          "name": "Magical Leaf",
+          "category": "special",
+          "type": "grass",
+          "power": 60
+        },
+        {
+          "name": "Sludge",
+          "category": "special",
+          "type": "poison",
+          "power": 75
+        },
+        {
+          "name": "Dazzling Gleam",
+          "category": "special",
+          "type": "fairy",
+          "power": 80
+        },
+        {
+          "name": "Extrasensory",
+          "category": "special",
+          "type": "psychic",
+          "power": 80
+        }
+      ]
+    }
+  ]
+}
