@@ -1,0 +1,35 @@
+{
+  "game": "Ruby",
+  "category": "rival",
+  "trainerId": "brendan-may-route103-fire",
+  "trainerName": "Brendan / May",
+  "battleLabel": "Route 103",
+  "primaryType": null,
+  "levelCap": 5,
+  "starterBranch": "fire",
+  "party": [
+    {
+      "name": "Mudkip",
+      "baseStats": 310,
+      "level": 5,
+      "types": [
+        "water"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Tackle",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

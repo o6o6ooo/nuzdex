@@ -1,0 +1,154 @@
+{
+  "game": "Emerald",
+  "category": "rival",
+  "trainerId": "brendan-may-lilycovecity-water",
+  "trainerName": "Brendan / May",
+  "battleLabel": "Lilycove City",
+  "levelCap": 34,
+  "primaryType": null,
+  "starterBranch": "water",
+  "party": [
+    {
+      "baseStats": 460,
+      "name": "Tropius",
+      "level": 31,
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Stomp",
+          "category": "physical",
+          "type": "normal",
+          "power": 65
+        },
+        {
+          "name": "Sweet Scent",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Whirlwind",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Magical Leaf",
+          "category": "special",
+          "type": "grass",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 440,
+      "name": "Pelipper",
+      "level": 32,
+      "types": [
+        "water",
+        "flying"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 60
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mist",
+          "category": "status",
+          "type": "ice",
+          "power": null
+        },
+        {
+          "name": "Protect",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    },
+    {
+      "baseStats": 250,
+      "name": "Slugma",
+      "level": 32,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Harden",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Amnesia",
+          "category": "status",
+          "type": "psychic",
+          "power": null
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 40
+        },
+        {
+          "name": "Rock Throw",
+          "category": "physical",
+          "type": "rock",
+          "power": 50
+        }
+      ]
+    },
+    {
+      "baseStats": 405,
+      "name": "Grovyle",
+      "level": 34,
+      "types": [
+        "grass"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Fury Cutter",
+          "category": "physical",
+          "type": "bug",
+          "power": 40
+        },
+        {
+          "name": "Leaf Blade",
+          "category": "special",
+          "type": "grass",
+          "power": 90
+        },
+        {
+          "name": "Pursuit",
+          "category": "special",
+          "type": "dark",
+          "power": 40
+        },
+        {
+          "name": "Screech",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

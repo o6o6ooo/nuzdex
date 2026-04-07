@@ -1,0 +1,78 @@
+{
+  "game": "Emerald",
+  "category": "rival",
+  "trainerId": "brendan-may-rustborocity-water",
+  "trainerName": "Brendan / May",
+  "battleLabel": "Rustboro City",
+  "levelCap": 15,
+  "primaryType": null,
+  "starterBranch": "water",
+  "party": [
+    {
+      "baseStats": 270,
+      "name": "Wingull",
+      "level": 13,
+      "types": ["water", "flying"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        },
+        {
+          "name": "Supersonic",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Wing Attack",
+          "category": "physical",
+          "type": "flying",
+          "power": 90
+        }
+      ]
+    },
+    {
+      "baseStats": 310,
+      "name": "Treeko",
+      "level": 15,
+      "types": ["grass"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Pound",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Leer",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Absorb",
+          "category": "special",
+          "type": "grass",
+          "power": 30
+        },
+        {
+          "name": "Quick Attack",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        }
+      ]
+    }
+  ]
+}

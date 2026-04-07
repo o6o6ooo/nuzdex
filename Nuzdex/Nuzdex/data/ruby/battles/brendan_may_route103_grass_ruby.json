@@ -1,0 +1,35 @@
+{
+  "game": "Ruby",
+  "category": "rival",
+  "trainerId": "brendan-may-route103-grass",
+  "trainerName": "Brendan / May",
+  "battleLabel": "Route 103",
+  "primaryType": null,
+  "levelCap": 5,
+  "starterBranch": "grass",
+  "party": [
+    {
+      "name": "Torchic",
+      "baseStats": 310,
+      "level": 5,
+      "types": [
+        "fire"
+      ],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Scratch",
+          "category": "physical",
+          "type": "normal",
+          "power": 40
+        },
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}

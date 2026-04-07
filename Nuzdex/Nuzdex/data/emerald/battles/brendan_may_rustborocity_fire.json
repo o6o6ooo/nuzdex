@@ -1,0 +1,72 @@
+{
+  "game": "Emerald",
+  "category": "rival",
+  "trainerId": "brendan-may-rustborocity-fire",
+  "trainerName": "Brendan / May",
+  "battleLabel": "Rustboro City",
+  "levelCap": 15,
+  "primaryType": null,
+  "starterBranch": "fire",
+  "party": [
+    {
+      "baseStats": 470,
+      "name": "Torkoal",
+      "level": 13,
+      "types": ["fire"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Curse",
+          "category": "status",
+          "type": "ghost",
+          "power": null
+        },
+        {
+          "name": "Smog",
+          "category": "physical",
+          "type": "poison",
+          "power": 30
+        },
+        {
+          "name": "Ember",
+          "category": "special",
+          "type": "fire",
+          "power": 60
+        }
+      ]
+    },
+    {
+      "baseStats": 310,
+      "name": "Mudkip",
+      "level": 15,
+      "types": ["water"],
+      "heldItem": null,
+      "moves": [
+        {
+          "name": "Growl",
+          "category": "status",
+          "type": "normal",
+          "power": null
+        },
+        {
+          "name": "Mud-Slap",
+          "category": "physical",
+          "type": "ground",
+          "power": 20
+        },
+        {
+          "name": "Water Gun",
+          "category": "special",
+          "type": "water",
+          "power": 60
+        },
+        {
+          "name": "Bide",
+          "category": "physical",
+          "type": "normal",
+          "power": null
+        }
+      ]
+    }
+  ]
+}
