@@ -12,7 +12,7 @@ struct ContentView: View {
 		NavigationStack {
 			TabView {
 				RoutesView(game: selectedGame)
-					.tabItem { Label("Routes", systemImage: "mappin.and.ellipse") }
+					.tabItem { Label("Routes", systemImage: "magazine.fill") }
 				
 				BossesView(game: selectedGame)
 					.tabItem { Label("Bosses", systemImage: "star.hexagon.fill") }
