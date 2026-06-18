@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Capture Ball</title>
+  <desc>A red and white capture ball inspired by a classic monster-catching game ball.</desc>
+  <defs>
+    <clipPath id="ballClip">
+      <circle cx="256" cy="256" r="228"/>
+    </clipPath>
+    <linearGradient id="redShell" x1="256" y1="28" x2="256" y2="262" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EF3340"/>
+      <stop offset="0.58" stop-color="#E3212E"/>
+      <stop offset="1" stop-color="#C91625"/>
+    </linearGradient>
+    <linearGradient id="whiteShell" x1="256" y1="256" x2="256" y2="484" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9ECE8"/>
+    </linearGradient>
+    <linearGradient id="buttonFill" x1="256" y1="204" x2="256" y2="308" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F0F2EF"/>
+    </linearGradient>
+    <filter id="softShadow" x="14" y="18" width="484" height="486" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#111111" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <g clip-path="url(#ballClip)">
+      <rect x="28" y="28" width="456" height="228" fill="url(#redShell)"/>
+      <rect x="28" y="256" width="456" height="228" fill="url(#whiteShell)"/>
+      <rect x="28" y="238" width="456" height="36" fill="#15191D"/>
+      <circle cx="256" cy="256" r="228" stroke="#D8DDD9" stroke-width="4"/>
+    </g>
+
+    <circle cx="256" cy="256" r="90" fill="#15191D"/>
+    <circle cx="256" cy="256" r="54" fill="url(#buttonFill)" stroke="#D8DDD9" stroke-width="3"/>
+  </g>
+</svg>
