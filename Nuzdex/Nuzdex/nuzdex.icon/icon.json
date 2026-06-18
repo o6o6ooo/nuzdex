@@ -26,16 +26,116 @@
   "groups" : [
     {
       "layers" : [
+
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    },
+    {
+      "layers" : [
         {
-          "glass" : false,
-          "hidden" : false,
-          "image-name" : "6bb7a40799374a007ac65d1b93f43db90a2947064700d408d18d89aa21cff246-removebg-preview.png",
-          "name" : "6bb7a40799374a007ac65d1b93f43db90a2947064700d408d18d89aa21cff246-removebg-preview",
+          "image-name" : "pokeball-babypink.png",
+          "name" : "pokeball-babypink",
           "position" : {
-            "scale" : 1.8,
+            "scale" : 1.3,
+            "translation-in-points" : [
+              -271.4375,
+              0
+            ]
+          }
+        },
+        {
+          "image-name" : "pokeball-blue.png",
+          "name" : "pokeball-blue",
+          "position" : {
+            "scale" : 1.3,
             "translation-in-points" : [
               0,
               0
+            ]
+          }
+        },
+        {
+          "image-name" : "pokeball-bluegray.png",
+          "name" : "pokeball-bluegray",
+          "position" : {
+            "scale" : 1.3,
+            "translation-in-points" : [
+              0,
+              -251.9375
+            ]
+          }
+        },
+        {
+          "glass" : true,
+          "image-name" : "pokeball-dustyblue.png",
+          "name" : "pokeball-dustyblue",
+          "position" : {
+            "scale" : 1.3,
+            "translation-in-points" : [
+              272.53125,
+              250.9453125
+            ]
+          }
+        },
+        {
+          "image-name" : "pokeball-green.png",
+          "name" : "pokeball-green",
+          "position" : {
+            "scale" : 1.3,
+            "translation-in-points" : [
+              0,
+              250.9453125
+            ]
+          }
+        },
+        {
+          "image-name" : "pokeball-lightblue.png",
+          "name" : "pokeball-lightblue",
+          "position" : {
+            "scale" : 1.3,
+            "translation-in-points" : [
+              -271.4375,
+              250.9453125
+            ]
+          }
+        },
+        {
+          "image-name" : "pokeball-mint.png",
+          "name" : "pokeball-mint",
+          "position" : {
+            "scale" : 1.3,
+            "translation-in-points" : [
+              272.53125,
+              0
+            ]
+          }
+        },
+        {
+          "image-name" : "pokeball-yellow.png",
+          "name" : "pokeball-yellow",
+          "position" : {
+            "scale" : 1.3,
+            "translation-in-points" : [
+              272.53125,
+              -251.9375
+            ]
+          }
+        },
+        {
+          "image-name" : "pokeball.png",
+          "name" : "pokeball",
+          "position" : {
+            "scale" : 1.3,
+            "translation-in-points" : [
+              -271.4375,
+              -251.9375
             ]
           }
         }
